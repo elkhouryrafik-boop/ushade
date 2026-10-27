@@ -1,0 +1,11 @@
+code|name|type|category|embodied_kgco2e_kg|mass_kg_m2|typical_use|shade_factor_min|shade_factor_max|reuse_cycles|disassembly
+SCF|Scaffold tube 48.3mm|structure|Galvanised steel|1.55|3.0|Stage frame; shade corridor; structural spine|0|10|100|coupler clamp
+ALU|Aluminium event truss|structure|6061-T6 alloy|8.20|4.0|Roof canopy; main stage cover; branded span|0|10|100|pin and spigot
+PAL|Euro pallet (EPAL)|structure|Softwood|0.45|22.0|Flooring; seating platform; furniture base|0|5|6|lashing and stack
+HRS|Heras fence panel|structure|Galvanised steel mesh|1.55|5.0|Perimeter barrier; partition; wind screen|0|15|100|clip-foot and link
+CHR|Stadium chair|structure|PP and steel|2.60|8.0|Seating; tiered grandstand; furniture|0|5|100|fold and stack
+PVC|PVC billboard vinyl|membrane|PVC polyester|3.10|0.55|Main canopy; rain cover; shading membrane|70|80|4|grommet and cable tie
+NET|Industrial shade net (HDPE)|membrane|HDPE knit|1.90|0.20|Ventilated cooling corridor; shade screen; climber support|30|90|10|grommet and lashing
+TRP|Recycled PE tarpaulin|membrane|Woven PE|2.00|0.20|Rain shelter; ground sheet; backstage cover|80|95|5|grommet and bungee
+SHR|PE yacht shrink-wrap|membrane|LDPE film|2.10|0.20|Translucent roof; rain canopy; premium cover|35|55|2|heat seal cut and lashing
+CRP|PP festival carpet|membrane|Needle-punch PP|3.40|0.60|Stage floor; lounge floor; pathway surface|0|0|100|loose lay and tape

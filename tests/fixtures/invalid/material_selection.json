@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.1.0",
+  "selected_id": "membr-hdpe-shade-net",
+  "is_membrane": true,
+  "transport_carbon_kgco2e": 18.0,
+  "cost_total_eur": 1200.0,
+  "solar_transmissivity": null,
+  "selection_basis": "transport_carbon_min"
+}

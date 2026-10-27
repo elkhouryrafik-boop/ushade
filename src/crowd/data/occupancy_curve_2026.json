@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "artifact": "daytime site-wide occupancy curve (CD-A)",
+    "what": "Site-wide fraction (0-1) of PEAK attendance present at each daytime hour. The TOTAL crowd size per hour. Crossed with the organiser's stage program to give per-stage demand. NOT a headcount.",
+    "tier_by_limb": {
+      "fill_to_peak": "DERIVED — shape from TUM 'Back to the Woods' measured occupancy (arXiv:1511.00217) + Still 2019 arrival profiles",
+      "plateau": "DERIVED — magnitude ceiling = site_area_m2 x safe_density (Green Guide 2-4.7 persons/m2); validated vs Lyon MADRAS in Phase 5",
+      "decline": "ASSUMED — no source publishes voluntary departure timing; taper is a flagged assumption (and is the LEAST decision-relevant limb — the hot-hour sits in the afternoon fill/plateau)"
+    },
+    "source": [
+      "Biedermann et al. 2015, TU Munchen, 'Back to the Woods' occupancy study — arXiv:1511.00217 (noon open; ~50% arrive 16:00-18:00; S-shaped cumulative; peak~5300; decline storm-truncated)",
+      "Still 2019, 'Crowd Science and Crowd Counting', Taylor & Francis, DOI:10.1080/2058802X.2019.1594138 (three arrival-profile shapes: early / transport-limited / late)",
+      "Guide to Safety at Sports Grounds (Green Guide) 6th ed., SGSA (ingress 660/entry-pt/hr; egress 82/m/min; density 2-4.7/m2)"
+    ],
+    "validation_yardstick": "Lyon MADRAS festival dataset (Zenodo 13830435) — used for crowd DENSITY MAGNITUDE only (night festival; not a daytime shape source). See scripts/crowd_validation/.",
+    "constructed_on": "2026-06-22",
+    "constructed_by": "CD-A CRISP-DM Phase 3 (.planning/cd-a-daytime-demand/) — values digitised from the TUM S-shape + Still profiles; see phase-3/decisions.md (CON-001..004)",
+    "units": "occupancy = fraction of peak, dimensionless 0-1. hours = local HH:MM.",
+    "usage": "occupancy[profile][hour] multiplies the per-stage demand weight (capacity_floor x draw x active) so total on-site demand tracks the curve. Window is the festival's gates-open..close; rescale hours to the organiser's actual window.",
+    "festival_style_knob": "The organiser picks a profile. 'early' = family/arts (arrive at open, long dwell). 'transport_limited' = capacity-constrained access. 'late' = headline-driven (TUM-like, surge before the evening peak).",
+    "night_excluded": "Curve covers DAYTIME hours only (sun present). Night = no solar load = no shade need = out of scope.",
+    "decline_is_assumed": true
+  },
+  "hours": ["09:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00","19:00","20:00"],
+  "profiles": {
+    "late": {
+      "label": "Late / headline-driven (TUM-anchored default)",
+      "note": "Slow build through the afternoon, steep rise 16:00-18:00 (TUM: ~half arrive in this window), plateau into the evening. Decline after 20:00 ASSUMED.",
+      "occupancy": [0.02, 0.04, 0.07, 0.12, 0.20, 0.30, 0.42, 0.55, 0.74, 0.92, 1.00, 1.00]
+    },
+    "transport_limited": {
+      "label": "Transport-limited (flat capacity ramp)",
+      "note": "Access-constrained: arrivals ramp at roughly constant max transport rate, gentler plateau (Still: Sydney-Olympics-type).",
+      "occupancy": [0.05, 0.12, 0.22, 0.33, 0.45, 0.57, 0.68, 0.78, 0.87, 0.95, 1.00, 0.98]
+    },
+    "early": {
+      "label": "Early / front-loaded (family, arts)",
+      "note": "Crowd arrives near gates-open and dwells; long high plateau through the day.",
+      "occupancy": [0.10, 0.25, 0.40, 0.55, 0.68, 0.78, 0.86, 0.92, 0.97, 1.00, 1.00, 0.95]
+    }
+  },
+  "default_profile": "late"
+}

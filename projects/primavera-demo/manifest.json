@@ -1,0 +1,70 @@
+{
+  "project_id": "primavera-demo",
+  "created_at": "2026-06-10T15:17:26.922795+00:00",
+  "stages": [
+    {
+      "name": "parsed_brief",
+      "status": "pending",
+      "artifact": null,
+      "input_hash": null,
+      "output_hash": null,
+      "completed_at": null
+    },
+    {
+      "name": "utci_grid",
+      "status": "done",
+      "artifact": "utci_grid.json",
+      "input_hash": "6be4fecea60a2a27114759e49a222c869bf8aa54547ecbe771a4e54d726e733f",
+      "output_hash": "353d43d56498e252e65886804ace5a44e9d515bf5942b91cb780eb23494bac34",
+      "completed_at": "2026-06-11T18:00:15.912229+00:00"
+    },
+    {
+      "name": "crowd_grid",
+      "status": "done",
+      "artifact": "crowd_grid.json",
+      "input_hash": "0c101afb76d699a55be1f6a91505acd1bd0f2a06ccb3e09763da48c09875b2b1",
+      "output_hash": "7d9e18a213ef037def01f1f7a1fb3f61df96201aa3541f028ea5b6ef8aeeda70",
+      "completed_at": "2026-06-11T18:02:29.942183+00:00"
+    },
+    {
+      "name": "structure_zones",
+      "status": "done",
+      "artifact": "structure_zones.json",
+      "input_hash": "e60bb9c055dbca94b6fcfb384e292c9cd3cf536a290a0f68e83ce48a7a246525",
+      "output_hash": "c8903e45f4d26823b76a893fa973d11f073b841a6c34155a1c9aa381f6aa36cf",
+      "completed_at": "2026-10-27T13:56:53.712762+00:00"
+    },
+    {
+      "name": "gh_response",
+      "status": "done",
+      "artifact": "gh_response.json",
+      "input_hash": "cea312d22d1e1cfbec4701490476111448ea5a270a6d9c50148ee0b89e1bbf87",
+      "output_hash": "0f1f9ef572b5f0ae4f92e10f6fb10e2272ed48f4ce025445c9029e1f1a06b883",
+      "completed_at": "2026-06-15T09:49:31.209059+00:00"
+    },
+    {
+      "name": "material_selection",
+      "status": "done",
+      "artifact": "material_selection.json",
+      "input_hash": "0599cd053ec8cbb6c860899c57c78485ac33c881dc8f752cdabcf1ff737adf25",
+      "output_hash": "4df661e4a287ff6fbad805e73eaea07a599e1afd9f6dc01bf7aba2bec67d0e2f",
+      "completed_at": "2026-06-15T09:49:31.299198+00:00"
+    },
+    {
+      "name": "acceptance_verdict",
+      "status": "done",
+      "artifact": "acceptance.json",
+      "input_hash": "878d1d959e5cadc6c85dbeb398ecebd3f5383abdd2fd45174ace2dff6e6032e6",
+      "output_hash": "8b464a23a76a757c1b7b5b342445e0d59c589d6907690d7781179f735886b1d7",
+      "completed_at": "2026-06-15T02:32:49.055407+00:00"
+    },
+    {
+      "name": "render",
+      "status": "done",
+      "artifact": "render.json",
+      "input_hash": "1c0e94f82e1fad4bdd5966bd6ddc56423d712fcfbd766f1471edcda27d17f32c",
+      "output_hash": "e238fe2ac3156e46fba5b7faac904473c8b1d3232bf444286b79728c70fbde96",
+      "completed_at": "2026-06-16T00:13:43.990899+00:00"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0-sidecar",
+  "status": 0,
+  "objective": 1178.9139000000002,
+  "best_bound": -1178913.5110118487,
+  "mip_gap": 0.0,
+  "solver": "scipy.optimize.milp/HiGHS",
+  "scipy_version": "1.12.0",
+  "seed": null,
+  "determinism": "single-thread HiGHS, no RNG, in-objective scale-separated lexicographic (row,col,index) tiebreak",
+  "proven_optimal": true,
+  "claim": "earned-optimal IFF proven_optimal (mip_gap == 0 and status == 0): a max-coverage MCLP solution over DERIVED-from-ASSUMED demand (crowd_density is ASSUMED-grade); an internal QA artifact, never a confident answer to a physically uncertain question \u2014 no caption may fuse this with a cooling / \u00b0C delta."
+}

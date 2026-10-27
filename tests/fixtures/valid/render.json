@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0.0",
+  "render_url": "https://heatguard/renders/run-1.png",
+  "conditioning_scale": 1.0,
+  "denoising_strength": 0.6,
+  "model": "depth",
+  "prompt_ref": "prompt-run-1"
+}

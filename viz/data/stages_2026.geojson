@@ -1,0 +1,428 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.221549,
+     41.406117
+    ]
+   },
+   "properties": {
+    "name": "Estrella Damm",
+    "kind": "stage",
+    "capacity_class": "main",
+    "placement": "SW deck, NE of the pair (map: left of Revolut, left=NE)",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.220835,
+     41.406698
+    ]
+   },
+   "properties": {
+    "name": "Revolut",
+    "kind": "stage",
+    "capacity_class": "main",
+    "placement": "SW deck, SW of the pair, toward the breakwater",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.222615,
+     41.408714
+    ]
+   },
+   "properties": {
+    "name": "Plenitude",
+    "kind": "stage",
+    "capacity_class": "electronic",
+    "placement": "inland edge of the SW deck, between the mains and the park",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.223593,
+     41.412072
+    ]
+   },
+   "properties": {
+    "name": "Occident",
+    "kind": "stage",
+    "capacity_class": "main",
+    "placement": "entrance esplanade open ground SW of the 3,912 m2 building, audience field toward the NW gate",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.226769,
+     41.410043
+    ]
+   },
+   "properties": {
+    "name": "Cupra",
+    "kind": "stage",
+    "capacity_class": "main",
+    "placement": "tiered amphitheatre bowl (OSM 5,928 m2 structure) \u2014 anchored",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.22889,
+     41.410842
+    ]
+   },
+   "properties": {
+    "name": "Port",
+    "kind": "stage",
+    "capacity_class": "secondary",
+    "placement": "NE-most waterfront, marina edge seaward of the PV pergola",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.227608,
+     41.410673
+    ]
+   },
+   "properties": {
+    "name": "Cupra Pulse",
+    "kind": "stage",
+    "capacity_class": "electronic",
+    "placement": "SW of Port on the pergola esplanade",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.2274,
+     41.41135
+    ]
+   },
+   "properties": {
+    "name": "Schwarzkopf",
+    "kind": "stage",
+    "capacity_class": "secondary",
+    "placement": "inland of Cupra Pulse, W of the PV pergola platform",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3",
+    "accuracy_m": "20-40 (ASSUMED, cartoon-map source limit)",
+    "edition": 2026
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.2268,
+     41.4111
+    ]
+   },
+   "properties": {
+    "name": "Fever House",
+    "kind": "stage",
+    "capacity_class": "club",
+    "placement": "club cluster, NE end",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3",
+    "accuracy_m": "20-40 (ASSUMED, cartoon-map source limit)",
+    "edition": 2026
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.226331,
+     41.411483
+    ]
+   },
+   "properties": {
+    "name": "The Levi's Warehouse",
+    "kind": "stage",
+    "capacity_class": "club",
+    "placement": "club cluster centre, open ground E of the 1,448 m2 structure",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.225972,
+     41.41146
+    ]
+   },
+   "properties": {
+    "name": "The 501 Club xCOLORSxSTUDIOS",
+    "kind": "stage",
+    "capacity_class": "club",
+    "placement": "club cluster, SW of the Warehouse",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.22612,
+     41.412903
+    ]
+   },
+   "properties": {
+    "name": "The Levi's Plaza",
+    "kind": "stage",
+    "capacity_class": "club",
+    "placement": "club cluster, most inland (N strip)",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.226236,
+     41.40892
+    ]
+   },
+   "properties": {
+    "name": "Primavera Pro Area",
+    "kind": "area",
+    "capacity_class": "non-stage",
+    "placement": "promenade NE-most, toward the marina",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.226374,
+     41.40848
+    ]
+   },
+   "properties": {
+    "name": "Disney",
+    "kind": "stage",
+    "capacity_class": "promenade",
+    "placement": "promenade, NE of the pier",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.226534,
+     41.40905
+    ]
+   },
+   "properties": {
+    "name": "Barcelona Sona by Estrella Damm",
+    "kind": "stage",
+    "capacity_class": "promenade",
+    "placement": "promenade at the pier root, just off the pier deck (validated clear)",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.22592,
+     41.407903
+    ]
+   },
+   "properties": {
+    "name": "Aperol Island of Joy",
+    "kind": "stage",
+    "capacity_class": "promenade",
+    "placement": "Banys del Forum pier \u2014 anchored",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.225155,
+     41.40762
+    ]
+   },
+   "properties": {
+    "name": "The Adidas Yard",
+    "kind": "stage",
+    "capacity_class": "promenade",
+    "placement": "promenade SW of the pier, toward the mains deck",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.22494,
+     41.4097
+    ]
+   },
+   "properties": {
+    "name": "Radio Primavera Sound",
+    "kind": "area",
+    "capacity_class": "non-stage",
+    "placement": "under the Bosc de columnes canopy \u2014 anchored",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.221083,
+     41.411277
+    ]
+   },
+   "properties": {
+    "name": "Auditori Rockdelux",
+    "kind": "stage",
+    "capacity_class": "indoor",
+    "placement": "inside the Museu Blau / Auditori Forum building \u2014 anchored",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.22217,
+     41.411875
+    ]
+   },
+   "properties": {
+    "name": "ENTRANCE (main)",
+    "kind": "entrance",
+    "capacity_class": "main",
+    "placement": "NW gate beside Museu Blau, El Maresme|Forum metro side (single main entrance, 2026)",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2.221722,
+     41.410964
+    ]
+   },
+   "properties": {
+    "name": "EXIT (Auditori)",
+    "kind": "exit",
+    "capacity_class": "main",
+    "placement": "exit lane on the N side of the Museu Blau building",
+    "source": "primavera 2026 official map (adjacency) + OSM landmarks (anchors) + user ground truth (mains on the SW deck), manual zone placement v3 + user manual adjustment (layout_editor)",
+    "accuracy_m": "user-placed (ground truth)",
+    "edition": 2026,
+    "user_adjusted": true
+   }
+  }
+ ],
+ "_edited": {
+  "on": "2026-06-10T16:19:49.577Z",
+  "moved": 19,
+  "tool": "layout_editor.html"
+ }
+}

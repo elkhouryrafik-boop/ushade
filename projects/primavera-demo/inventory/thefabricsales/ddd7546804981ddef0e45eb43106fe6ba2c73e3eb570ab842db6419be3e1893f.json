@@ -1,0 +1,3761 @@
+{
+  "schema_version": "1.0.0",
+  "source_id": "thefabricsales",
+  "source_url": "https://www.thefabricsales.com",
+  "fetched_at": "2026-06-22T10:28:49.571669+00:00",
+  "status": "unavailable",
+  "provenance_tier": "ASSUMED",
+  "listings": [],
+  "rejected": [
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "Black Cotton Ribbon 25mm",
+      "source_url": "https://www.thefabricsales.com/products/black-cotton-ribbon-25mm-2"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jori Apple Green Linen Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jori-apple-green-cotton-jersey"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lutha Blue Check Cotton Blend Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lutha-blue-check-cotton-blend-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ezra Beige Check Recycled Cotton Blend Flannel Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ezra-beige-check-recycled-cotton-blend-flannel-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jill White Herringbone Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jill-white-herringbone-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mona Ochre Striped Cotton Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/mona-ochre-striped-cotton-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kilan Striped Cotton Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/kilan-striped-cotton-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ludo Multicolour Striped Cotton Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/ludo-multicolour-striped-cotton-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Brent Off White Cotton Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/brent-off-white-cotton-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Saar White Ruffled Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/saar-white-ruffled-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lena Fuchsia Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lena-fuchsia-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Niko Petrol Blue & Ochre Check Cotton Flannel Fabric",
+      "source_url": "https://www.thefabricsales.com/products/niko-petrol-blue-ochre-check-cotton-flannel-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jona Green & Pink Check Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jona-green-pink-check-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fred Blue Striped Cotton With Multicolour Slubs - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/fred-blue-striped-cotton-with-multicolour-slubs-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Emil Green Check Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/emil-green-check-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Bob Purple Herringbone Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/bob-purple-herringbone-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "John Brick Red Printed Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/john-brick-red-printed-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Isa Purple Check Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/isa-purple-check-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ruba Camouflage Print Cotton Twill Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/ruba-camouflage-print-cotton-twill-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Stine Off White Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/stine-off-white-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Elena Multicolour Dot Cotton Poplin Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/elena-multicolour-dot-cotton-poplin-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Eva Anthracite Black Striped Cotton Blend Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/eva-anthracite-black-striped-cotton-blend-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mons Light Green Oxford Cotton Blend Fabric - ONLINE EXCLUSIVE-",
+      "source_url": "https://www.thefabricsales.com/products/mons-light-green-oxford-cotton-blend-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Veron Turquoise Blue Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/veron-turquoise-blue-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "Silla Navy Blue PolyCotton Stretch Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/silla-navy-blue-polycotton-stretch-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Vilo Grey Cotton Denim Look Fabric",
+      "source_url": "https://www.thefabricsales.com/products/vilo-grey-cotton-denim-look-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Abeline Blue Striped Cotton Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/abeline-blue-striped-cotton-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tom Green PolyCotton Twill Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tom-green-polycotton-twill-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Larys Turquoise Striped Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/larys-turquoise-striped-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lana Blue Striped Cotton Blend Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lana-blue-striped-cotton-blend-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Carlien Burgundy & Gold Striped Cotton Blend Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/carlien-burgundy-gold-striped-cotton-blend-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Felyn Purple Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/felyn-purple-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Cona Green Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/cona-green-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marloes Turquoise Check Polyester Viscose Blend Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/marloes-turquoise-check-polyester-viscose-blend-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Joel Multicolour Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/joel-multicolour-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lara Blue Check Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lara-blue-check-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maro Pink Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/maro-pink-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jolyn Green Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/jolyn-green-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Floor Pink Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/floor-pink-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Line Light Grey Cotton Blend Twill Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/line-light-grey-cotton-blend-twill-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Carlo Grayish Blue Cotton Denim Fabric",
+      "source_url": "https://www.thefabricsales.com/products/carlo-grayish-blue-cotton-denim-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Leen Purple Check Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/leen-purple-check-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Max Red Cotton Poplin Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/max-red-cotton-poplin-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Louis Blue Cotton Denim Fabric",
+      "source_url": "https://www.thefabricsales.com/products/louis-blue-cotton-denim-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maya Blue & White Check Cotton Jersey Jacquard",
+      "source_url": "https://www.thefabricsales.com/products/maya-blue-white-check-cotton-jersey-jacquard"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Asyn Blue Animal Print Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/asyn-blue-animal-print-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Davin Blue Check Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/davin-blue-check-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Atyra Purple Cotton Shirting Fabric - ONLINE EXCLUSIVE-",
+      "source_url": "https://www.thefabricsales.com/products/atyra-purple-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lucca Ochre Cotton Jacquard Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/lucca-ochre-cotton-jacquard-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ryan Burgundy Check Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/ryan-burgundy-check-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yulla Pink Striped Cotton Blend Poplin Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/yulla-pink-striped-cotton-poplin-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ryan Multicolour Striped Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ryan-multicolour-striped-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mylo Green Check Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mylo-green-check-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sander Purple Check Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/sander-purple-check-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tristan Purple Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tristan-purple-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Alina Purple Check Cotton Blend Stretch Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/alina-purple-check-cotton-blend-stretch-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Klarys Purple Cotton Blend Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/klarys-purple-cotton-blend-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kylan Burgundy Striped Cotton Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/kylan-burgundy-striped-cotton-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rillan Blue Fantasy Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/rillan-blue-fantasy-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Trus Yellow Cotton Stretch Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/trus-yellow-cotton-stretch-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jamie Pink Striped Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jamie-pink-striped-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Roel Blue Cotton Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/roel-blue-cotton-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jallyn Purple Striped Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/jallyn-purple-striped-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dean Blue & Green Check Cotton Flannel Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/dean-blue-green-check-cotton-flannel-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lynn Yellow Striped Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lynn-yellow-striped-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rien Purple Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/rien-purple-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Raf Brown Striped Linen Viscose Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/raf-brown-striped-linen-viscose-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rena Red Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/rena-red-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Erin Yellow Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/erin-yellow-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Luke Black & White Striped Cotton Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/luke-black-white-striped-cotton-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lise Navy Blue Cotton Blend Poplin Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lise-navy-blue-cotton-blend-poplin-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Levy Blue & Green Check Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/levy-blue-green-check-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jana Red Check Cotton Sateen Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/jana-red-check-cotton-sateen-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rana Black Cotton Blend Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/rana-black-cotton-blend-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tina Purple Cotton Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tina-purple-cotton-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Roos Blue Check Cotton Blend Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/roos-blue-check-cotton-blend-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Caryn Orange & Purple Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/caryn-orange-purple-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lies Blue Striped Cotton Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/lies-blue-striped-cotton-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Duke Blue & Brown Check Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/duke-blue-brown-check-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Pauline Multicolour Check Cotton Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/pauline-multicolour-check-cotton-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Obyn Blue PolyCotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/obyn-blue-polycotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Bylan Green Check Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/bylan-green-check-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Isol Blue & Brown Check Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/isol-blue-brown-check-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Felix Mid Blue Cotton Denim Fabric",
+      "source_url": "https://www.thefabricsales.com/products/felix-mid-blue-cotton-denim-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ruby Blue Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ruby-blue-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Frinne Mauve Purple Floral & Embroidery Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/frinne-mauve-purple-floral-embroidery-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lina Off White Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lina-off-white-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lona Fuchsia Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lona-fuchsia-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yilla Blue & Brown Check Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/yilla-blue-brown-check-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Raoul Multicolour Check Cotton Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/raoul-multicolour-check-cotton-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Loes Orange Striped Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/loes-orange-striped-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lena Yellow Striped Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lena-yellow-striped-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Leon Beige & Blue Check Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/leon-beige-blue-check-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Abeline Blue & Burgundy Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/abeline-blue-burgundy-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dana Pink PolyCotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/dana-pink-polycotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tamo Blue Check Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tamo-blue-check-cotton-poplin-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sibre Brown/Pink Striped Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/sibre-brown-pink-striped-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Milla Green Floral Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/milla-green-floral-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rana Off White Cotton Poplin Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/rana-off-white-cotton-poplin-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tim Blue Check Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/tim-blue-check-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Paul Blue Check Cotton Poplin Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/paul-blue-check-cotton-poplin-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Isla Green Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/isla-green-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ellana Brown Cotton Blend Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ellana-brown-cotton-blend-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jill Red Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jill-red-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Coryn Blue Striped Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/coryn-blue-striped-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Silva Blue Multicolour Dots Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/silva-blue-multicolour-dots-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fons Blue & Brown Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fons-blue-brown-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sira Pumkin Orange Cotton Blend Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/sira-pumkin-orange-cotton-blend-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Roel Yellow Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/roel-yellow-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tully Dark Green Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tully-dark-green-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sinad Black Cotton Blend Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/sinad-black-cotton-blend-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kobe Orange Vichy Check Cotton Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/kobe-orange-vichy-check-cotton-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Laris Pink & Brown Check Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/laris-pink-brown-check-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tuur Dark Blue PolyCotton Twill Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tuur-dark-blue-polycotton-twill-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Filly White Cotton Blend Poplin Fabric - ONLINE EXCLUSIVE-",
+      "source_url": "https://www.thefabricsales.com/products/filly-white-cotton-blend-poplin-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Flor Green Check Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/flor-green-check-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fred Blue Striped Cotton Shirting Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/fred-blue-striped-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mare Turquoise Striped Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mare-turquoise-striped-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Evi Light Pink Cotton Blend Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/evi-light-pink-cotton-blend-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jona Dark Blue Organic Cotton BabyCorduroy Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/jona-dark-blue-organic-cotton-babycorduroy-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lena Blue Herringbone Cotton Blend Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lena-blue-herringbone-cotton-blend-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Caro Off White Floral Embroidered Rayon Fabric - COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/caro-off-white-floral-embroidered-rayon-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mey Multicolour Floral Tyvek Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mey-multicolour-floral-tyvek-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Leya Multicolour Floral Tyvek Fabric",
+      "source_url": "https://www.thefabricsales.com/products/leya-multicolour-floral-tyvek-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rona Pink Floral Tyvek Fabric",
+      "source_url": "https://www.thefabricsales.com/products/rona-pink-floral-tyvek-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rivel Grey Herringbone Wool Tweed Suiting  Fabric - COUPON 95CM",
+      "source_url": "https://www.thefabricsales.com/products/rivel-grey-herringbone-wool-tweed-suiting-fabric-coupon-95cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sia Purple Wool Knit Fabric - COUPON 75CM",
+      "source_url": "https://www.thefabricsales.com/products/sia-purple-wool-knit-fabric-coupon-75cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mona Apple Green Cotton Blend Lining Fabric - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/mona-apple-green-cotton-blend-lining-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maro Red Striped Cotton Jersey Fabric - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/maro-red-striped-cotton-jersey-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ely Butter Yellow Cotton Blend Tweed Fabric - ONLINE EXCLUSIVE - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/ely-butter-yellow-cotton-blend-tweed-fabric-online-exclusive-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maro Red Striped Cotton Jersey Fabric - COUPON 150CM WITH DEFAULT",
+      "source_url": "https://www.thefabricsales.com/products/maro-red-striped-cotton-jersey-fabric-coupon-150cm-with-default"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maro Red Striped Cotton Jersey Fabric - COUPON 50CM + EXTRA",
+      "source_url": "https://www.thefabricsales.com/products/maro-red-striped-cotton-jersey-fabric-coupon-50cm-extra"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Odil Off White Poupees Viscose Fabric - COUPON 70cm",
+      "source_url": "https://www.thefabricsales.com/products/odil-off-white-poupees-viscose-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "Paris 2-Button Closure Peanut - 9mm",
+      "source_url": "https://www.thefabricsales.com/products/paris-2-button-closure-peanut-9mm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Swena Light Blue Acetate Polyamide Stretch Satin - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/swena-light-blue-acetate-polyamide-stretch-satin-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Coner Dark Blue Linen Jersey Fabric - COUPON 30CM WITH DEFAULT",
+      "source_url": "https://www.thefabricsales.com/products/coner-dark-blue-linen-jersey-fabric-coupon-30cm-with-default"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marys Red Floral Viscose Satin Stretch Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/marys-red-floral-viscose-satin-stretch-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Coner Dark Blue Linen Jersey Fabric - COUPON 40CM WITH DEFAULT + EXTRA",
+      "source_url": "https://www.thefabricsales.com/products/coner-dark-blue-linen-jersey-fabric-coupon-60cm-extra-with-default"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Coner Dark Blue Linen Jersey Fabric - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/coner-dark-blue-linen-jersey-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Coner Dark Blue Linen Jersey Fabric - COUPON 100CM WITH DEFAULT",
+      "source_url": "https://www.thefabricsales.com/products/coner-dark-blue-linen-jersey-fabric-coupon-100cm-with-default"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Flynn Blue Floral Cotton Twill Fabric - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/flynn-blue-floral-cotton-twill-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Emyl Multicolour Abstract Viscose Satin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/emyl-multicolour-abstract-viscose-satin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Olivia Gray Green Modal Corduroy Fabric Stretch - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/olivia-gray-green-modal-corduroy-fabric-stretch-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Feline Multicolour Abstract Viscose Satin Fabric - PANEL 155CM",
+      "source_url": "https://www.thefabricsales.com/products/feline-multicolour-abstract-viscose-satin-fabric-panel-155cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mina Multicolour Floral Viscose Satin Fabric - PANEL 150CM",
+      "source_url": "https://www.thefabricsales.com/products/mina-multicolour-floral-viscose-satin-fabric-panel-160cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mina Fish Print Cotton Poplin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mina-fish-print-cotton-poplin-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Evy Beige/Brown Floral Wool Blend - PANEL 200CM",
+      "source_url": "https://www.thefabricsales.com/products/evy-beige-brown-floral-wool-blend-panel-250cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Onan Black Cotton Viscose Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/bis631-e02-04"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Howard Ivory Polyester Tulle Fabric - COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/howard-ivory-polyester-tulle-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Levy Aluminum Grey Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/levy-grey-viscose-jersey"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sarah Dark Blue Virgin Wool Blend Stretch Fabric - COUPON 150CM",
+      "source_url": "https://www.thefabricsales.com/products/sarah-dark-blue-virgin-wool-blend-stretch-fabric-coupon-150cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nina Black Herringbone Wool Blend Fabric - COUPON 140CM",
+      "source_url": "https://www.thefabricsales.com/products/nina-black-herringbone-wool-blend-fabric-coupon-140cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dina Beige Crochet PolyCotton Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/dina-beige-crochet-polycotton-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Daniel Striped Cotton Blend Fabric - COUPON 130CM",
+      "source_url": "https://www.thefabricsales.com/products/daniel-striped-cotton-blend-fabric-coupon-130cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Louis Floral Ramie Fabric - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/louis-floral-ramie-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Louis Floral Ramie Fabric - COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/louis-floral-ramie-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Teretha Grey Striped Double Face Wool Fabric - COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/teretha-grey-striped-double-face-wool-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lanze Off White Polyester Tulle Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lanze-off-white-polyester-tulle"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fany Fuchsia Floral Cotton Voile - ONLINE EXCLUSIVE - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/fany-fuchsia-floral-cotton-voile-online-exclusive-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Eryn Beige Check Virgin Wool Cashmere Blend Fabric - COUPON 55CM + EXTRA",
+      "source_url": "https://www.thefabricsales.com/products/eryn-beige-check-virgin-wool-cashmere-blend-fabric-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Alline Blue/Green Check Brushed Cotton Fabric - COUPON 150CM WITH DEFAULT",
+      "source_url": "https://www.thefabricsales.com/products/alline-blue-green-check-brushed-cotton-fabric-coupon-150cm-with-default"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Karlo Black Cotton Poplin Fabric - COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/karlo-black-cotton-poplin-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Karyse Black Cotton Voile Fabric - COUPON 55CM",
+      "source_url": "https://www.thefabricsales.com/products/karyse-black-cotton-voile-fabric-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Samir Multicolour Floral Viscose Satin Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/samir-multicolour-floral-viscose-satin-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Feline Burgundy Blur Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/feline-burgundy-blur-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Casper Blue Striped Linen & Cotton Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/casper-blue-striped-linen-cotton-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fabian Blue Water Print Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fabian-blue-water-print-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kolyn Magenta Red Viscose Linen Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/kolyn-magenta-red-viscose-linen-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Joos Blue Sky Print Viscose Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/joos-blue-sky-print-viscose-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Brent Sky Blue Organic Cotton Pique Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/brent-sky-blue-organic-cotton-pique-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jona Off White Striped Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jona-off-white-striped-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jeff Beige Pinstripe Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jeff-beige-pinstripe-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mora Fuchsia Cotton Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mora-fuchsia-cotton-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Loena Ivory Polyester Fleece Fabric",
+      "source_url": "https://www.thefabricsales.com/products/loena-ivory-polyester-fleece-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yona Black Polyester Fleece Fabric",
+      "source_url": "https://www.thefabricsales.com/products/yona-black-polyester-fleece-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jaclin Golden Beige Fluid Polyester Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jaclin-golden-beige-fluid-polyester-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Adyn Blue Abstract Cotton Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/adyn-blue-abstract-cotton-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Adyn Beige Abstract Cotton Jacquard Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/adyn-beige-abstract-cotton-jacquard-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Brent Blue & Red Striped Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/brent-blue-red-striped-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Gover Black Check PolyCotton Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/gover-black-check-polycotton-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Joyti Fuchsia Red Check Tweed Fabric",
+      "source_url": "https://www.thefabricsales.com/products/joyti-fuchsia-red-check-tweed-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lucy Beige Plain Woven Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lucy-beige-plain-woven-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sibren Beige/Black Abstract Cotton Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/sibren-beige-black-abstract-cotton-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Adyn Yellow Abstract Cotton Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/adyn-yellow-abstract-cotton-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mary Multicolour Cotton Tweed Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mary-multicolour-cotton-tweed-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Isolde Ivory Blue Striped Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/isolde-ivory-blue-striped-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Joost Blue & White Striped Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/joost-blue-white-striped-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kaat Lilac & Orange Striped Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/kaat-lilac-orange-striped-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Floor Beige/Rust Check PolyCotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/floor-beige-rust-check-polycotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mart Fuchsia Cotton Tweed Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mart-fuchsia-cotton-tweed-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kona Pink Striped Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/kona-pink-striped-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Flynn Blue Floral Cotton Twill Fabric",
+      "source_url": "https://www.thefabricsales.com/products/flynn-blue-floral-cotton-twill-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lien Dusty Mint Green Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lien-dusty-mint-green-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Runa Ivory Wool Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/runa-ivory-wool-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Enach Camel/Grey Pied de Poule Wool Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/enach-camel-grey-pied-de-poule-wool-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Stien Green Check Wool Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/stien-green-check-wool-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Renus Dark Grey Wool Suiting Fabric Stretch",
+      "source_url": "https://www.thefabricsales.com/products/renus-dark-grey-wool-suiting-fabric-stretch"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Callyn Blue ZigZag Wool Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/callyn-blue-zigzag-wool-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Faukje Burgundy & Grey Wool Twill Fabric",
+      "source_url": "https://www.thefabricsales.com/products/faukje-burgundy-grey-wool-twill-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lucy Brown Wool Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lucy-brown-wool-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Janna Grey Check Wool Suiting Fabric Stretch",
+      "source_url": "https://www.thefabricsales.com/products/janna-grey-check-wool-suiting-fabric-stretch"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Abil Green Floral Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/abil-green-floral-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Abil Black Floral Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/abil-black-floral-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fran Red Floral Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fran-red-floral-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fran Blue Floral Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fran-blue-floral-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fran Purple Floral Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fran-purple-floral-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fran Green Floral Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fran-green-floral-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ide Off White Striped Polyester Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ide-off-white-striped-polyester-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maro Purple Floral Viscose Lining Fabric",
+      "source_url": "https://www.thefabricsales.com/products/maro-purple-floral-viscose-lining-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Julie Mauve Purple Faux Fur Fabric",
+      "source_url": "https://www.thefabricsales.com/products/julie-mauve-purple-faux-fur-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Billan Black Logo Nylon Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/billan-black-logo-nylon-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nian Black Logo Nylon Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/nian-black-logo-nylon-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Oliver Green Cotton Tweed Fabric",
+      "source_url": "https://www.thefabricsales.com/products/oliver-green-cotton-tweed-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Monar Brown & Black Check Wool Fabric",
+      "source_url": "https://www.thefabricsales.com/products/monar-brown-black-check-wool-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lena Red Cotton Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lena-red-cotton-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Larice Beige Floral Striped Viscose Lining Fabric",
+      "source_url": "https://www.thefabricsales.com/products/larice-beige-floral-striped-viscose-lining-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Evert Green Nylon Fabric",
+      "source_url": "https://www.thefabricsales.com/products/evert-green-nylon-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marijn Silver Faux Leather Fabric",
+      "source_url": "https://www.thefabricsales.com/products/marijn-silver-faux-leather-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Eva White Floral Embroidered Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/eva-white-floral-embroidered-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ludina Blue Cotton Denim Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ludina-blue-cotton-denim-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rona Brown Wool Double Face Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/rona-brown-wool-double-face-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Oliver Grey Striped Wool Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/oliver-grey-striped-wool-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Doris Khaki & Grey Check Wool Fabric",
+      "source_url": "https://www.thefabricsales.com/products/doris-khaki-grey-check-wool-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sibran Navy Blue Striped Wool Blend Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/sibran-navy-blue-striped-wool-blend-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mob Black Wool Twill Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mob-black-wool-twill-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Daan Blue Check Wool Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/daan-blue-check-wool-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marc Grey Prince of Wales Wool Blend Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/marc-grey-prince-of-wales-wool-blend-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Stef Black & Red Check Wool Fabric - PANEL 170CM",
+      "source_url": "https://www.thefabricsales.com/products/stef-black-red-check-wool-fabric-panel-170cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marla Burned Orange Soft Wool Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/marla-burned-orange-soft-wool-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Laura Blue & Black Check Wool Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/laura-blue-black-check-wool-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tina Grey Wool Blend Double Face  Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tina-grey-wool-blend-double-face-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dany Grey Wool Blend Coating Fabric",
+      "source_url": "https://www.thefabricsales.com/products/dany-grey-wool-blend-coating-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fran Grayish Blue Wool Blend Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fran-grayish-blue-wool-blend-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lennert Multicolour Check Flannel Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lennert-multicolour-check-flannel-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jill Khaki Green Brushed Wool Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jill-khaki-green-brushed-wool-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ronald Green Wool Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ronald-green-wool-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fibe Black Ribbed Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fibe-black-ribbed-cotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tim Grey Wool Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tim-grey-wool-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marin Grey Wool Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/marin-grey-wool-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Vince Blue & Grey Check Wool Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/vince-blue-grey-check-wool-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lina Navy Blue Check Wool Suiting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lina-navy-blue-check-wool-suiting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lars Blue & Green Check Wool Blend Double Face Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lars-blue-green-check-wool-blend-double-face-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Wolter Dark Blue Wool Suiting Fabric Stretch",
+      "source_url": "https://www.thefabricsales.com/products/wolter-dark-blue-wool-suiting-fabric-stretch"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Albin Grey Wool Fabric",
+      "source_url": "https://www.thefabricsales.com/products/albin-grey-wool-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jobe Grey Blue Abstract Viscose Twill PANEL 80CM",
+      "source_url": "https://www.thefabricsales.com/products/jobe-grey-blue-abstract-viscose-twill-panel-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Gibs Pink Textured Cotton Stretch Fabric - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/gibs-pink-textured-cotton-stretch-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rilly Blue Floral Viscose Satin Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/rilly-blue-floral-viscose-satin-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lotte Sand Beige Striped Wool Suiting Fabric - COUPON 55CM",
+      "source_url": "https://www.thefabricsales.com/products/lotte-sand-beige-striped-wool-suiting-fabric-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Eron Turquouise Polyamide Mesh",
+      "source_url": "https://www.thefabricsales.com/products/eron-turquouise-polyamide-mesh"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lucy Yellow Abstract Viscose Satin Fabric - COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/lucy-yellow-abstract-viscose-satin-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tiban Green Fringes Silk Chiffon Fabric - COUPON 35CM",
+      "source_url": "https://www.thefabricsales.com/products/tiban-green-fringes-silk-chiffon-fabric-coupon-35cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tiban Green Fringes Silk Chiffon Fabric - COUPON 65CM + EXTRA",
+      "source_url": "https://www.thefabricsales.com/products/tiban-green-fringes-silk-chiffon-fabric-coupon-65cm-extra"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Macy Peach Cotton Fabric - COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/macy-peach-cotton-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jens Off White Cotton Jersey Fabric - ONLINE EXCLUSIVE - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jens-off-white-cotton-jersey-fabric-online-exclusive-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Holy Ivory Wool Cotton Blend Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/holy-ivory-wool-cotton-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Bjarn Khaki Green Viscose Satin Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/bjarn-khaki-green-viscose-satin-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Bjarn Khaki Green Viscose Satin Fabric - COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/bjarn-khaki-green-viscose-satin-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nate Grey Herringbone Virgin Wool Fabric Water Resistant - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/nate-grey-herringbone-virgin-wool-fabric-water-resistant-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ratama Black & Red Jacquard Viscose Fabric - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/ratama-black-red-jacquard-viscose-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Teddington Green Grey Viscose Crepe Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tfs0802_e1"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Anebel Royal Blue Cotton Twill Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tfs6035-e06-04"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Burt Beige Wool Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/burt-beige-wool-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kaluh Raspberry Red Polyester Lining Twill Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tfs6124-d08-04"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yella Multicolour Floral Viscose Satin Fabric - COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/yella-multicolour-floral-viscose-satin-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yella Multicolour Floral Viscose Satin Fabric - COUPON 200CM",
+      "source_url": "https://www.thefabricsales.com/products/yella-multicolour-floral-viscose-satin-fabric-coupon-200cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Veran Dark Blue Cotton Lining Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/veran-dark-blue-cotton-lining-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lara Blue & White Floral Polyester Lace Fabric - COUPON 80 + EXTRA",
+      "source_url": "https://www.thefabricsales.com/products/lara-blue-white-floral-polyester-lace-fabric-coupon-80-extra"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Timo Purple Abstract Cotton Voile Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/timo-purple-abstract-cotton-voile-fabric-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Efyr White Speckled Cotton Poplin Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/efyr-white-speckled-cotton-poplin-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sanna Sand Beige Check Wool Mohair Suiting Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/sanna-sand-beige-check-wool-mohair-suiting-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Vanig Blue Cotton Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/vanig-blue-cotton-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rona Forest Green Modal Rayon Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/rona-forest-green-modal-rayon-blend-fabric-coupon-115cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marys Red/Grey Wool Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/marys-red-grey-wool-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sary Aqua Blue Herringbone Wool Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/sary-aqua-blue-herringbone-wool-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Runne Multicolour Polyester Jersey Fabric Lurex - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/runne-multicolour-polyester-jersey-fabric-lurex-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Billy Coral Red Floral Polyester Lace Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/billy-coral-red-floral-polyester-lace-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Stan Purple Cotton Poplin Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/stan-purple-cotton-poplin-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Damonica White Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/idl363__f16"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jace Amalfi Yellow Cotton Stretch Fabric -  SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jace-amalfi-yellow-cotton-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Daichi Navy Blue Twill Wool Fabric - COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/daichi-navy-blue-twill-wool-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Daichi Navy Blue Twill Wool Fabric - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/daichi-navy-blue-twill-wool-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yoren Brown Check Wool Double Face Fabric - COUPON 55CM",
+      "source_url": "https://www.thefabricsales.com/products/yoren-brown-check-wool-double-face-fabric-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jason Blue Virgin Wool Fabric Water Resistant",
+      "source_url": "https://www.thefabricsales.com/products/jason-blue-virgin-wool-fabric-water-resistant"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mary Blue Striped Wool Blend Stretch Fabric - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/mary-blue-striped-wool-blend-stretch-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jack Black & White Abstract Linen Viscose Blend Fabric - COUPON 45CM + EXTRA",
+      "source_url": "https://www.thefabricsales.com/products/jack-black-white-abstract-linen-viscose-blend-fabric-coupon-45cm-extra"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Verys Blue Cotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/verys-blue-cotton"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Verys Blue Cotton Fabric - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/verys-blue-cotton-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jona Multicolour Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jona-multicolour-striped-cotton-shirting-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Grove Green Cotton Corduroy Fabric",
+      "source_url": "https://www.thefabricsales.com/products/grove-green-cotton-corduroy-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Roel Blue & Red Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/roel-blue-red-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maran Multicolour Striped Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/maran-multicolour-striped-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yoran Multicolour Vichy Virgin Wool Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/yoran-multicolour-vichy-virgin-wool-blend-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Bill Khaki Green Silk Lining Fabric",
+      "source_url": "https://www.thefabricsales.com/products/bill-khaki-green-silk-lining"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lona Black Silk Chiffon Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lona-black-silk-chiffon"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mason Yellow Check Wool Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tfs6016-e07-02"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Olan Burned Orange Cotton Velvet Fabric",
+      "source_url": "https://www.thefabricsales.com/products/dvn2111-d06-05"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ismet Red Wool Fabric",
+      "source_url": "https://www.thefabricsales.com/products/idl088_c19"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tona Chocolate Brown Wool Cashmere Double Face Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tona-chocolate-brown-wool-cashmere-double-face-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tim Off White Cotton Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/tim-off-white-cotton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dagny Multicolour Striped Wool Alpaca Coating Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/dagny-multicolour-striped-wool-alpaca-coating-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jade Green Cotton Velvet Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jade-green-cotton-velvet-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nolan Navy Blue Wool Twill Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/nolan-navy-blue-wool-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Anele Off White Cotton Twill Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/anele-off-white-cotton-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sorin Black PolyCotton Twill Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/sorin-black-polycotton-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kinobe Black Polka Dot Silk Chiffon Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/kinobe-black-polka-dot-silk-chiffon-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Glint Black Boiled Wool Jersey Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/glint-black-boiled-wool-jersey-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sassy Aubergine Silk Chiffon Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/sassy-aubergine-silk-chiffon-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Wanne Burgundy Red Wool Cotton Blend Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/wanne-burgundy-red-wool-cotton-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mea Off White Abstract Wool Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/mea-off-white-abstract-wool-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Paran Off White Polyester Duchesse Satin Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/paran-off-white-polyester-duchesse-satin-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marys Camel Llama Wool Double Face Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/marys-camel-llama-wool-double-face-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jitse Fire Orange Cotton Velvet Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jitse-fire-orange-cotton-velvet-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Agustina Black & Red Stripes Polycotton Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/agustina-black-red-stripes-polycotton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Thom Brown Wool Blend Suiting Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/thom-brown-wool-blend-suiting-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jona Purple Floral Polyester Upholstery Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jona-purple-floral-polyester-upholstery-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Phyliss Navy Floral Cotton Voile Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/phyliss-navy-floral-cotton-voile-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sid Emerald Blue Viscose Acetate Crepe Satin Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/sid-emerald-blue-viscose-acetate-crepe-satin-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rahn Black Polyester Netting - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/rahn-black-polyester-netting-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tim White Cotton Corduroy Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/tim-white-cotton-corduroy-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Stow Dark Blue Textured Polyester Viscose Stretch Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/stow-dark-blue-textured-polyester-viscose-stretch-fabric-coupon-70cm-extra"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Martin Greyish Blue Cotton Viscose Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/martin-greyish-blue-cotton-viscose-blend-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Brent Dark Blue Linen Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/brent-dark-blue-linen-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lody Greige Polyester Velvet Jersey Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/lody-greige-polyester-velvet-jersey-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tycho Coral Printed Viscose Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/tycho-coral-printed-viscose-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Evert Pigeon Blue Cotton Twill Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/evert-pigeon-blue-cotton-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Damir Black Wool Double Face Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/damir-black-wool-double-face-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Oblyn White Fantasy Cotton Poplin Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/oblyn-white-fantasy-cotton-poplin-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Estan White & Blue Striped Cotton Shirting Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/estan-white-blue-striped-cotton-shirting-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yille Black Polyester Duchesse Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/yille-black-polyester-duchesse-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rosyn Dark Blue Floral Cotton Denim Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/rosyn-dark-blue-floral-cotton-denim-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Harper Chocolate Cotton Voile Fabric - COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/harper-chocolate-cotton-voile-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Courney Black Textured Viscose Blend - COUPON 85CM",
+      "source_url": "https://www.thefabricsales.com/products/courney-black-textured-viscose-blend-coupon-85cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Azar Lime Yellow Polyester Voile Fabric - COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/azar-lime-yellow-polyester-voile-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mire Blue Cotton Denim Fabric - COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/mire-blue-cotton-denim-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mire Blue Cotton Denim Fabric - COUPON 30CM",
+      "source_url": "https://www.thefabricsales.com/products/mire-blue-cotton-denim-fabric-coupon-30cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Aidy Red Floral Cotton Corduroy Fabric - ONLINE EXCLUSIVE - COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/aidy-red-floral-cotton-corduroy-fabric-online-exclusive-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Trenton Black Floral Lace Stretch Polyamide Fabric - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/trenton-black-floral-lace-stretch-polyamide-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jora Blue Silver Abstract Silk Jacquard Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/jora-blue-silver-abstract-silk-jacquard-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Teretha Grey Striped Double Face Wool Fabric - COUPON 30CM",
+      "source_url": "https://www.thefabricsales.com/products/teretha-grey-striped-double-face-wool-fabric-coupon-30cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Soraya Black Stripe Cotton Fabric - COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/soraya-black-stripe-cotton-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nacha Blue Floral Linen Fabric - COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/nacha-blue-floral-linen-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Esteban Blue Check Cotton Fabric - COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/esteban-blue-check-cotton-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Esteban Blue Check Cotton Fabric - COUPON 45CM",
+      "source_url": "https://www.thefabricsales.com/products/esteban-blue-check-cotton-fabric-coupon-45cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Esteban Blue Check Cotton Fabric - COUPON 130CM",
+      "source_url": "https://www.thefabricsales.com/products/esteban-blue-check-cotton-fabric-coupon-130cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Esteban Blue Check Cotton Fabric - COUPON 150CM",
+      "source_url": "https://www.thefabricsales.com/products/esteban-blue-check-cotton-fabric-coupon-150cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Esteban Blue Check Cotton Fabric - COUPON 140CM",
+      "source_url": "https://www.thefabricsales.com/products/esteban-blue-check-cotton-fabric-coupon-140cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Miet Royal Blue Viscose Blend Jacquard Fabric - COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/miet-royal-blue-viscose-blend-jacquard-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ferra Military Green Cotton Grosgrain Fabric - COUPON 35CM",
+      "source_url": "https://www.thefabricsales.com/products/ferra-military-green-cotton-grosgrain-fabric-coupon-35cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sijan Ivory Polyester Crepe Fabric - ONLINE EXCLUSIVE - COUPON 35CM",
+      "source_url": "https://www.thefabricsales.com/products/sijan-ivory-polyester-crepe-fabric-online-exclusive-coupon-35cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Otis Navy Blue Cotton Fabric - COUPON 55CM",
+      "source_url": "https://www.thefabricsales.com/products/otis-navy-blue-cotton-fabric-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lenis Purple Cotton Linen Blend Fabric - COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/lenis-purple-cotton-linen-blend-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lenis Purple Cotton Linen Blend Fabric - COUPON 75CM",
+      "source_url": "https://www.thefabricsales.com/products/lenis-purple-cotton-linen-blend-fabric-coupon-75cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Carlon Black Viscose Linen Blend Fabric - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/carlon-black-viscose-linen-blend-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Moura Fuchsia Virgin Wool Double Face Fabric - COUPON 65CM",
+      "source_url": "https://www.thefabricsales.com/products/moura-fuchsia-virgin-wool-double-face-fabric-coupon-65cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Joos Ecru Cotton Twill Fabric - ONLINE EXCLUSIVE - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/joos-ecru-cotton-twill-fabric-online-exclusive-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Luna Pink Cotton Shirting Fabric - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/luna-pink-cotton-shirting-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yusin Blush Pink Glossy Polyester Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/yusin-blush-pink-glossy-polyester-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ibe Lemon White Abstract Polyamide Lace 2 Way Stretch Fabric - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/ibe-lemon-white-abstract-polyamide-lace-2-way-stretch-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tahirah Ecru Floral Polyester Lace Fabric - COUPON 130CM",
+      "source_url": "https://www.thefabricsales.com/products/tahirah-ecru-floral-polyester-lace-fabric-coupon-130cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ibe Lemon White Abstract Polyamide Lace 2 Way Stretch Fabric - COUPON 35CM",
+      "source_url": "https://www.thefabricsales.com/products/ibe-lemon-white-abstract-polyamide-lace-2-way-stretch-fabric-coupon-35cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Brent Blue Striped Cotton Poplin Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/brent-blue-striped-cotton-poplin-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Daisy Blue Bird Cotton Poplin StretchFabric - COUPON 65CM",
+      "source_url": "https://www.thefabricsales.com/products/daisy-blue-bird-cotton-poplin-stretchfabric-coupon-65cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dorin Raspberry Pink Striped Cotton Stretch Fabric - COUPON 55CM",
+      "source_url": "https://www.thefabricsales.com/products/dorin-raspberry-pink-striped-cotton-stretch-fabric-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Poppy Blue Polka Dot Wool Blend Fabric - COUPON 95CM",
+      "source_url": "https://www.thefabricsales.com/products/poppy-blue-polka-dot-wool-blend-fabric-coupon-95cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Poppy Blue Polka Dot Wool Blend Fabric - COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/poppy-blue-polka-dot-wool-blend-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mich Ochre Striped Cotton Poplin Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/mich-ochre-striped-cotton-poplin-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Gou Multicolour Check Wool Blend Jacquard Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/gou-multicolour-check-wool-blend-jacquard-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Modart Pink Striped Cotton Shirting Fabric - COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/modart-pink-striped-cotton-shirting-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Eef Lilac Purple & Black Striped Silk Organza Fabric - COUPON 65CM",
+      "source_url": "https://www.thefabricsales.com/products/eef-lilac-purple-black-striped-silk-organza-fabric-coupon-65cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Olyn Navy Blue Cotton Blend Gabardine Fabric - COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/olyn-navy-blue-cotton-blend-gabardine-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Salome Brown Pinstripe Cotton Fabric - COUPON 75CM",
+      "source_url": "https://www.thefabricsales.com/products/salome-brown-pinstripe-cotton-fabric-coupon-75cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sary Brown Floral  PolyCotton Lace Fabric - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/sary-brown-floral-polycotton-lace-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Pearson Tartan Viscose Chiffon Fabric - COUPON 45CM",
+      "source_url": "https://www.thefabricsales.com/products/pearson-tartan-viscose-chiffon-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Pearson Tartan Viscose Chiffon Fabric - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/pearson-tartan-viscose-chiffon-fabric-coupon-40cm-1"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jona Multicolour Striped Cotton Shirting Fabric - COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/jona-multicolour-striped-cotton-shirting-fabric-online-exclusive-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Gally Blue Cotton Denim Stretch Fabric - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/gally-blue-cotton-denim-stretch-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Danny Grey & White Stripe Cotton Fabric - COUPON 95CM",
+      "source_url": "https://www.thefabricsales.com/products/danny-grey-white-stripe-cotton-fabric-coupon-95cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lana White Textured Cotton Fabric - COUPON 45CM",
+      "source_url": "https://www.thefabricsales.com/products/lana-white-textured-cotton-fabric-coupon-45cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mara Ecru/Green Striped Cotton Jacquard Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/mara-ecru-green-striped-cotton-jacquard-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nora  Multicolour Abstract Printed Silk Crepe Voile Fabric - COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/nora-multicolour-abstract-printed-silk-crepe-voile-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Evert Burgundy & Fuchsia Striped Wool Blend Fabric - COUPON 35CM",
+      "source_url": "https://www.thefabricsales.com/products/evert-burgundy-fuchsia-striped-wool-blend-fabric-coupon-35cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Octavia Taupe Polyester Tulle Stretch Fabric - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/octavia-taupe-polyester-tulle-stretch-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Saar Red Linen Cotton Blend Fabric - COUPON 65CM",
+      "source_url": "https://www.thefabricsales.com/products/saar-red-linen-cotton-blend-fabric-coupon-65cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Louis Red Broderie Cotton Rib Jersey Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/louis-red-broderie-cotton-rib-jersey-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Louis Red Broderie Cotton Rib Jersey Fabric - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/louis-red-broderie-cotton-rib-jersey-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Louis Red Broderie Cotton Rib Jersey Fabric - COUPON 55CM",
+      "source_url": "https://www.thefabricsales.com/products/louis-red-broderie-cotton-rib-jersey-fabric-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mora Turquoise Blue Cotton Shirting Fabric - COUPON 95CM",
+      "source_url": "https://www.thefabricsales.com/products/mora-turquoise-blue-cotton-shirting-fabric-coupon-95cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Brent Green Cotton Jersey Fabric - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/brent-green-cotton-jersey-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lana Black & Ivory Striped Rib Knit Cotton Jersey Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/lana-black-ivory-striped-rib-knit-cotton-jersey-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Landen Navy Blue Cotton Fabric - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/landen-navy-blue-cotton-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kiman Camel Beige PolyCotton Twill Fabric COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/kiman-camel-beige-polycotton-twill-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yora Old Pink Floral Boiled Wool Jersey Fabric COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/yora-old-pink-floral-boiled-wool-jersey-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Wone Blue Cotton Denim Fabric COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/wone-blue-cotton-denim-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sibre Black Cotton Rib Jersey Fabric COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/sibre-black-cotton-rib-jersey-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sibre Black Cotton Rib Jersey Fabric COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/sibre-black-cotton-rib-jersey-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lisel Purple Floral Wrinkled Cotton Blend Fabric COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/lisel-purple-floral-wrinkled-cotton-blend-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Vipa Dark Blue Cotton Twill Fabric COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/vipa-dark-blue-cotton-twill-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Simon Ivory PolyCotton Fabric COUPON 30CM",
+      "source_url": "https://www.thefabricsales.com/products/simon-ivory-polycotton-fabric-coupon-30cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Simon Ivory PolyCotton Fabric COUPON 40CM WITH DEFAULT",
+      "source_url": "https://www.thefabricsales.com/products/simon-ivory-polycotton-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Simon Ivory PolyCotton Fabric COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/simon-ivory-polycotton-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Wonne Red Check Cotton Fabric COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/wonne-red-check-cotton-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Licy Army Green Cotton Twill Fabric COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/licy-army-green-cotton-twill-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ponto Red White Polka Dot Cotton Voile Fabric COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/ponto-red-white-polka-dot-cotton-voile-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Vigo Grey Check Virgin Wool & Alpaca Blend Fabric COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/vigo-grey-check-virgin-wool-alpaca-blend-fabric-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mona Black Cable Knit Wool Fabric COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/mona-black-cable-knit-wool-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Felice Black Wool Suiting Fabric COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/felice-black-wool-suiting-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Saryn Mint Blue Cotton Stretch Fabric COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/saryn-mint-blue-cotton-stretch-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jane Ecru Polyester Tulle Fabric - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jane-ecru-polyester-tulle-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yena Dark Grey Cotton Viscose Lining Twill Fabric COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/yena-dark-grey-cotton-viscose-lining-twill-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yena Dark Grey Cotton Viscose Lining Twill Fabric COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/yena-dark-grey-cotton-viscose-lining-twill"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fred Turquoise Blue Cotton Poplin Fabric COUPON 130CM",
+      "source_url": "https://www.thefabricsales.com/products/fred-turquoise-blue-cotton-poplin-fabric-coupon-130cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Luude Light Blue & Grey Striped PolyCotton Fabric COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/luude-light-blue-grey-striped-polycotton-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ron Pink Fish Printed Viscose Twill Fabric COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/ron-pink-fish-printed-viscose-twill-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Emilia Red & White Stripe Cotton Fabric COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/emilia-red-white-stripe-cotton-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Laron Green Cotton Sateen Fabric - COUPON 30CM",
+      "source_url": "https://www.thefabricsales.com/products/laron-green-cotton-sateen-fabric-coupon-30cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nerine Mustard Green Cotton Twill Stretch Fabric COUPON 145CM",
+      "source_url": "https://www.thefabricsales.com/products/nerine-mustard-green-cotton-twill-stretch-fabric-coupon-145cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nerine Mustard Green Cotton Twill Stretch Fabric COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/nerine-mustard-green-cotton-twill-stretch-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fraser Navy Blue Merino Wool Suiting Fabric - COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/fraser-navy-blue-merino-wool-suiting-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maran Multicolour Striped Cotton Shirting Fabric - COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/maran-multicolour-striped-cotton-shirting-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Arty Blue Cotton Twill Fabric - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/arty-blue-cotton-twill-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kelyn Pink Ornament Cotton Twill Stretch Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/kelyn-pink-ornament-cotton-twill-stretch-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tosca Off White Polyamide Blend Stretch Interfaced Swimwear Fabric - COUPON 105CM",
+      "source_url": "https://www.thefabricsales.com/products/tosca-off-white-polyamide-blend-stretch-interfaced-swimwear-fabric-coupon-105cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rivka Navy & Taupe Printed Square Acetate Lining Fabric COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/rivka-navy-taupe-printed-square-acetate-lining-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Adam Navy Blue Wool Twill Suiting Fabric COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/adam-navy-blue-wool-twill-suiting-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Chira Purple Blue Wool Blend Fabric COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/chira-purple-blue-wool-blend-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mauro Teal Green Knitted Wool Blend Fabric COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/mauro-teal-green-knitted-wool-blend-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Cary Black Wool Suiting Fabric COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/cary-black-wool-suiting-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Cirte Grey Polyester Lining Fabric COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/cirte-grey-polyester-lining-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tamia Burgundy Brown Polyester Lining Fabric COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/tamia-burgundy-brown-polyester-lining-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mojan Light Grey Cotton Lining Fabric COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/mojan-light-grey-cotton-lining-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Manu Black Viscose Wool Blend Twill Fabric COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/manu-black-viscose-wool-blend-twill-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mello Grey Virgin Wool Twill Fabric Water Resistant COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/mello-grey-virgin-wool-twill-fabric-water-resistant-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Zina Pink Cotton Voile Fabric COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/zina-pink-cotton-voile-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Selena Red & Blue Wool Blend Double Face Fabric COUPON 130CM",
+      "source_url": "https://www.thefabricsales.com/products/selena-red-blue-wool-blend-double-face-fabric-coupon-130cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Severin Dark Grey Wool Fabric - COUPON 65CM",
+      "source_url": "https://www.thefabricsales.com/products/severin-dark-grey-wool-fabric-coupon-65cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rayn Grey Wool Suiting Twill Fabric COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/rayn-grey-wool-suiting-twill-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ibe Burgundy Snake Print Coat Fabric COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/ibe-burgundy-snake-print-coat-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rany Burgundy Wool Blend Fabric COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/rany-burgundy-wool-blend-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ziza Black Cotton Corduroy Fabric COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/ziza-black-cotton-corduroy-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ziza Black Cotton Corduroy Fabric COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/ziza-black-cotton-corduroy-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Zena Grey Textured Cotton Fabric COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/zena-grey-textured-cotton-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Brent Ivory Cotton Gauze Fabric COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/sds140-e06-02"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rite White Brushed Cotton Fabric COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/rite-white-brushed-cotton-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Trand Dark Blue Cotton Twill Fabric COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/trand-dark-blue-cotton-twill-fabric-copy"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tobbe Black Check Viscose Acetate Blend Lining Fabric COUPON 130CM",
+      "source_url": "https://www.thefabricsales.com/products/tobbe-black-check-viscose-acetate-blend-lining-fabric-coupon-130cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tobbe Black Check Viscose Acetate Blend Lining Fabric COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/tobbe-black-check-viscose-acetate-blend-lining-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Charlin Off White Cotton Jersey Fabric - COUPON 45CM",
+      "source_url": "https://www.thefabricsales.com/products/charlin-off-white-cotton-jersey-fabric-coupon-45cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Charlin Off White Cotton Jersey Fabric -COUPON 100CM WITH DEFAULT",
+      "source_url": "https://www.thefabricsales.com/products/charlin-off-white-cotton-jersey-fabric-coupon-100cm-with-default"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lee Black Polyester Netting Silver Sparkling Fabric COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/lee-black-polyester-netting-silver-sparkling-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yallin Green Striped Cotton Poplin Fabric Stretch COUPON 55CM",
+      "source_url": "https://www.thefabricsales.com/products/yallin-green-striped-cotton-poplin-fabric-stretch-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rany Greyish Blue Cotton Fabric COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/rany-greyish-blue-cotton-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Camil Dark Blue Wool Knit Fabric COUPON 130CM",
+      "source_url": "https://www.thefabricsales.com/products/camil-dark-blue-wool-knit-fabric-coupon-130cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jelle Multicolour Pied de Poule Wool Fabric COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/jelle-multicolour-pied-de-poule-wool-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mylan Neon Orange Polyamide Tulle Fabric COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/mylan-neon-orange-polyamide-tulle-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ben Black Wool Blend Coating Fabric COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/ben-black-wool-blend-coating-fabric-coupon-100cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Aabel Navy Blue Cotton Twill Fabric COUPON 110CM",
+      "source_url": "https://www.thefabricsales.com/products/aabel-navy-blue-cotton-twill-fabric-coupon-110cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Laure Blue Cotton Poplin Fabric COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/laure-blue-cotton-poplin-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jazon Beige Wool Check Fabric COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/jazon-beige-wool-check-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marie Brown Cable Knit Print Wool Double Face Fabric COUPON 100CM",
+      "source_url": "https://www.thefabricsales.com/products/marie-brown-cable-knit-print-wool-double-face-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Elly Brown Wool Fabric COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/elly-brown-wool-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sebastian Brown Grey Brushed Wool Twill Fabric COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/sebastian-brown-grey-brushed-wool-twill-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Vallic Camel Beige Wool Blend Double Face Fabric COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/vallic-camel-beige-wool-blend-double-face-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tron Purple & Black Diamond Quilted Wadding Fabric COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/tron-purple-black-diamond-quilted-wadding-fabric-coupon-30cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jisse Anthracite Grey Diamond Quilted Wadding Fabric COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/jisse-anthracite-grey-diamond-quilted-wadding-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Urbain Black Polyester Lining Fabric COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/urbain-black-polyester-lining-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kent Black Virgin Wool Fabric - COUPON 30CM",
+      "source_url": "https://www.thefabricsales.com/products/kent-black-virgin-wool-fabric-coupon-30cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Wins Olive Green Polyester Satin Lining Fabric - COUPON 40CM",
+      "source_url": "https://www.thefabricsales.com/products/wins-olive-green-polyester-satin-lining-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yens Ecru Cotton & Viscose Blend Fabric COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/yens-ecru-cotton-viscose-blend-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Uula Ecru Check Cotton Fabric - COUPON 90CM",
+      "source_url": "https://www.thefabricsales.com/products/uula-ecru-check-cotton-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Elana Ecru/Pink Striped Cotton Jacquard Fabric COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/elana-ecru-pink-striped-cotton-jacquard-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Thadine White Perforated Cotton Poplin Fabric COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/thadine-white-perforated-cotton-poplin-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ghita Off White Cotton Voile Fabric COUPON 80CM",
+      "source_url": "https://www.thefabricsales.com/products/ghita-off-white-cotton-voile-fabric-coupon-80cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sego Camel Denim Coated Twill",
+      "source_url": "https://www.thefabricsales.com/products/sego-camel-denim-coated-twill"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lanse Ecru Abstract Linen Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lanse-ecru-abstract-linen-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Elpida Blue Green Cotton Polyamide Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ess508_d16_2-3"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Emmanu Red Polyamide Stretch Swimwear Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/emmanu-red-polyamide-stretch-swimwear-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Davin Blue Embroidered Cotton Fabric - COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/davin-blue-embroidered-cotton-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yella Green Floral Viscose Satin Fabric - COUPON 190CM",
+      "source_url": "https://www.thefabricsales.com/products/yella-green-floral-viscose-satin-fabric-coupon-190cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Billie Navy Blue Virgin Wool Fabric Water Resistant - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/billie-navy-blue-virgin-wool-fabric-water-resistant-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Victoria Blue Red Striped Linen Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/victoria-blue-red-striped-linen-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "George Blue Check Cotton - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/george-blue-check-cotton-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tony Brown Check Wool Tweed Suiting Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/tony-brown-check-wool-tweed-suiting-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Laris Multicolour Check Cotton Flannel Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/laris-multicolour-check-cotton-flannel-fabric-coupon-40cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yill Floral Flocked Silk Voile Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/yill-floral-flocked-silk-voile-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Elly Green & Black Check Viscose Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/elly-green-black-check-viscose-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kollyn Brown Checks Felted Wool Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/kollyn-brown-checks-felted-wool-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kirse Green/Blue Herringbone Wool Jersey Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/kirse-green-blue-herringbone-wool-jersey-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lora Sky Blue Floral Lace Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/lora-sky-blue-floral-lace-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Eggo Army Green Cotton Twill Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/eggo-army-green-cotton-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mira Denim Blue Cotton Jacquard Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/mira-denim-blue-cotton-jacquard-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yill Grey Floral Felted Wool Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/yill-grey-floral-felted-wool-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maxim Red Wool Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/maxim-red-wool-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rolan Ivory Viscose Silk Crepe Fabric - COUPON 65CM",
+      "source_url": "https://www.thefabricsales.com/products/rolan-ivory-viscose-silk-crepe-fabric-copy"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Esra Fuchsia Viscose Polyester Blend Twill Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/esra-fuchsia-viscose-polyester-blend-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jules Blue Herringbone Linen Cotton Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jules-blue-herringbone-linen-cotton-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nimo Dark Old Pink Boiled Wool Jersey Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/nimo-dark-old-pink-boiled-wool-jersey-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maly Green Wool Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/maly-green-wool-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Peyro Cardinal Red Cotton Organdy Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/peyro-cardinal-red-cotton-organdy-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Shar Military Green Cotton Twill Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/shar-military-green-cotton-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jody Beige Wool Blend Stretch Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jody-beige-wool-blend-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mara Camel Floral Wool Cashmere Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/mara-camel-floral-wool-cashmere-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Justin Greige Bronze Jacquard Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/justin-greige-bronze-jacquard-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ralf Blue Check Wool Alpaca Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/ralf-blue-check-wool-alpaca-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Alanna Ecru Floral Cotton Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/alanna-ecru-floral-cotton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Balyn Blue Boiled Wool Jersey Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/balyn-blue-boiled-wool-jersey-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Julles Dark Blue Floral Viscose Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/julles-dark-blue-floral-viscose-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Seryn Yellow Polyester Chiffon Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/seryn-yellow-polyester-chiffon-fabric-coupon-130cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nimo Greige Boiled Wool Jersey Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/nimo-greige-boiled-wool-jersey-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Julie Lime Yellow Cotton Twill Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/julie-lime-yellow-cotton-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Damyn Yellow Striped Organic Cotton Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/damyn-yellow-striped-organic-cotton-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Isole White Floral Embroidered Cotton Voile Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/isole-white-floral-embroidered-cotton-voile-fabric-coupon-90cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Loes Blue Wrinkled Cotton Jacquard Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/loes-blue-wrinkled-cotton-jacquard-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mart Blue Dot Silk Crepe de Chine Fabric - COUPON 60CM",
+      "source_url": "https://www.thefabricsales.com/products/mart-blue-dot-silk-crepe-de-chine-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ahim Mist Green Wool Fabric - COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/ahim-mist-green-wool-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ferna Royal Blue PolyCotton Twill Fabric - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/ferna-royal-blue-polycotton-twill-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Barin Pink PolyCotton Tweed Fabric - COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/barin-pink-polycotton-tweed-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rafi Grey Green Cotton SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/rafi-grey-green-cotton-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Luth Ecru Cotton Blend Tweed Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/luth-ecru-cotton-blend-tweed-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tamir Graphic Viscose Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/tamir-graphic-viscose-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Irsa Beige/Grey Wool Double Face Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/irsa-beige-grey-wool-double-face-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yve Multicolour Floral Silk Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/yve-multicolour-floral-silk-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Hanna Peach Orange Cotton Sateen Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/hanna-peach-orange-cotton-sateen-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lym White Cotton Voile Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/lym-white-cotton-voile-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jacob Royal Blue Cotton Shirting Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jacob-royal-blue-cotton-shirting-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Daan Soft Raspberry Red Cotton Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/daan-soft-raspberry-red-cotton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Esra Blue & Ecru Striped Cotton Denim Fabric Stretch SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/esra-blue-ecru-striped-cotton-denim-fabric-stretch-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Barthz Multicolour Check Wool Blend Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/barthz-multicolour-check-wool-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Devon Multicolour Pied de Poule Wool Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/devon-multicolour-pied-de-poule-wool-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nina Green Herringbone Wool Blend Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/nina-green-herringbone-wool-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nina Blue Herringbone Wool Blend Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/nina-blue-herringbone-wool-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Folta Dark Blue Striped Polyester Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/folta-dark-blue-striped-polyester-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Loro Living Coral Viscose Blend Cr\u00eape Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/loro-living-coral-viscose-blend-crepe-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Quince Off White Viscose Crepe Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/quince-off-white-viscose-crepe-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Conran Off White Polyester Tule Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/conran-off-white-polyester-tule-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Manon Turquoise Blue Silk Crepe de Chine Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/manon-turquoise-blue-silk-crepe-de-chine-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kyrsten Red Check Wool Voile Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/kyrsten-red-check-wool-voile-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Eral Walnut Brown Cotton Corduroy Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/eral-walnut-brown-cotton-corduroy-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yallin Blue Striped Cotton Poplin Fabric Stretch SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/yallin-blue-striped-cotton-poplin-fabric-stretch-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marie Multicolour Floral Cotton Shirting Fabric - COUPON 55CM",
+      "source_url": "https://www.thefabricsales.com/products/marie-multicolour-floral-cotton-shirting-fabric-coupon-55cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Adelin Blue & White Geometric PolyCotton Stretch Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/adelin-blue-white-geometric-polycotton-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jante Blue Cotton Voile Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jante-blue-cotton-voile-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Udo Off White Cotton Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/udo-off-white-cotton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Bo Fuchsia Wool Suiting Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/bo-fuchsia-wool-suiting-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Blake Green Abstract Cotton Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/blake-green-abstract-cotton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nama Light Blue Polyamide Tulle Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/nama-light-blue-polyamide-tulle-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Minas Black Abstract Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/minas-black-abstract-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kyle Old Rose Yarn Dyed Cotton Linen Blend Fabric - COUPON 30CM + EXTRA",
+      "source_url": "https://www.thefabricsales.com/products/kyle-old-rose-yarn-dyed-cotton-linen-blend-fabric-coupon-30cm-extra"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tary Black Wool Twill Fabric - COUPON 40CM + EXTRA",
+      "source_url": "https://www.thefabricsales.com/products/tary-black-wool-twill-fabric-coupon-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tary Black Wool Twill Fabric - COUPON 50CM",
+      "source_url": "https://www.thefabricsales.com/products/tary-black-wool-twill-fabric-coupon-50cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jona Multicolour Floral Cotton Fabric - COUPON 95CM",
+      "source_url": "https://www.thefabricsales.com/products/jona-multicolour-floral-cotton-fabric-coupon-95cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jona Multicolour Floral Cotton Fabric - COUPON 120CM",
+      "source_url": "https://www.thefabricsales.com/products/jona-multicolour-floral-cotton-fabric-coupon-120cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tania Rust Brown Pleated Cotton Voile Fabric - COUPON 70CM",
+      "source_url": "https://www.thefabricsales.com/products/tania-rust-brown-pleated-cotton-voile-fabric-coupon-70cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rani Mint Green Cotton Twill Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/rani-mint-green-cotton-twill-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Abyn Black & Pink Pinstripe Polyester Viscose Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/abyn-black-pink-pinstripe-polyester-viscose-stretch"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jona Gold Polyester Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jona-gold-polyester-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Senyr Lilac Purple Perforated Nylon Fabric",
+      "source_url": "https://www.thefabricsales.com/products/senyr-lilac-purple-perforated-nylon-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Laris Floral Polyamide Fabric",
+      "source_url": "https://www.thefabricsales.com/products/vie151"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mob Black Cotton Velvet Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mob-black-cotton-velvet-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mob Khaki Green Cotton Velvet Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mob-khaki-green-cotton-velvet-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Coco Off White Floral Lace Trim 10cm",
+      "source_url": "https://www.thefabricsales.com/products/coco-off-white-floral-lace-trim-10cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marte Ivory Cotton Blend Twill Fabric",
+      "source_url": "https://www.thefabricsales.com/products/dvn2132-e01-03"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Octan Black Polyester Netting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/nan086-c07-02"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Brent Cement Grey Washed Nylon Fabric",
+      "source_url": "https://www.thefabricsales.com/products/brent-cement-grey-wrinkled-nylon"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Anna Blue & Rust Orange Abstract Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/anna-blue-rust-orange-abstract-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Oscar Pink & Green PolyCotton Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/oscar-pink-green-polycotton-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ivar Blue Geometric PolyCotton Jacquard Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/ivar-blue-geometric-polycotton-jacquard-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mats Burgundy Red Floral Viscose Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mats-burgundy-red-floral-viscose-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Elias Blue Floral Viscose Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/elias-blue-floral-viscose-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Laura Green Abstract Polyester Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/laura-green-abstract-polyester-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dorien Multicolour Floral Viscose Crepe Fabric",
+      "source_url": "https://www.thefabricsales.com/products/dorien-multicolour-floral-viscose-crepe-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Toon Blue Summer Print Viscose Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/toon-blue-summer-print-viscose-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nina Purple Floral Polyester Jersey Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/nina-purple-floral-polyester-jersey-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Cille Ecru Floral Embroidered Rayon Fabric",
+      "source_url": "https://www.thefabricsales.com/products/cille-ecru-floral-embroidered-rayon-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maira Lavender Purple Floral Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/maira-lavender-purple-floral-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jill Floral Printed Viscose Linen Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jill-floral-printed-viscose-linen-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Felyn Green Abstract Viscose Crepe Fabric",
+      "source_url": "https://www.thefabricsales.com/products/felyn-green-abstract-viscose-crepe-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lyan Multicolour Abstract Viscose Crepe Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lyan-multicolour-abstract-viscose-crepe-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lotte Purple & Green Iridescent Polyester Lurex Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lotte-purple-green-iridescent-polyester-lurex-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rani Off White Polycotton Sateen Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/rani-off-white-polycotton-sateen-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yalan Multicolour Check Polyester Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/yalan-multicolour-check-polyester-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Vic Red Speckled PolyCotton Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/vic-red-speckled-polycotton-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Erina Ivory Viscose Satin Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/erina-ivory-viscose-satin-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Pia Blue Striped Viscose Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/pia-blue-striped-viscose-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rana Beige Herringbone Cotton Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/rana-beige-herringbone-cotton-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Roel Brown Striped Viscose Jacquard Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/roel-brown-striped-viscose-jacquard-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Floor Beige Dot Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/floor-beige-dot-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jasper Beige Viscose Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jasper-beige-viscose-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Arthur Mauve Grey PolyCotton Fabric Glossy",
+      "source_url": "https://www.thefabricsales.com/products/arthur-mauve-grey-polycotton-fabric-glossy"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Noor Blue Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/noor-blue-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lyde Red Floral Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lyde-red-floral-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Evan Multicolour Floral Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/evan-multicolour-floral-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Luna Khaki Green Rabbit Print Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/luna-khaki-green-rabbit-print-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Harol Dark Blue Cotton Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/harol-dark-blue-cotton-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Iza Pink Wrinkled Viscose Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/iza-pink-wrinkled-viscose-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Cadir Blue Abstract Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/cadir-blue-abstract-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Arnol Caramel Striped Cotton Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/arnol-caramel-striped-cotton-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Joos Beige Striped Polycotton Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/joos-beige-striped-polycotton-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fran Multicolour Floral Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fran-multicolour-floral-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Robe Blue Vichy Check Cotton Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/robe-blue-vichy-check-cotton-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sandy Purple Wine Glass Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/sandy-purple-wine-glass-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maja Skin Beige Viscose Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/maja-skin-beige-viscose-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Carol Blue Cotton & Viscose Twill Fabric",
+      "source_url": "https://www.thefabricsales.com/products/carol-blue-cotton-viscose-twill-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fybe Green Abstract Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fybe-green-abstract-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Amy Pastel Yellow Bamboo Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/amy-pastel-yellow-bamboo-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Amy Blue Bamboo Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/amy-blue-bamboo-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Arin Gold Viscose & Polyster Glossy Fabric",
+      "source_url": "https://www.thefabricsales.com/products/arin-gold-viscose-polyster-glossy-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Evyn Red & White Palm tree PolyCotton Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/evyn-red-white-palm-tree-polycotton-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lien Off White Floral Cotton Blend Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lien-off-white-floral-cotton-blend-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dana Burgundy Wrinkled Viscose Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/dana-purple-wrinkled-viscose-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Stine Green Abstract Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/stine-green-abstract-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nell Ecru Textured Polyester Jacquard Stretch Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/nell-ecru-textured-polyester-jacquard-stretch-fabric-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Izole Multicolour Floral Silk Satin Fabric Stretch",
+      "source_url": "https://www.thefabricsales.com/products/izole-multicolour-floral-silk-satin-fabric-stretch"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Brent Off White Cotton Shirting Fabric",
+      "source_url": "https://www.thefabricsales.com/products/brent-off-white-cotton-shirting-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Raan Purple Bamboo Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/raan-purple-bamboo-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mary Green Viscose Lining Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mary-green-viscose-lining-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Miek Lilac Purple Striped PolyCotton Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/miek-lilac-purple-striped-polycotton-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dora Blue Swimmer Cotton Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/dora-blue-swimmer-cotton-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Samy Multicolour Print Viscose Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/samy-multicolour-print-viscose-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Gwyn Green Abstract Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/gwyn-green-abstract-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Amy Anthra Green Bamboo Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/amy-anthra-green-bamboo-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Bruno Grey Dot Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/bruno-grey-dot-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Amir Blue Floral Printed Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/amir-blue-floral-printed-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Pia Pink Striped Viscose Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/pia-pink-striped-viscose-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lian Floral Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lian-floral-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mart Orange Viscose Lining Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mart-orange-viscose-lining-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Toon Purple Glossy Coated Cotton Twill Fabric",
+      "source_url": "https://www.thefabricsales.com/products/toon-purple-glossy-coated-cotton-twill-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jana Blue Floral Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jana-blue-floral-viscose-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rosal Black Floral Viscose Jersey Knit Fabric",
+      "source_url": "https://www.thefabricsales.com/products/rosal-black-floral-viscose-jersey-knit-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Arnol Green Striped Cotton Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/arnol-green-striped-cotton-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lien Blue & Beige Abstract Print Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lien-blue-beige-abstract-print-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ritchy Orange & Grey Striped Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ritchy-orange-grey-striped-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Amy Mauve Purple Bamboo Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/amy-mauve-purple-bamboo-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Arnol Blue Striped Cotton Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/arnol-blue-striped-cotton-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jacklin Red Vichy PolyCotton Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jacklin-red-vichy-polycotton-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Carol Old Pink Cotton Viscose Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/carol-old-pink-cotton-viscose-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fybe Burgundy Abstract Print Viscose Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/fybe-burgundy-abstract-print-cotton-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ellis Pink Viscose Satin Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ellis-pink-viscose-satin-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Hillo Green Abstract Polyester Satin Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/hillo-green-abstract-polyester-satin-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Davin Red Floral Viscose Jersey Knit Fabric",
+      "source_url": "https://www.thefabricsales.com/products/davin-red-floral-viscose-jersey-knit-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Saar Sunflower Yellow Viscose Lining Fabric",
+      "source_url": "https://www.thefabricsales.com/products/saar-sunflower-yellow-viscose-lining-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jack Blue Lipstick Polyester Crepe Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jack-blue-lipstick-polyester-crepe-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jo Dark Green Floral Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/jo-dark-green-floral-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Cleo Mint Green Abstract Viscose Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/cleo-mint-green-abstract-viscose-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Naino Ochre Cotton Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/naino-ochre-cotton-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mano Purple Viscose Lining Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mano-purple-viscose-lining-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Cino Pink Striped Cotton Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/cino-pink-striped-cotton-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ellen Ivory White Viscose Satin Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/ellen-ivory-white-viscose-satin-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dean Rust/Blue Pied de Poule Cotton Blend Fabric",
+      "source_url": "https://www.thefabricsales.com/products/dean-rust-blue-pied-de-poule-cotton-blend-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mart Green Floral Cotton Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mart-green-floral-cotton-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Elin Pink Abstract Viscose Fabric",
+      "source_url": "https://www.thefabricsales.com/products/elin-pink-abstract-viscose-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Monik Silver Viscose Polyester Blend Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/monik-silver-viscose-polyester-blend-stretch-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Loran Mint Green Floral Viscose Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/loran-mint-green-floral-viscose-jacquard-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lina Multicolour Check Cotton Canvas Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lina-multicolour-check-cotton-canvas-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tristen Brown Printed Cotton Canvas Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tristen-brown-printed-cotton-canvas-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tino Grey Cat Print Cotton Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/tino-grey-cat-print-cotton-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mon Dark Green Soft Polyester Viscose Twill Stretch Fabric",
+      "source_url": "https://www.thefabricsales.com/products/mon-dark-green-soft-polyester-viscose-twill-stretch"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Yvon Black Viscose Twill Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/yvon-black-viscose-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Cris Aubergine Purple Viscose Satin Fabric",
+      "source_url": "https://www.thefabricsales.com/products/cris-aubergine-purple-viscose-satin"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Colton Off White Viscose Blend Twill Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/colton-off-white-viscose-blend-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "David Ochre Wool Double Face Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/david-ochre-wool-double-face-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Noor Red/Blue Floral Jacquard  Fabric - ONLINE EXCLUSIVE -",
+      "source_url": "https://www.thefabricsales.com/products/noor-red-blue-floral-jacquard-online-exclusive"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Manus Silver Blue Floral PolyCotton Jacquard Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/manus-silver-blue-floral-polycotton-jacquard-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Obel Black & Red Striped PolyCotton Jacquard Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/obel-black-red-striped-polycotton-jacquard-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sine Grayish Blue Silk Satin Stretch Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/sine-grayish-blue-silk-satin-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jamie Camel Wool Blend Searsucker Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jamie-camel-wool-blend-searsucker-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mero Taupe Brown Wool Molton Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/mero-taupe-brown-wool-molton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Pheenix White Polyester Interlining Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/pheenix-white-polyester-interlining-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dina Camel Beige Wool Blend Suiting Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/dina-camel-beige-wool-blend-suiting-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Zieran Dark Grey Wool Suiting Twill Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/zieran-dark-grey-wool-suiting-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Joris Pink Polycotton Stretch Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/joris-pink-polycotton-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "Arell Dark Blue Cotton Tubular Ribbing Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/arell-dark-blue-cotton-tubular-ribbing-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ban Midnight Blue Polyester Wrinkled Velvet Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/ban-midnight-blue-polyester-wrinkled-velvet-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maryn Navy Blue Cotton Twill Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/maryn-navy-blue-cotton-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Charles Navy Pinstriped Wool SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/charles-navy-pinstriped-wool-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Wery Pink Check Wool Blend Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/wery-pink-check-wool-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "David Beige/Brown Check Wool Double Face Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/david-beige-brown-check-wool-double-face-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mitch Taupe Brown Su\u00e8de Touch Stretch Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/mitch-taupe-brown-suede-touch-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Olan White PolyCotton Interlining Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/olan-white-polycotton-interlining-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lucy Light Blue Cotton Stretch Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/lucy-light-blue-cotton-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Asyro Green/Purple Wool Blend Double Face Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/asyro-green-purple-wool-blend-double-face-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ester Dark Green Abstract Virgin Wool Suiting Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/ester-dark-green-abstract-virgin-wool-suiting-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dana Pink Cotton Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/dana-pink-cotton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rona Ivory White Warn Striped Viscose Blend Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/rona-ivory-white-warn-striped-viscose-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Brent Navy Blue Merino Wool Suiting Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/brent-navy-blue-merino-wool-suiting-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Fecy Lime Green & Black Abstract Viscose Linen Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/fecy-lime-green-black-abstract-viscose-linen-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Julie Electric Blue Virgin Wool Fabric Water Resistant SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/julie-electric-blue-virgin-wool-fabric-water-resistant-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lisa Multicolor Printed Silk Georgette Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/lisa-multicolor-printed-silk-georgette-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rone Khaki Cotton Velvet Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/rone-khaki-cotton-velvet-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lena Electric Blue Virgin Wool Suiting Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/lena-electric-blue-virgin-wool-suiting-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Trente Pink Cotton Viscose Lining Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/trente-pink-cotton-viscose-lining-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Braby Powdered Pink Cotton Viscose Lining Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/braby-powdered-pink-cotton-viscose-lining-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Davin Dusty Blue Nylon Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/davin-dusty-blue-nylon-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Milla Ivory White Wool Blend Teddy Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/milla-ivory-white-wool-blend-teddy-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Tha\u00efs Dark Blue Viscose SHOWROOM SAMPLE 34CM X60CM",
+      "source_url": "https://www.thefabricsales.com/products/thais-dark-blue-viscose-showroom-sample-34cm-x60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Patroez Pumkin Orange Cotton Poplin Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/patroez-pumkin-orange-cotton-poplin-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Furyl Pink Abstract Polyester Twill Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/furyl-pink-abstract-polyester-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Myran Black Cotton Voile Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/myran-black-cotton-voile-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Keran Black & Dark Blue Polyester Viscose Stretch Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/keran-black-dark-blue-polyester-viscose-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Steaw Khaki Green Viscose Satin Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/steaw-khaki-green-viscose-satin-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Abel Raspberry Red Wrinkled Wool Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/abel-raspberry-red-wrinkled-wool-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ann Blue Striped Wool Blend Coating Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/ann-blue-striped-wool-blend-coating-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Simon Blue Striped Cotton Stretch Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/simon-blue-striped-cotton-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Stan Blue Abstract Polyester Taffeta SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/stan-blue-abstract-polyester-taffeta-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Flyn Blue Abstract Wool Jacquard Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/flyn-blue-abstract-wool-jacquard-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Marion Ivory White Silk Satin Stretch Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/marion-ivory-white-silk-satin-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ramo Warm Pale Yellow Abstract PolyCotton Jacquard Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/ramo-warm-pale-yellow-abstract-polycotton-jacquard-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Iago Black Silk Voile Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/iago-black-silk-voile-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jana Mustard Yellow Polyester Satin Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jana-mustard-yellow-polyester-satin-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Rina Brown Virgin Wool Fabric Water Resistant SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/rina-brown-virgin-wool-fabric-water-resistant-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lyna Purple Virgin Wool Fabric Water Resistant SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/lyna-purple-virgin-wool-fabric-water-resistant-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Eva Bronze Brown Silk Organza Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/eva-bronze-brown-silk-organza-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Matiss Dark Green Cotton French Terry Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/matiss-dark-green-cotton-french-terry-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jules Black Cotton Viscose Satin Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jules-black-cotton-viscose-satin-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Anri Dark Grey Floral Acrylic Wool Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/anri-dark-grey-floral-acrylic-wool-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ersa Black Cotton Sateen Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/ersa-black-cotton-sateen-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Maron Hunter Green Cotton Linen Blend Fabric  SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/maron-hunter-green-cotton-linen-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Belley Magenta Purple Cotton Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/belley-magenta-purple-cotton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Jinse Black Fluid Viscose Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/jinse-black-fluid-viscose-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Bany Blue Striped Cotton Stretch Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/bany-blue-striped-cotton-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Carys Blue Wool Suiting Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/carys-blue-wool-suiting-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Sanne Vanilla White Knitted PolyCotton Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/sanne-vanilla-white-knitted-polycotton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "D\u00e9sir\u00e9 Stone Grey Nylon Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/desire-stone-grey-nylon-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Damon Off-White Stretch Cotton Twill Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/damon-off-white-stretch-cotton-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lee Powdered Pink Cupro Cotton Blend Satin SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/lee-powdered-pink-cupro-cotton-blend-satin-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Laddie Striped Polyester SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/laddie-striped-polyester-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Mathy Aubergine Silk Chiffon Fabric SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/mathy-aubergine-silk-chiffon-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Caryn Brown Herringbone Wool Cashmere Blend - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/caryn-brown-herringbone-wool-cashmere-blend-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Max Black Structured Cotton Stretch Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/max-black-structured-cotton-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nora Brown Wool Twill Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/nora-brown-wool-twill-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nona Ecru Linen Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/nona-ecru-linen-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Kaleen Orange Viscose Crepe de Chine Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/kaleen-orange-viscose-crepe-de-chine-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Oran Metallic Faux Leather Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/oran-metallic-faux-leather-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Coryn Blush Pink Cotton Jersey Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/coryn-blush-pink-cotton-jersey-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Eric Grayish Blue Check Cotton Blend Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/eric-grayish-blue-check-cotton-blend-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Evine Black Cotton Lining Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/evine-black-cotton-lining-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Irma Greige Virgin Wool Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/irma-greige-virgin-wool-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lut Greige Linen Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/lut-greige-linen-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Samyr Brown Cotton Lining Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/samyr-brown-cotton-lining-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Cage Light Pink Polyester Taffeta Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/cage-light-pink-polyester-taffeta-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Ron White Cotton Voile Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/ron-white-cotton-voile-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nano Beige Cotton Lining Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/nano-beige-cotton-lining-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Swena Ointment Pink Boiled Wool Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/swena-ointment-pink-boiled-wool-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nano Black Polyester Satin Stretch Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/nano-black-polyester-satin-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Manis Pink Floral Cotton Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/manis-pink-floral-cotton-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Flyn Rust Orange Abstract Polyester Jacquard Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/flyn-rust-orange-abstract-polyester-jacquard-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Dorys Blue Check Cotton Twill Stretch Fabric - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/dorys-blue-check-cotton-twill-stretch-fabric-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Pallo Light Blue Virgin Wool Fabric Water Resistant - SHOWROOM SAMPLE 34CM X 60CM",
+      "source_url": "https://www.thefabricsales.com/products/pallo-light-blue-virgin-wool-fabric-water-resistant-showroom-sample-34cm-x-60cm"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Nimo Red Boiled Wool Jersey Fabric",
+      "source_url": "https://www.thefabricsales.com/products/nimo-red-boiled-wool-jersey-fabric"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Lucy Midnight Blue & Black Wood Moir\u00e9 Viscose Blend Jacquard Fabric",
+      "source_url": "https://www.thefabricsales.com/products/lucy-midnight-blue-black-wood-moire-viscose-blend-jacquard"
+    },
+    {
+      "reason": "no frozen type matched",
+      "raw_title": "Aline Grey Striped Cotton Voile Fabric",
+      "source_url": "https://www.thefabricsales.com/products/aline-grey-striped-cotton-voile-fabric"
+    }
+  ]
+}

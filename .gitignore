@@ -1,0 +1,53 @@
+.env
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+exports/
+*.egg-info/
+.DS_Store
+Thumbs.db
+
+# dev-time scratch (gate-fix diagnostics, staged candidate policies, editor settings)
+reports/
+.vscode/
+
+# demo/scratch artifacts (viz pipeline outputs + working files)
+.playwright-mcp/
+viz/data/demo_*.json
+viz/reference/tile_*.png
+viz/reference/crop_*.png
+viz/reference/zone_*.png
+viz/reference/strip_*.png
+viz/reference/*.pdf
+/*.png
+
+# Large re-fetchable validation dataset (Zenodo CC-BY)
+data/validation/madras/Data_Madras.zip
+
+# Dormant PPO crowd engine (superseded by JuPedSim src/crowdsim/) — archived 2026-06-22
+_archive_ppo/
+scripts/viz/_traj_cache.npy
+
+# session scratch (never commit)
+WhatsApp Image*.jpeg
+Recording*.mp4
+*.mp4
+*.prepatch
+rail.md
+audit-welcome.jpeg
+image_bro.webp
+scripts/_*.log
+scripts/viz/_*.log
+scripts/_live_response.json
+scripts/_*.json
+
+# added 2026-10-22: these were untracked-but-not-ignored (node_modules alone is 74 MB)
+node_modules/
+*.db
+*.db-wal
+*.db-shm
+frontend/dist/
+frontend/test-results/
+build/

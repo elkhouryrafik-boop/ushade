@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "key": "render_url",
+      "value": "https://v3b.fal.media/files/b/0a9e7552/Kw4UIGLKnGKtPgIJhRBha_861e64cc596c4add8efaa9648757d249.jpg",
+      "tier": "GROUNDED",
+      "source": "fal.ai FLUX.1 ControlNet render output (Phase 6)",
+      "stage": "render"
+    },
+    {
+      "key": "conditioning_scale",
+      "value": 1.0,
+      "tier": "ASSUMED",
+      "source": "PRD lock \u2014 absolute structural compliance (render matches Rhino geometry)",
+      "stage": "render"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "key": "coverage_pct",
+      "value": 100.0,
+      "tier": "DERIVED",
+      "source": "projected-shadow \u2229 funded priority cells (GATE-01); shadow_polygon_m from Phase-4 geom",
+      "stage": "acceptance_verdict",
+      "unit": "percent",
+      "formula": "100 * shaded_priority / priority"
+    },
+    {
+      "key": "utci_delta_c",
+      "value": 4.8,
+      "tier": "DERIVED",
+      "source": "(1-tau) ideal geometric cooling over the shaded priority cells (GATE-02); ideal_delta ASSUMED",
+      "stage": "acceptance_verdict",
+      "unit": "celsius",
+      "formula": "mean(ideal_delta_c * (1 - tau))",
+      "inputs": [
+        "ideal_delta_c",
+        "solar_transmissivity",
+        "baseline_utci_c"
+      ]
+    },
+    {
+      "key": "baseline_utci_c",
+      "value": 30.993145,
+      "tier": "GROUNDED",
+      "source": "persisted infrared.city no-shade baseline mean over the UTCI grid (utci_grid.json)",
+      "stage": "acceptance_verdict",
+      "unit": "celsius"
+    },
+    {
+      "key": "ideal_delta_c",
+      "value": 8.0,
+      "tier": "ASSUMED",
+      "source": "tau=0 full-shade geometric peak-hour cooling magnitude (Q3); no grounded shaded sim persisted",
+      "stage": "acceptance_verdict",
+      "unit": "celsius"
+    }
+  ]
+}

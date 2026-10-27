@@ -1,0 +1,16 @@
+{
+  "passed_strict_rawmax_gate": false,
+  "passed_distribution_gate": true,
+  "engine_fingerprint": "jupedsim/CollisionFreeSpeedModel;seed=1789;cell=2.0;n=4081;dt=0.05",
+  "reference": "MADRAS Lyon Fete des Lumieres (Zenodo 10.5281/zenodo.13830435, CC-BY 4.0)",
+  "measured_on": "2026-06-22",
+  "scenario": "U-Shade walk-to-attractor-and-dwell, 20 distributed attractors, real Lyon walkable geometry + observed N=4081",
+  "tolerance_rel": 0.5,
+  "fruin_max_people_per_m2": 6.0,
+  "observed":  {"mean_occupied": 0.873, "p50": 0.75, "p90": 1.75, "p99": 2.75, "max": 3.75},
+  "simulated": {"mean_occupied": 0.952, "p50": 0.75, "p90": 1.75, "p99": 4.0,  "max": 5.75},
+  "rel_err":   {"mean_occupied": 0.091, "p90": 0.0, "p99": 0.455, "max": 0.533},
+  "within_tolerance": {"mean_occupied": true, "p90": true, "p99": true, "max": false},
+  "fruin_ok": true,
+  "note": "Distribution (mean/p90/p99) within +/-50% of real measured Lyon festival density; physical Fruin ceiling respected. Fails ONLY the raw single-cell max guard by 3 points (53% vs 50%) - the noisiest statistic, not a literature-standard gate metric. Site-specific spatial allocation at Parc del Forum is NOT validated by this (no open data) and stays ASSUMED."
+}

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>HeatGuard — Primavera 2026 Crowd Simulation (DEMO)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet"/>
+<style>
+  html,body{margin:0;height:100%;font-family:system-ui,Segoe UI,sans-serif;background:#0e1014;color:#eee;overflow:hidden}
+  #map{position:absolute;inset:0}
+  .panel{position:absolute;background:rgba(16,18,24,.93);border:1px solid #2a2e38;border-radius:10px;
+         font-size:12px;line-height:1.45;box-shadow:0 4px 18px rgba(0,0,0,.5)}
+  #controls{left:12px;bottom:12px;padding:10px 12px;width:300px}
+  #controls h1{font-size:14px;margin:0 0 6px}
+  .row{display:flex;align-items:center;gap:8px;margin:6px 0;flex-wrap:wrap}
+  button{background:#1f2430;color:#eee;border:1px solid #39404e;border-radius:7px;padding:6px 10px;
+         font-size:12px;font-weight:600;cursor:pointer}
+  button:hover{background:#2a3140}
+  button.on{background:#16a34a;border-color:#16a34a;color:#fff}
+  #play{background:#16a34a;border-color:#16a34a;color:#fff;min-width:64px}
+  #play.paused{background:#1f2430;border-color:#39404e;color:#eee}
+  input[type=range]{flex:1;accent-color:#22d3ee}
+  label.tog{display:flex;align-items:center;gap:5px;cursor:pointer;font-size:11.5px}
+  #meta{right:12px;top:12px;padding:10px 12px;width:286px;max-height:46%;overflow:auto}
+  #meta h2{font-size:12.5px;margin:0 0 5px;color:#9ca3af;text-transform:uppercase;letter-spacing:.04em}
+  #meta b{color:#fbbf24;font-weight:600}
+  #legend{right:12px;bottom:12px;padding:10px 12px;width:286px}
+  #legend .bar{height:10px;border-radius:3px;margin:3px 0;
+       background:linear-gradient(90deg,#000004,#420a68,#932667,#dd513a,#fca50a,#fcffa4)}
+  .lg-row{display:flex;align-items:center;gap:6px;margin:3px 0;font-size:11px}
+  .sw{width:12px;height:12px;border-radius:3px;flex:0 0 auto}
+  .tlrow{display:flex;align-items:center;gap:8px;margin-top:6px}
+  #tstamp{font-variant-numeric:tabular-nums;color:#22d3ee;min-width:96px;font-size:11px}
+  .warn{color:#fca5a5}
+  .muted{color:#9ca3af}
+  #loading{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+           font-size:15px;color:#9ca3af;background:#0e1014;z-index:20}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="loading">Loading real layout + UTCI + rollout…</div>
+
+<div id="meta" class="panel">
+  <h2>Crowd simulation — DEMO</h2>
+  <div id="metabody" class="muted">…</div>
+</div>
+
+<div id="legend" class="panel">
+  <h2 style="font-size:12.5px;margin:0 0 5px;color:#9ca3af">Legend</h2>
+  <div style="font-size:11px">UTCI (°C) — <span id="utcirange"></span></div>
+  <div class="bar"></div>
+  <div class="lg-row"><span class="sw" style="background:#ff3b3b"></span>agent stopped / slow (dwelling)</div>
+  <div class="lg-row"><span class="sw" style="background:#22d3ee"></span>agent walking</div>
+  <div class="lg-row"><span class="sw" style="background:#f59e0b"></span>stage (indicative ±30 m)</div>
+  <div class="lg-row"><span class="sw" style="background:#22c55e"></span>entrance A / B</div>
+  <div class="lg-row"><span class="sw" style="border:2px solid #a855f7;background:transparent"></span>dwell zone</div>
+</div>
+
+<div id="controls" class="panel">
+  <h1>▶ Playback</h1>
+  <div class="row">
+    <button id="play" class="paused">Play</button>
+    <button class="spd" data-s="1">1×</button>
+    <button class="spd on" data-s="2">2×</button>
+    <button class="spd" data-s="4">4×</button>
+    <span id="tstamp">step 0</span>
+  </div>
+  <div class="tlrow">
+    <input type="range" id="scrub" min="0" max="700" value="0" step="1"/>
+  </div>
+  <div class="row" style="margin-top:8px">
+    <label class="tog"><input type="checkbox" id="t-heat" checked/> Heat</label>
+    <span class="muted">opacity</span>
+    <input type="range" id="heatop" min="0" max="100" value="62" step="1" style="max-width:90px"/>
+  </div>
+  <div class="row">
+    <label class="tog"><input type="checkbox" id="t-dwell" checked/> Dwell zones</label>
+    <label class="tog"><input type="checkbox" id="t-amen"/> Amenities</label>
+    <label class="tog"><input type="checkbox" id="t-block" checked/> Blockers</label>
+  </div>
+  <div id="physnote" class="warn" style="font-size:10.5px;margin-top:4px"></div>
+</div>
+
+<script>
+const RAMP = [  // inferno-ish stops over the REAL UTCI range
+  [0.00,[0,0,4]],[0.20,[66,10,104]],[0.40,[147,38,103]],
+  [0.62,[221,81,58]],[0.82,[252,165,10]],[1.00,[252,255,164]]];
+function rampColor(t){
+  t=Math.max(0,Math.min(1,t));
+  for(let i=1;i<RAMP.length;i++){ if(t<=RAMP[i][0]){
+    const a=RAMP[i-1],b=RAMP[i],f=(t-a[0])/(b[0]-a[0]||1);
+    const c=a[1].map((v,k)=>Math.round(v+f*(b[1][k]-v)));
+    return `rgb(${c[0]},${c[1]},${c[2]})`; }}
+  return 'rgb(252,255,164)';
+}
+function speedColor(s){            // stopped/slow red -> walking cyan
+  const t=Math.max(0,Math.min(1,s/0.6));
+  const r=Math.round(255+t*(34-255)), g=Math.round(59+t*(211-59)), b=Math.round(59+t*(238-59));
+  return `rgb(${r},${g},${b})`;
+}
+
+const map=new maplibregl.Map({
+  container:'map', center:[2.22461,41.40957], zoom:15.1, pitch:0,
+  style:{version:8,
+    glyphs:'https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf',
+    sources:{esri:{type:'raster',
+      tiles:['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+      tileSize:256, attribution:'Imagery © Esri'}},
+    layers:[{id:'esri',type:'raster',source:'esri'}]}
+});
+map.addControl(new maplibregl.NavigationControl());
+
+let DATA={};      // traj, grid, heat, meta, festival, boundary, nogo
+let RUN='v2';
+let frames=[];    // current run's frames: [[lon,lat,speed],...] per step
+let playing=false, t=0, speed=2, lastTs=0;
+
+async function loadAll(){
+  const [traj,grid,heat,meta,fest,bound,nogo]=await Promise.all([
+    fetch('data/demo_trajectories.json').then(r=>r.json()),
+    fetch('data/demo_crowd_grid.json').then(r=>r.json()),
+    fetch('data/demo_heat.json').then(r=>r.json()),
+    fetch('data/demo_meta.json').then(r=>r.json()),
+    fetch('data/festival_map_2026.geojson').then(r=>r.json()),
+    fetch('data/boundary_2026.geojson').then(r=>r.json()),
+    fetch('data/walkable_nogo_2026.geojson').then(r=>r.json()),
+  ]);
+  DATA={traj,grid,heat,meta,fest,bound,nogo};
+  RUN=traj.default || 'v2';
+  document.getElementById('loading').remove();
+  buildStatic();
+  setRun(RUN);
+  fillMeta();
+}
+
+function heatFC(){
+  const cs=DATA.heat.cells, lo=DATA.heat.utci_min_c, hi=DATA.heat.utci_max_c;
+  return {type:'FeatureCollection',features:cs.map(c=>({type:'Feature',
+    properties:{col:rampColor((c.utci_c-lo)/(hi-lo||1))},
+    geometry:{type:'Point',coordinates:[c.lon,c.lat]}}))};
+}
+function dwellFC(){
+  const z=DATA.grid.runs[RUN].dwell_zones||[];
+  return {type:'FeatureCollection',features:z.map(d=>({type:'Feature',properties:{},
+    geometry:{type:'Polygon',coordinates:[d.polygon.concat([d.polygon[0]])]}}))};
+}
+function stageFC(){
+  return {type:'FeatureCollection',features:DATA.fest.features
+    .filter(f=>f.properties.layer==='stage')
+    .map(f=>({type:'Feature',properties:{name:f.properties.name},geometry:f.geometry}))};
+}
+function entranceFC(){
+  return {type:'FeatureCollection',features:DATA.fest.features
+    .filter(f=>f.properties.kind==='entrance')
+    .map(f=>({type:'Feature',properties:{name:f.properties.name.replace(/\s*\(.*$/,'')},geometry:f.geometry}))};
+}
+function amenityFC(){
+  return {type:'FeatureCollection',features:DATA.fest.features
+    .filter(f=>f.properties.layer==='amenity')
+    .map(f=>({type:'Feature',properties:{},geometry:f.geometry}))};
+}
+
+function buildStatic(){
+  const HEAT_CELL_PX=4.0;   // approx cell footprint at zoom 15
+  // heat (square-ish via circle, real data range)
+  map.addSource('heat',{type:'geojson',data:heatFC()});
+  map.addLayer({id:'heat',type:'circle',source:'heat',paint:{
+    'circle-radius':['interpolate',['linear'],['zoom'],13,2,15,5,17,12],
+    'circle-color':['get','col'],'circle-opacity':0.62,'circle-blur':0.35}});
+
+  map.addSource('boundary',{type:'geojson',data:DATA.bound});
+  map.addLayer({id:'boundary-line',type:'line',source:'boundary',
+    paint:{'line-color':'#60a5fa','line-width':2,'line-opacity':0.8}});
+
+  map.addSource('nogo',{type:'geojson',data:DATA.nogo});
+  map.addLayer({id:'nogo-fill',type:'fill',source:'nogo',
+    paint:{'fill-color':'#ef4444','fill-opacity':0.22}});
+
+  map.addSource('amen',{type:'geojson',data:amenityFC()});
+  map.addLayer({id:'amen',type:'circle',source:'amen',layout:{visibility:'none'},
+    paint:{'circle-radius':2.2,'circle-color':'#fff','circle-opacity':0.6,
+           'circle-stroke-color':'#000','circle-stroke-width':0.4}});
+
+  map.addSource('dwell',{type:'geojson',data:dwellFC()});
+  map.addLayer({id:'dwell-line',type:'line',source:'dwell',
+    paint:{'line-color':'#a855f7','line-width':1.6,'line-opacity':0.9}});
+  map.addLayer({id:'dwell-fill',type:'fill',source:'dwell',
+    paint:{'fill-color':'#a855f7','fill-opacity':0.12}});
+
+  // agents
+  map.addSource('agents',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
+  map.addLayer({id:'agents',type:'circle',source:'agents',paint:{
+    'circle-radius':['interpolate',['linear'],['zoom'],14,2.2,16,3.4,18,6],
+    'circle-color':['get','col'],'circle-opacity':0.92,
+    'circle-stroke-color':'#0b0d11','circle-stroke-width':0.4}});
+
+  // stages + labels
+  map.addSource('stages',{type:'geojson',data:stageFC()});
+  map.addLayer({id:'stage-pt',type:'circle',source:'stages',
+    paint:{'circle-radius':5,'circle-color':'#f59e0b','circle-stroke-color':'#000','circle-stroke-width':1}});
+  map.addLayer({id:'stage-lbl',type:'symbol',source:'stages',
+    layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':11,
+            'text-offset':[0,1.1],'text-anchor':'top','text-allow-overlap':false},
+    paint:{'text-color':'#ffe8b0','text-halo-color':'#000','text-halo-width':1.6}});
+
+  // entrances + labels
+  map.addSource('ents',{type:'geojson',data:entranceFC()});
+  map.addLayer({id:'ent-pt',type:'circle',source:'ents',
+    paint:{'circle-radius':7,'circle-color':'#22c55e','circle-stroke-color':'#000','circle-stroke-width':1.4}});
+  map.addLayer({id:'ent-lbl',type:'symbol',source:'ents',
+    layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':12,
+            'text-offset':[0,-1.2],'text-anchor':'bottom'},
+    paint:{'text-color':'#bbf7d0','text-halo-color':'#000','text-halo-width':1.6}});
+
+  document.getElementById('utcirange').textContent=
+    DATA.heat.utci_min_c+'–'+DATA.heat.utci_max_c+' °C';
+}
+
+function setRun(run){
+  RUN=run;
+  frames=DATA.traj.runs[run].frames;
+  t=0;
+  document.getElementById('scrub').max=frames.length-1;
+  document.getElementById('scrub').value=0;
+  if(map.getSource('dwell')) map.getSource('dwell').setData(dwellFC());
+  renderFrame(0);
+  fillMeta();
+}
+
+function lerp(a,b,f){return a+f*(b-a);}
+function renderFrame(idx){
+  const i0=Math.floor(idx), i1=Math.min(i0+1,frames.length-1), f=idx-i0;
+  const A=frames[i0], B=frames[i1];
+  const feats=new Array(A.length);
+  for(let k=0;k<A.length;k++){
+    const lon=lerp(A[k][0],B[k][0],f), lat=lerp(A[k][1],B[k][1],f);
+    const sp=lerp(A[k][2],B[k][2],f);
+    feats[k]={type:'Feature',properties:{col:speedColor(sp)},
+      geometry:{type:'Point',coordinates:[lon,lat]}};
+  }
+  map.getSource('agents').setData({type:'FeatureCollection',features:feats});
+  document.getElementById('tstamp').textContent='step '+i0+' / '+(frames.length-1);
+  document.getElementById('scrub').value=i0;
+}
+
+function tick(ts){
+  if(playing){
+    if(!lastTs) lastTs=ts;
+    const dt=(ts-lastTs)/1000; lastTs=ts;
+    t += dt*6*speed;            // ~6 sim-steps/sec at 1x
+    if(t>=frames.length-1){ t=frames.length-1; playing=false; setPlay(false); }
+    renderFrame(t);
+  } else { lastTs=0; }
+  requestAnimationFrame(tick);
+}
+
+function setPlay(p){
+  playing=p;
+  const b=document.getElementById('play');
+  b.textContent=p?'Pause':'Play'; b.classList.toggle('paused',!p);
+  if(p && t>=frames.length-1){ t=0; }
+}
+
+function fillMeta(){
+  const m=DATA.meta;
+  document.getElementById('metabody').innerHTML=`
+    <div style="color:#fbbf24;font-weight:600;margin-bottom:4px">${m.model} model</div>
+    <div><b>${m.people_represented.toLocaleString()}</b> people @ <b>${m.scale}</b> → N=<b>${m.n_agents}</b> agents</div>
+    <div>seed <b>${m.seed}</b> · policy <b>${m.policy_short_hash}</b></div>
+    <div><b>${m.sim_steps}</b> steps (~${m.sim_minutes_approx} min) · staggered arrivals · real 2026 set-times demand</div>
+    <div><b>${m.n_stages}</b> stages · ${m.n_entrances} entrances · reached stage: <b>${m.reach_pct}%</b> (≤${m.reach_radius_m} m)</div>
+    <div class="muted" style="margin-top:4px">${m.position_accuracy}</div>
+    <div class="warn" style="margin-top:6px;font-size:10.5px;line-height:1.4">${m.honesty_note}</div>
+    <div class="muted" style="font-size:10px;margin-top:4px">UTCI 12–16 h mean, June typical year — real infrared.city data; entire site &lt; 26 °C comfort threshold on this date.</div>`;
+  document.getElementById('physnote').textContent=
+    'V2 site-native: 7-float flow-field obs, real lattice + blockers, demand-weighted goals.';
+}
+
+// --- controls ---
+document.getElementById('play').onclick=()=>setPlay(!playing);
+document.querySelectorAll('.spd').forEach(b=>b.onclick=()=>{
+  speed=+b.dataset.s;
+  document.querySelectorAll('.spd').forEach(x=>x.classList.toggle('on',x===b));
+});
+document.getElementById('scrub').oninput=e=>{ t=+e.target.value; renderFrame(t); };
+document.getElementById('t-heat').onchange=e=>
+  map.setLayoutProperty('heat','visibility',e.target.checked?'visible':'none');
+document.getElementById('heatop').oninput=e=>
+  map.setPaintProperty('heat','circle-opacity',+e.target.value/100);
+document.getElementById('t-dwell').onchange=e=>{
+  const v=e.target.checked?'visible':'none';
+  map.setLayoutProperty('dwell-line','visibility',v);
+  map.setLayoutProperty('dwell-fill','visibility',v);
+};
+document.getElementById('t-amen').onchange=e=>
+  map.setLayoutProperty('amen','visibility',e.target.checked?'visible':'none');
+document.getElementById('t-block').onchange=e=>
+  map.setLayoutProperty('nogo-fill','visibility',e.target.checked?'visible':'none');
+
+map.on('load',()=>{ loadAll().catch(e=>{
+  document.getElementById('loading').textContent='Load error: '+e;
+  console.error(e);
+}); requestAnimationFrame(tick); });
+</script>
+</body>
+</html>

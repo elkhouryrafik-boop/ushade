@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/_defs/crs.schema.json",
+  "title": "crs",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "epsg": "epsg-code"
+  },
+  "description": "Canonical coordinate reference system for the whole pipeline: UTM 31N / EPSG:32631, metres. Every spatial schema $refs $defs/utm31n. Never the ETRS89 zone-31 variant inherited from sibling code.",
+  "$defs": {
+    "utm31n": {
+      "type": "object",
+      "title": "utm31n",
+      "additionalProperties": false,
+      "required": ["epsg", "units"],
+      "properties": {
+        "epsg": { "const": 32631 },
+        "units": { "const": "metre" }
+      }
+    }
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "_meta": {
+    "description": "Per-(material, field) provenance for data/materials.json. GROUNDED=real datasheet/EPD/standard; DERIVED=computed from grounded inputs; DECLARED=honest estimate, no source.",
+    "sourced_at": "2026-06-22",
+    "phase": "CRISP-DM Phase 2 (earn-the-data) + Phase 3 (data prep)"
+  },
+  "fields": {
+    "struct-scaffold-tube-48": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "EN 39 / BS 1139 48.3mm OD x 3.2mm wall = 3.56 kg/m (uniasen.com/standards/en39-scaffolding-tubes)"
+      },
+      "thickness_mm": {
+        "tier": "GROUNDED",
+        "source": "EN 39 Type 3 wall thickness 3.2 mm"
+      },
+      "max_span_meters": {
+        "tier": "DECLARED",
+        "source": "typical scaffold bay 1.8-2.5 m; no canopy load table found"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "GROUNDED",
+        "basis": "buy",
+        "source": "galv steel tube 48.3mm ex-VAT — Klemp/tubefittings.eu (rental ~€0.5-1/m/day, CYPE)"
+      }
+    },
+    "struct-alu-truss-h30v": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "DERIVED",
+        "source": "Global Truss F34 290mm box truss ~6.6 kg/m running (globaltruss.com F34 segments)"
+      },
+      "thickness_mm": {
+        "tier": "GROUNDED",
+        "source": "F34 main chord Ø50x2mm wall (rthgroup F34 TÜV load chart)"
+      },
+      "max_span_meters": {
+        "tier": "DERIVED",
+        "source": "F34 TÜV table supports up to 18 m at light UDL; 12 m used as conservative shade span"
+      },
+      "distance_km": {
+        "tier": "DECLARED",
+        "source": "event-rental surplus on-site post-Primavera (Fòrum); ~0-4 km, not routed"
+      },
+      "cost_per_unit": {
+        "tier": "GROUNDED",
+        "basis": "rental/day",
+        "source": "F34 truss ~€8/m/day — Sonority Barcelona"
+      }
+    },
+    "struct-euro-pallet-epal": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "EPAL official: 'approximately 25 kg' (epal-pallets.org)"
+      },
+      "thickness_mm": {
+        "tier": "GROUNDED",
+        "source": "overall height 144 mm (UIC 435-2); deck boards 22-24 mm"
+      },
+      "max_span_meters": {
+        "tier": "GROUNDED",
+        "source": "pallet length 1200 mm (EPAL)"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "GROUNDED",
+        "basis": "reclaim",
+        "source": "used EPAL Clase B ex-VAT — Conrasmia"
+      }
+    },
+    "struct-heras-fence-panel": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "Hermeq anti-climb mesh panel ~17 kg (hermeq.com)"
+      },
+      "thickness_mm": {
+        "tier": "GROUNDED",
+        "source": "frame tube Ø38mm (Crowd Control Solutions Heras spec)"
+      },
+      "max_span_meters": {
+        "tier": "GROUNDED",
+        "source": "panel width 3.5 m = single span"
+      },
+      "distance_km": {
+        "tier": "DECLARED",
+        "source": "event-security rental, Barcelona; not routed to Fòrum"
+      },
+      "cost_per_unit": {
+        "tier": "GROUNDED",
+        "basis": "buy",
+        "source": "new mobile fence panel ex-VAT — Rentaire (hire ~€0.16/day, Comercial F3)"
+      }
+    },
+    "struct-stadium-chair": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "FORZA moulded HDPE bucket seat 7.5 kg (networldsports.co.uk)"
+      },
+      "thickness_mm": {
+        "tier": "DECLARED",
+        "source": "shell wall estimate; not on datasheet"
+      },
+      "max_span_meters": {
+        "tier": "DECLARED",
+        "source": "seat width, not a span"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "DECLARED",
+        "basis": "buy",
+        "source": "€5-12/seat wholesale; EU makers quote-only, Alibaba behind JS widget"
+      }
+    },
+    "membr-pvc-billboard-vinyl": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "Innotech Vistaflex SC450 frontlit PVC banner 450 g/m² (innotechdigital.com)"
+      },
+      "thickness_mm": {
+        "tier": "GROUNDED",
+        "source": "SC450 360 microns"
+      },
+      "solar_transmissivity": {
+        "tier": "DERIVED",
+        "source": "SC450 opacity 99% -> transmissivity 0.01 (near-blockout)"
+      },
+      "max_span_meters": {
+        "tier": "DECLARED",
+        "source": "must be tensioned to frame/cables; not self-spanning"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "DECLARED",
+        "basis": "reclaim",
+        "source": "reclaimed printer-waste banner ≈ free; new printed ~€5.99/m² (SelfPrinting.es)"
+      }
+    },
+    "membr-hdpe-shade-net": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "Gale Commercial NinetyFive 340 g/m² (galecommercial.com)"
+      },
+      "thickness_mm": {
+        "tier": "DECLARED",
+        "source": "monofilament HDPE knit ~0.6-1.0 mm; not published"
+      },
+      "solar_transmissivity": {
+        "tier": "DERIVED",
+        "source": "agricultural mid-grade ~60% shade; knit-selectable 0.05-0.55 (shademesh.org / Coolaroo)"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "GROUNDED",
+        "basis": "buy",
+        "source": "90% raschel shade net cut-to-size — Sectoruno.es/Imp.Mugar"
+      }
+    },
+    "membr-recycled-pe-tarp": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "Alpinter/IFRC Eco-Design Tarpaulin 170 g/m² (ISO 3801), >=15% recycled PE — alpinter.com / itemscatalogue.redcross.int"
+      },
+      "thickness_mm": {
+        "tier": "DERIVED",
+        "source": "~220-250 gsm woven+laminated PE ≈ 12 mil ≈ 0.30 mm"
+      },
+      "solar_transmissivity": {
+        "tier": "DERIVED",
+        "source": "opaque laminated woven PE -> blockout"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "GROUNDED",
+        "basis": "buy",
+        "source": "woven PE tarp 90-140 g/m² €0.83-1.07/m² — Traxco.es"
+      }
+    },
+    "membr-pe-yacht-shrinkwrap": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "DERIVED",
+        "source": "7-mil (178 µm) LDPE x 0.95 g/cm³ = 169 g/m² (Marine Products Direct)"
+      },
+      "thickness_mm": {
+        "tier": "GROUNDED",
+        "source": "7 mil = 177.8 µm standard boat shrink-wrap"
+      },
+      "solar_transmissivity": {
+        "tier": "DERIVED",
+        "source": "white pigmented reflective LDPE, translucent-opaque; no measured % (Eagle Industries UVI film)"
+      },
+      "max_span_meters": {
+        "tier": "DECLARED",
+        "source": "non-structural; spans only over a frame"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "DECLARED",
+        "basis": "reclaim",
+        "source": "reclaimed marina spring-strip waste ≈ free; new ~€1.45/m² (Wholesale Marine)"
+      }
+    },
+    "membr-pp-festival-carpet": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "DERIVED",
+        "source": "Alpha-Tex Expo-Rips B1 base 380 + pile 360 = 740 g/m² (alpha-tex.com)"
+      },
+      "thickness_mm": {
+        "tier": "GROUNDED",
+        "source": "Expo-Rips B1 material thickness 3.5 mm"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "GROUNDED",
+        "basis": "buy",
+        "source": "100% PP B1 expo carpet — allbuyone (EU)"
+      }
+    },
+    "struct-reclaimed-steel-ibeam": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "IPE 200 section 22.4 kg/m (EN 10365 / eurocodeapplied.com)"
+      },
+      "thickness_mm": {
+        "tier": "GROUNDED",
+        "source": "IPE 200 web 5.6 mm (flange 8.5 mm)"
+      },
+      "max_span_meters": {
+        "tier": "DECLARED",
+        "source": "~L/20 depth rule for light canopy; confirm by calc"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "DERIVED",
+        "basis": "reclaim",
+        "source": "reuse ~25-50% of new €52.52/m (Maison du Fer); scrap floor €0.32/kg (ScrapMonster)"
+      }
+    },
+    "struct-corten-container-panel": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "DERIVED",
+        "source": "1.6-2.0 mm COR-TEN sheet 12.6-15.7 kg/m² + corrugation factor (themetalstore / makeitfrom S355J2W)"
+      },
+      "thickness_mm": {
+        "tier": "GROUNDED",
+        "source": "standard dry-container side gauge 1.6 mm (Teda Ganghua SPA-H panel)"
+      },
+      "max_span_meters": {
+        "tier": "DECLARED",
+        "source": "conservative purlin spacing for loaded panel; no profile load table"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "DERIVED",
+        "basis": "reclaim",
+        "source": "used 20ft container side resale — Tarraco Containers ES"
+      }
+    },
+    "membr-marine-sailcloth": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "extremtextil Dacron woven polyester 170 g/m² (= 5.01 oz/yd²)"
+      },
+      "thickness_mm": {
+        "tier": "DECLARED",
+        "source": "~5 oz cloth estimate from areal mass + PES density"
+      },
+      "solar_transmissivity": {
+        "tier": "DERIVED",
+        "source": "resin-filled tight weave, 'completely windproof', near-opaque; no measured %"
+      },
+      "max_span_meters": {
+        "tier": "DECLARED",
+        "source": "indicative tensioned reclaimed-sail canopy"
+      },
+      "waterproof": {
+        "tier": "GROUNDED",
+        "source": "extremtextil: 'windproof but not waterproof'"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "GROUNDED",
+        "basis": "reclaim",
+        "source": "reclaimed sails ≈ free (North Sails trade-in / 727 Sailbags); virgin Dacron ~€12.5/m²"
+      }
+    },
+    "membr-pp-cargo-net": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "HDPE/PP net 55 g/m² at 55%-shade grade (shademesh.org spec table)"
+      },
+      "thickness_mm": {
+        "tier": "DECLARED",
+        "source": "open knit mesh; sub-mm monofilament, no flat thickness"
+      },
+      "solar_transmissivity": {
+        "tier": "DERIVED",
+        "source": "55%-shade grade -> 1-0.55 = 0.45 (shademesh.org)"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "GROUNDED",
+        "basis": "buy",
+        "source": "cargo net 1.8mm/30mm ex-VAT — Safetynet365 (EU)"
+      }
+    },
+    "membr-recycled-hdpe-sheet": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "GROUNDED",
+        "source": "0.95 g/cm³ x 4 mm = 3.8 kg/m² (S-Polytec PE-HD Regenerat, 100% recycled / Simply Plastics PE300)"
+      },
+      "thickness_mm": {
+        "tier": "GROUNDED",
+        "source": "4 mm extruded recycled HDPE sheet"
+      },
+      "solar_transmissivity": {
+        "tier": "GROUNDED",
+        "source": "opaque solid sheet"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "DERIVED",
+        "basis": "buy",
+        "source": "recycled HDPE 4mm scaled from 6mm — Kedel UK; ES spot €25-40/m²"
+      }
+    },
+    "membr-recycled-shade-cloth": {
+      "transport_mode_factor": {
+        "tier": "GROUNDED",
+        "source": "DEFRA/DESNZ 2024 GHG conversion factors, 'Freighting goods', All HGVs average laden = 0.09752 kgCO2e/tonne.km — https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2024"
+      },
+      "unit_mass_kg": {
+        "tier": "DERIVED",
+        "source": "Polyfab Architec 400 monofilament knit 407 g/m² (virgin-equivalent; recycled-content DECLARED)"
+      },
+      "thickness_mm": {
+        "tier": "DECLARED",
+        "source": "400 gsm HDPE knit ~1.0-1.4 mm; not on datasheet"
+      },
+      "solar_transmissivity": {
+        "tier": "DERIVED",
+        "source": "representative knit shade ~75%; datasheet range 0.03-0.34 (Polyfab Architec 400)"
+      },
+      "max_span_meters": {
+        "tier": "DECLARED",
+        "source": "'span as determined by engineer'; no number printed"
+      },
+      "distance_km": {
+        "tier": "DERIVED",
+        "source": "OSRM driving route, supplier-town centroid -> Parc del Fòrum (router.project-osrm.org), fetched 2026-06-22"
+      },
+      "cost_per_unit": {
+        "tier": "GROUNDED",
+        "basis": "buy",
+        "source": "HDPE monofil 80% shade cut-to-size — Macoglass ES (certified-recycled architectural ~€8-25/m², quote-only)"
+      }
+    }
+  }
+}

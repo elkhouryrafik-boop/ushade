@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/provenance_ledger/1.0.0",
+  "title": "provenance_ledger",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "value": "per-entry (see entry.unit)"
+  },
+  "description": "Cross-cutting provenance ledger (CONTRACT-06). An array of tagged entries; every reported number carries a tier (GROUNDED/DERIVED/ASSUMED/INVENTED) + source. crowd_density and every carbon number ship pre-labelled ASSUMED by contract (CLAUDE.md non-negotiable). The ledger object wraps schema_version + the entries array so the artifact carries its version like every other contract.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "entries"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "entries": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entry" }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "value", "tier", "source", "stage"],
+      "properties": {
+        "key": { "type": "string", "minLength": 1 },
+        "value": {},
+        "unit": { "type": "string" },
+        "tier": { "enum": ["GROUNDED", "DERIVED", "ASSUMED", "INVENTED"] },
+        "source": { "type": "string", "minLength": 1 },
+        "formula": { "type": "string" },
+        "inputs": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "stage": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

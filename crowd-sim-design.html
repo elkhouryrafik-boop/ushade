@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HeatGuard — Crowd Simulator Design</title>
+<style>
+  :root{
+    --bg:#0a0e14; --panel:#111824; --ink:#e6edf3; --dim:#8b9bb0;
+    --hot:#ff6b4a; --cool:#39c2d7; --good:#3ddc84; --warn:#ffd23f; --bad:#ff5470;
+    --line:#1e2a3a; --accent:#7c5cff;
+    --mono:'SF Mono',ui-monospace,'Cascadia Code',Consolas,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);overflow:hidden}
+  #deck{height:100vh;width:100vw;position:relative}
+  .slide{position:absolute;inset:0;padding:6vh 8vw;display:none;flex-direction:column;
+    justify-content:center;animation:fade .4s ease}
+  .slide.on{display:flex}
+  @keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  .kicker{font-family:var(--mono);font-size:.8rem;letter-spacing:.25em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:1.2rem}
+  h1{font-size:3.4rem;line-height:1.05;font-weight:800;letter-spacing:-.02em;margin-bottom:1rem}
+  h2{font-size:2.2rem;line-height:1.1;font-weight:700;letter-spacing:-.01em;margin-bottom:1.4rem}
+  h2 .n{color:var(--accent);font-family:var(--mono);font-size:1.4rem;margin-right:.6rem}
+  p.lead{font-size:1.35rem;color:var(--dim);max-width:46ch;line-height:1.5}
+  ul{list-style:none;display:flex;flex-direction:column;gap:.9rem;margin-top:.5rem}
+  li{font-size:1.18rem;line-height:1.45;padding-left:1.6rem;position:relative;max-width:62ch}
+  li::before{content:"▸";position:absolute;left:0;color:var(--accent)}
+  .grid{display:grid;gap:1rem;margin-top:.5rem}
+  .g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:1fr 1fr 1fr}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1.3rem 1.4rem}
+  .card h3{font-size:1.05rem;margin-bottom:.5rem;display:flex;align-items:center;gap:.5rem}
+  .card p{font-size:.98rem;color:var(--dim);line-height:1.45}
+  .tag{font-family:var(--mono);font-size:.72rem;padding:.15rem .5rem;border-radius:6px;font-weight:600}
+  .t-good{background:rgba(61,220,132,.14);color:var(--good)}
+  .t-bad{background:rgba(255,84,112,.14);color:var(--bad)}
+  .t-warn{background:rgba(255,210,63,.14);color:var(--warn)}
+  .t-acc{background:rgba(124,92,255,.16);color:#b9a5ff}
+  code,.mono{font-family:var(--mono)}
+  .codeblock{background:#070b11;border:1px solid var(--line);border-radius:12px;padding:1.2rem 1.4rem;
+    font-family:var(--mono);font-size:1.05rem;line-height:1.7;color:var(--ink);margin-top:.4rem;max-width:60ch}
+  .codeblock .c{color:var(--dim)}
+  .codeblock .hot{color:var(--hot)}.codeblock .cool{color:var(--cool)}.codeblock .acc{color:#b9a5ff}
+  .flow{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.8rem;font-family:var(--mono);font-size:.95rem}
+  .flow .step{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.6rem .9rem}
+  .flow .arr{color:var(--accent);font-size:1.2rem}
+  .kpi{display:flex;gap:2.5rem;margin-top:1.2rem;flex-wrap:wrap}
+  .kpi .k{display:flex;flex-direction:column}
+  .kpi .v{font-size:2.4rem;font-weight:800;font-family:var(--mono);letter-spacing:-.02em}
+  .kpi .l{font-size:.85rem;color:var(--dim);margin-top:.2rem}
+  .obsrow{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem}
+  .obsrow .o{font-family:var(--mono);font-size:.9rem;background:var(--panel);border:1px solid var(--line);
+    border-radius:8px;padding:.5rem .7rem}
+  .obsrow .o.new{border-color:var(--accent);color:#b9a5ff}
+  .foot{position:absolute;bottom:3vh;left:8vw;right:8vw;display:flex;justify-content:space-between;
+    align-items:center;font-family:var(--mono);font-size:.78rem;color:var(--dim)}
+  .dots{display:flex;gap:.4rem}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--line);transition:.2s}
+  .dot.on{background:var(--accent);transform:scale(1.3)}
+  .hint{opacity:.6}
+  .big2{font-size:1.5rem;line-height:1.5;max-width:54ch;color:var(--ink)}
+  .em{color:var(--hot);font-weight:700}.em2{color:var(--cool);font-weight:700}
+  .split{display:grid;grid-template-columns:1.1fr 1fr;gap:2.5rem;align-items:center}
+  .note{font-size:.95rem;color:var(--dim);margin-top:1rem;font-style:italic}
+</style>
+</head>
+<body>
+<div id="deck">
+
+  <!-- 1 TITLE -->
+  <section class="slide on">
+    <div class="kicker">HeatGuard · Phase 2b / 2.1</div>
+    <h1>How the Crowd<br>Simulator Was Built</h1>
+    <p class="lead">A real Deep-RL pedestrian model that produces the crowd-density field — the demand half of the crowd×heat coupling that decides where shade goes.</p>
+    <div class="kpi">
+      <div class="k"><span class="v" style="color:var(--good)">650</span><span class="l">agents (capacity ÷ 100)</span></div>
+      <div class="k"><span class="v" style="color:var(--cool)">834×918</span><span class="l">m · real Parc del Fòrum</span></div>
+      <div class="k"><span class="v" style="color:var(--accent)">PPO</span><span class="l">Stable-Baselines3, seed 1789</span></div>
+    </div>
+  </section>
+
+  <!-- 2 GOAL -->
+  <section class="slide">
+    <h2><span class="n">01</span>What it has to produce</h2>
+    <p class="big2">A per-cell <span class="em2">crowd_density</span> field, snapped exactly to the UTCI heat lattice (6 m cells), so the greedy/MCLP core can multiply <span class="mono">density × (UTCI − 26)</span> and find where the crowd is hottest <em>and</em> busiest.</p>
+    <ul style="margin-top:1.4rem">
+      <li><b>density</b> per cell — on one documented scale</li>
+      <li><b>dwell_zones</b> — where people stand still (DBSCAN over near-zero-velocity cells)</li>
+      <li><b>flow_vectors</b> — the invisible highways between gates and stages</li>
+    </ul>
+    <p class="note">Hard rule: the model runs <b>inference only</b> on the pipeline. Training is a one-time, off-path regeneration script.</p>
+  </section>
+
+  <!-- 3 ARCHITECTURE -->
+  <section class="slide">
+    <h2><span class="n">02</span>The core idea: one shared brain, N bodies</h2>
+    <div class="split">
+      <div>
+        <p class="big2"><span class="em">Decentralised</span>, shared-policy crowd RL (CADRL-style). One small MLP policy. Every agent observes its <b>own</b> local world and the <b>same</b> policy maps that to its action.</p>
+        <p class="note">This is the only design where the pedestrian fundamental diagram (speed falls with density) can <em>physically emerge</em> — each agent must individually slow when its own neighbourhood jams.</p>
+      </div>
+      <div class="card">
+        <h3><span class="tag t-acc">SB3 trick</span></h3>
+        <p>SB3 trains <b>one ego agent</b> (single-agent gym contract) among a reactive moving crowd. At runtime the <b>same learned policy</b> is applied per-agent to all 650 via <code>step_all</code> → the emergent congestion response fires.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 OBS/ACTION -->
+  <section class="slide">
+    <h2><span class="n">03</span>What an agent sees & does</h2>
+    <p class="lead" style="font-size:1.1rem">Observation — a 7-float scale-free vector, per agent:</p>
+    <div class="obsrow">
+      <span class="o">own_vx</span><span class="o">own_vy</span>
+      <span class="o new">flow_dx</span><span class="o new">flow_dy</span><span class="o new">log_goal_dist</span>
+      <span class="o">local_density</span><span class="o">near_dx</span>
+    </div>
+    <div class="grid g2" style="margin-top:1.4rem">
+      <div class="card"><h3>Action</h3><p><code>[vx, vy]</code> continuous, clipped to ±V_MAX = <b>1.34 m/step</b> (human walking speed).</p></div>
+      <div class="card"><h3>Reward <span class="tag t-acc">verbatim PRD</span></h3><p><code>+10</code> reach goal · <code>−5</code> step on a UTCI&gt;26 °C cell · <code>−2</code> per neighbour &lt;0.5 m · + potential-based goal-progress shaping (policy-invariant, Ng 1999).</p></div>
+    </div>
+  </section>
+
+  <!-- 5 THE V2 FIX -->
+  <section class="slide">
+    <h2><span class="n">04</span>The fix that made it work on the real site</h2>
+    <div class="split">
+      <div>
+        <p class="big2">V1 fed the policy the <span class="em">raw goal offset</span> — unbounded, up to 600 m on the real venue. The policy never trained on values that big → <b>out-of-distribution</b> → only <span class="em">0.8%</span> of agents reached their stage.</p>
+      </div>
+      <div>
+        <p class="big2" style="margin-bottom:1rem">V2 replaced it with a <span class="em2">bounded, scale-free</span> cue:</p>
+        <div class="codeblock">
+<span class="c"># raw, unbounded — the OOD trap</span>
+goal_dx, goal_dy  <span class="hot">→ up to ±600</span>
+
+<span class="c"># bounded flow-field cue</span>
+flow_dx, flow_dy  <span class="cool">∈ [−1, 1]</span>
+log_goal_dist     <span class="cool">log-compressed</span></div>
+      </div>
+    </div>
+    <p class="note">"Train local, deploy global": the policy's whole job shrinks to local collision/congestion physics — which is scale-free — so a tiny corridor transfers to the 834 m site by construction.</p>
+  </section>
+
+  <!-- 6 FLOW FIELD -->
+  <section class="slide">
+    <h2><span class="n">05</span>The router: a BFS flow field</h2>
+    <p class="big2">The agent doesn't navigate the whole venue. A deterministic <span class="em2">BFS wavefront</span> from each stage precomputes, per cell, a unit vector "this way to the stage" + a geodesic distance — routed <em>around</em> the 11.5k impassable building cells.</p>
+    <div class="flow">
+      <span class="step">gate spawn</span><span class="arr">→</span>
+      <span class="step">read local flow vector</span><span class="arr">→</span>
+      <span class="step">policy picks speed</span><span class="arr">→</span>
+      <span class="step">Weidmann caps it</span><span class="arr">→</span>
+      <span class="step">stage</span>
+    </div>
+    <p class="note">Global routing = deterministic flow field. Local physics = learned policy. Clean separation — the policy never has to solve the maze.</p>
+  </section>
+
+  <!-- 7 WEIDMANN -->
+  <section class="slide">
+    <h2><span class="n">06</span>The physics: Weidmann speed–density law</h2>
+    <div class="split">
+      <div>
+        <p class="big2">The policy <em>wants</em> a velocity; physics <em>caps</em> it. Each agent's max forward speed falls with its local crowd density along the cited Weidmann/NKW curve — so it can't teleport through a packed crowd.</p>
+        <div class="codeblock" style="font-size:.95rem">
+v(ρ) = V0·(1 − e<span class="acc">^(−γ(1/ρ − 1/ρ_max))</span>)
+<span class="c">V0=1.34 m/s · ρ_max=5.4 · γ=1.913</span></div>
+      </div>
+      <div class="card">
+        <h3><span class="tag t-good">GATE 1 · PASS</span> Fundamental Diagram</h3>
+        <p>Emergent speed vs density, measured in a periodic corridor, must sit within <b>±20%</b> of Weidmann (LOCKED, never tuned).</p>
+        <div class="kpi" style="margin-top:1rem">
+          <div class="k"><span class="v" style="font-size:1.5rem;color:var(--good)">1.5%</span><span class="l">ρ=0.5</span></div>
+          <div class="k"><span class="v" style="font-size:1.5rem;color:var(--good)">14.0%</span><span class="l">ρ=2.0</span></div>
+          <div class="k"><span class="v" style="font-size:1.5rem;color:var(--good)">13.7%</span><span class="l">ρ=4.0</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8 TRAINING -->
+  <section class="slide">
+    <h2><span class="n">07</span>Training: a 3-strip curriculum</h2>
+    <p class="lead" style="font-size:1.1rem">No full-site episodes — three tiny synthetic strips, ~30 min CPU, additive.</p>
+    <div class="grid g3" style="margin-top:1.2rem">
+      <div class="card"><h3>1 · Flow-follow <span class="tag t-acc">120k</span></h3><p>Open field, goals in 4 directions, 40 streaming agents. Teaches the policy to <b>follow the flow vector</b> wherever it points.</p></div>
+      <div class="card"><h3>2 · Elbow <span class="tag t-acc">100k</span></h3><p>One L-bend obstacle. The flow vector <b>rotates</b> +x→+y, so the policy learns to track a turning cue around buildings.</p></div>
+      <div class="card"><h3>3 · Corridor FD <span class="tag t-acc">50k</span></h3><p>Periodic strip, density 16→260 agents. Re-asserts the Weidmann speed–density physics so the FD gate stays green.</p></div>
+    </div>
+    <p class="note">Policy = 64×64 MLP · 138 KB · committed to git (no LFS) · seed 1789 logged as provenance.</p>
+  </section>
+
+  <!-- 9 SITE RUNTIME -->
+  <section class="slide">
+    <h2><span class="n">08</span>Runtime on the real venue</h2>
+    <ul>
+      <li><b>650 agents</b> spawn at two real gates — A (general, 85%) / B (VIP, 15%) — over a <b>staggered 300-step window</b>, so flow reads as real entrance highways, not one pulse.</li>
+      <li><b>Demand-weighted goals</b> — each agent assigned a stage by capacity-class × headliner popularity (from the digitized 2026 line-up).</li>
+      <li><b>Buildings are impassable</b> — any agent landing in a blocked cell is reverted every step (PRD literal).</li>
+      <li><b>1400 deterministic steps</b> (sized to the measured 766 m farthest-stage geodesic). Same seed → byte-identical field.</li>
+    </ul>
+  </section>
+
+  <!-- 10 OUTPUT -->
+  <section class="slide">
+    <h2><span class="n">09</span>From trajectories to the density field</h2>
+    <div class="flow">
+      <span class="step">1400×650×4 trajectory</span><span class="arr">→</span>
+      <span class="step">snap to UTCI 6 m lattice</span><span class="arr">→</span>
+      <span class="step">DBSCAN dwell zones</span><span class="arr">→</span>
+      <span class="step">flow vectors</span><span class="arr">→</span>
+      <span class="step">crowd_grid.json</span>
+    </div>
+    <p class="big2" style="margin-top:1.6rem">Output is validated against a frozen JSON-Schema contract and snapped <b>byte-exact</b> to the heat lattice — the greedy/MCLP core consumes it with zero changes.</p>
+    <p class="note">Provenance: <code>crowd_density</code> is tagged <b>DERIVED</b> — but only after the Weidmann benchmark passed, bound to the policy's SHA-256 (spoof-proof).</p>
+  </section>
+
+  <!-- 11 GATES / HONESTY -->
+  <section class="slide">
+    <h2><span class="n">10</span>Two gates — one green, one open</h2>
+    <div class="grid g2">
+      <div class="card">
+        <h3><span class="tag t-good">PASS</span> Weidmann FD ±20%</h3>
+        <p>The physics is validated — emergent speed–density reproduces the cited pedestrian curve at three densities. <code>crowd_density</code> earned DERIVED on this.</p>
+      </div>
+      <div class="card">
+        <h3><span class="tag t-bad">OPEN</span> Stage-reach ≥70%</h3>
+        <p>Measured <b>54.8%</b> (356/650). 14 of 19 stages hit 95–100%; the deficit is 3 far stages at ~0%. Routing stays labelled <b>ASSUMED-grade</b> until fixed.</p>
+      </div>
+    </div>
+    <p class="big2" style="margin-top:1.4rem">Diagnosed cause: a lateral dispersal force built for the FD <em>measurement</em> corridor <span class="em">leaks into the live site</span> and mills the long-haul streams to far stages. <span class="em2">A fix is staged; the rollout adjudicates next.</span></p>
+  </section>
+
+  <!-- 12 CLOSE -->
+  <section class="slide">
+    <div class="kicker">Summary</div>
+    <h1 style="font-size:2.6rem">One shared policy.<br>Real physics. Honest gates.</h1>
+    <div class="grid g3" style="margin-top:1.6rem">
+      <div class="card"><h3>Decentralised PPO</h3><p>Per-agent obs, shared brain — the only way the fundamental diagram emerges.</p></div>
+      <div class="card"><h3>Scale-free obs</h3><p>Bounded flow-field cue beats the V1 OOD trap (0.8% → 54.8%).</p></div>
+      <div class="card"><h3>Provenance-gated</h3><p>Density is DERIVED only after a locked benchmark; routing stays honest until proven.</p></div>
+    </div>
+    <p class="note" style="margin-top:1.4rem">It never designs. It never claims optimal crowds. It produces a falsifiable density field — and labels exactly how much to trust it.</p>
+  </section>
+
+</div>
+
+<div class="foot">
+  <span>HeatGuard — Crowd Simulator Design</span>
+  <div class="dots" id="dots"></div>
+  <span class="hint">← → / space to navigate</span>
+</div>
+
+<script>
+  const slides=[...document.querySelectorAll('.slide')];
+  const dots=document.getElementById('dots');
+  let i=0;
+  slides.forEach((_,k)=>{const d=document.createElement('div');d.className='dot'+(k===0?' on':'');dots.appendChild(d);});
+  const dotEls=[...dots.children];
+  function go(n){
+    i=Math.max(0,Math.min(slides.length-1,n));
+    slides.forEach((s,k)=>s.classList.toggle('on',k===i));
+    dotEls.forEach((d,k)=>d.classList.toggle('on',k===i));
+  }
+  document.addEventListener('keydown',e=>{
+    if(e.key==='ArrowRight'||e.key===' '||e.key==='PageDown'){e.preventDefault();go(i+1);}
+    if(e.key==='ArrowLeft'||e.key==='PageUp'){e.preventDefault();go(i-1);}
+    if(e.key==='Home')go(0); if(e.key==='End')go(slides.length-1);
+  });
+  document.addEventListener('click',e=>{ if(e.clientX < window.innerWidth*0.25) go(i-1); else go(i+1); });
+</script>
+</body>
+</html>

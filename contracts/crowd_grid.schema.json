@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/crowd_grid/1.0.0",
+  "title": "crowd_grid",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "x_m": "metre",
+    "y_m": "metre",
+    "crowd_density_agents_per_cell": "agents-per-cell"
+  },
+  "description": "Phase 2b DRL crowd-density field. $refs the SAME master lattice as utci_grid (CONTRACT-03). crowd_density_agents_per_cell is ASSUMED until PPO weights are validated (Phase 2b). flow_vectors feed gh_request.IN_FlowVectors.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "crs", "lattice", "cells"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "crs": { "$ref": "https://heatguard/contracts/_defs/crs.schema.json#/$defs/utm31n" },
+    "lattice": { "$ref": "https://heatguard/contracts/_defs/lattice.schema.json" },
+    "cells": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/cell" }
+    },
+    "dwell_zones": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/dwell_zone" }
+    },
+    "flow_vectors": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/flow_vector" }
+    }
+  },
+  "$defs": {
+    "cell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x_m", "y_m", "crowd_density_agents_per_cell"],
+      "properties": {
+        "x_m": { "type": "number" },
+        "y_m": { "type": "number" },
+        "crowd_density_agents_per_cell": { "type": "number", "minimum": 0 }
+      }
+    },
+    "point_m": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x_m", "y_m"],
+      "properties": {
+        "x_m": { "type": "number" },
+        "y_m": { "type": "number" }
+      }
+    },
+    "dwell_zone": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["polygon"],
+      "properties": {
+        "polygon": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/point_m" },
+          "minItems": 3
+        }
+      }
+    },
+    "flow_vector": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["origin", "destination"],
+      "properties": {
+        "origin": { "$ref": "#/$defs/point_m" },
+        "destination": { "$ref": "#/$defs/point_m" }
+      }
+    }
+  }
+}

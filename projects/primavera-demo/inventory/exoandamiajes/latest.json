@@ -1,0 +1,661 @@
+{
+  "schema_version": "1.0.0",
+  "source_id": "exoandamiajes",
+  "source_url": "https://www.exoandamiajes.com",
+  "fetched_at": "2026-06-22T10:28:28.622961+00:00",
+  "status": "live",
+  "provenance_tier": "GROUNDED",
+  "listings": [
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco/fachada-102m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco/fachada-150m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco/fachada-115-5-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco/fachada-210-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco/fachada-300-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco/fachada-410-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco/fachada-495-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco/fachada-1025-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco/lote-de-andamio-europeo-r75-en-2-5ml",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco/lote-andamio-r75-europeo-homologado",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional/102-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional/105-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional/150-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional/210-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional/362-50-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional/512-50-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional/975-m2",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional/fachada-10ml-x-10-50-h-lote-de-andamio-multidireccional-en-2-5ml",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-2ml-x-3h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-2-5ml-x-3h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-3ml-x-3h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-2-5ml-x-5h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-3ml-x-5h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-2ml-x-7h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-2-5ml-x-7h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-movil-andamio-europeo-de-marco-2ml-x-3h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-movil-andamio-europeo-de-marco-2-5ml-x-3h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-movil-andamio-europeo-de-marco-3ml-x-3h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-3ml-x-7h-con-amarre",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-2ml-x-5h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-2-5ml-x-5h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-3ml-x-5h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-andamio-de-marco/torre-fija-andamio-marco-2ml-x-5h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-2ml-x-3h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-2-5ml-x-3h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-2-5ml-x-5h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-2ml-x-5h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-2-5ml-x-5h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-3ml-x-5h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-2ml-x-7h-con-amarre",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-2-5ml-x-7h-con-amarre",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-3ml-x-7h-con-amarre",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-2ml-x-3h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-2-5ml-x-3h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-2ml-x-5h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-3ml-x-3h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-3ml-x-5h-con-ruedas",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/torres-fijas-moviles/torres-fijas-moviles-de-andamio-multidireccional/torre-fija-andamio-multidireccional-3ml-x-3h",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/moviles-de-aluminio",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/moviles-de-aluminio/andamios-moviles-con-estabilizadores",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/moviles-de-aluminio/andamios-moviles-con-traviesas-moviles",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/tarifa-de-andamios",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/segunda-mano/andamios/andamio-fermar-rojo",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/tarifa-de-andamios",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/andamio-europeo-marco",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/multidireccional",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/moviles-de-aluminio",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.exoandamiajes.com/andamios/moviles-de-aluminio",
+      "fetched_at": "2026-06-22T10:28:31.568922+00:00",
+      "availability": "available",
+      "price_eur": null,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    }
+  ],
+  "rejected": []
+}

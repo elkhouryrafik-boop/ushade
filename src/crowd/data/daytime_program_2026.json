@@ -1,0 +1,84 @@
+{
+  "_meta": {
+    "artifact": "daytime stage PROGRAM (CD-A) — ORGANISER INPUT",
+    "what": "Which stage is live at each daytime hour (+ optional draw 1-5). The organiser owns this. Crowd flows ONLY to live stages -> it migrates across the site through the day. REQUIRED input: no program = no run, NO assumed fallback rotation.",
+    "tier": "ASSUMED (ILLUSTRATIVE DEMO) — this is a placeholder organiser program for the Parc del Forum demo so the pipeline runs end-to-end. It is NOT scraped real Primavera daytime set-times. For a real run the organiser inputs their own program; the OPTIONAL demo refinement is to scrape Clashfinder ps26 / official lineup DAYTIME rows (follow-up).",
+    "owner": "the festival organiser (per site). Demo values authored 2026-06-22 by CD-A Phase 3.",
+    "stage_names_match": "geojson stage names in viz/data/festival_map_2026.geojson (same convention as set_times_2026.json night rows).",
+    "draw_scale": "1-5 ordinal pull (5 = strongest daytime draw). Optional; default 1.0 when omitted. REFINES demand, does not gate.",
+    "active_means": "stage exerts crowd pull during its active_hours; outside them its pull drops to a low baseline (the modelling formula gates pull on active; see phase-3/decisions.md CON-003).",
+    "window": "daytime hours only (gates-open..pre-night). Night headliners live in set_times_2026.json, untouched.",
+    "draw_provenance": {
+      "tier": "GROUNDED",
+      "source": "Spotify monthly listeners per headliner (artist pages / chartmasters), captured 2026-06-21..23",
+      "method": "per-set weight = log10-scaled monthly listeners -> 1..5; per-stage draw = headline (max-listener) act on the stage, same mapping",
+      "note": "Replaces the ASSUMED 1-5 hand table. Popularity DRIVER now GROUNDED; the per-zone spawn split (85/15) stays ASSUMED. Night lineup used as the stage brand-pull proxy for the daytime sim (the daytime lineup itself is illustrative).",
+      "as_of": "2026-06"
+    }
+  },
+  "stage_program": {
+    "Estrella Damm": {
+      "active_hours": [
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00"
+      ],
+      "draw": 4.73
+    },
+    "Occident": {
+      "active_hours": [
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ],
+      "draw": 4.98
+    },
+    "Revolut": {
+      "active_hours": [
+        "14:00",
+        "15:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ],
+      "draw": 4.88
+    },
+    "Cupra": {
+      "active_hours": [
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00"
+      ],
+      "draw": 4.67
+    },
+    "Auditori Rockdelux": {
+      "active_hours": [
+        "12:00",
+        "13:00",
+        "17:00",
+        "18:00"
+      ],
+      "draw": 3.23
+    },
+    "Plenitude": {
+      "active_hours": [
+        "19:00",
+        "20:00"
+      ],
+      "draw": 1.01
+    },
+    "Port": {
+      "active_hours": [
+        "16:00",
+        "17:00",
+        "18:00"
+      ],
+      "draw": 2.55
+    }
+  }
+}

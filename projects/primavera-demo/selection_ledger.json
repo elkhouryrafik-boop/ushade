@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "key": "transport_carbon_kgco2e",
+      "value": 1.290816,
+      "tier": "ASSUMED",
+      "source": "transport-only cut-off; manufacturing=0 (ASSUMED, ISO 14044 4.3.4)",
+      "stage": "material_selection",
+      "unit": "kgco2e",
+      "formula": "2 * Distance_km * Mass_tonnes * transport_mode_factor",
+      "inputs": [
+        "distance_km",
+        "unit_mass_kg",
+        "quantity",
+        "transport_mode_factor"
+      ]
+    },
+    {
+      "key": "tent_baseline_kgco2e_per_m2",
+      "value": 4.0,
+      "tier": "ASSUMED",
+      "source": "single-use PVC marquee baseline, ICE v2.0 (Hammond & Jones, Univ. of Bath), PVC 5.6 kgCO2e/kg A1-A3, ~0.7 kg/m2 fabric ASSUMED",
+      "stage": "material_selection",
+      "unit": "kgco2e"
+    },
+    {
+      "key": "transport_mode_factor",
+      "value": 0.1,
+      "tier": "ASSUMED",
+      "source": "0.10 HGV-equivalent PLACEHOLDER (kgCO2e/tonne-km, road); pending DEFRA/EPD-grade sourcing",
+      "stage": "material_selection"
+    },
+    {
+      "key": "cost_total_eur",
+      "value": 0.0,
+      "tier": "DERIVED",
+      "source": "qty x cost_per_unit roll-up into the locked budget (D-02)",
+      "stage": "material_selection",
+      "unit": "euro",
+      "formula": "quantity * cost_per_unit"
+    },
+    {
+      "key": "cooling_correction_factor",
+      "value": 0.6,
+      "tier": "DERIVED",
+      "source": "(1 - solar_transmissivity), Golden Rule amendment 2026-06-09 (feeds Phase 5b)",
+      "stage": "material_selection",
+      "formula": "1 - tau",
+      "inputs": [
+        "solar_transmissivity"
+      ]
+    },
+    {
+      "key": "next_life_receiver",
+      "value": "receiver TBD \u2014 team contact pending",
+      "tier": "ASSUMED",
+      "source": "textile afterlife receiver placeholder (D-14) \u2014 flips GROUNDED on a real name",
+      "stage": "material_selection"
+    }
+  ]
+}

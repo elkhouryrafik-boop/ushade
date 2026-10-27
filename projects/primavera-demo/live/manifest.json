@@ -1,0 +1,78 @@
+{
+  "project_id": "live",
+  "created_at": "2026-06-13T13:22:31.871955+00:00",
+  "stages": [
+    {
+      "name": "parsed_brief",
+      "status": "pending",
+      "artifact": null,
+      "input_hash": null,
+      "output_hash": null,
+      "completed_at": null
+    },
+    {
+      "name": "utci_grid",
+      "status": "pending",
+      "artifact": null,
+      "input_hash": null,
+      "output_hash": null,
+      "completed_at": null
+    },
+    {
+      "name": "crowd_grid",
+      "status": "pending",
+      "artifact": null,
+      "input_hash": null,
+      "output_hash": null,
+      "completed_at": null
+    },
+    {
+      "name": "score_grid",
+      "status": "pending",
+      "artifact": null,
+      "input_hash": null,
+      "output_hash": null,
+      "completed_at": null
+    },
+    {
+      "name": "footprint",
+      "status": "pending",
+      "artifact": null,
+      "input_hash": null,
+      "output_hash": null,
+      "completed_at": null
+    },
+    {
+      "name": "gh_response",
+      "status": "failed",
+      "artifact": null,
+      "input_hash": null,
+      "output_hash": null,
+      "completed_at": null
+    },
+    {
+      "name": "material_selection",
+      "status": "pending",
+      "artifact": null,
+      "input_hash": null,
+      "output_hash": null,
+      "completed_at": null
+    },
+    {
+      "name": "acceptance_verdict",
+      "status": "pending",
+      "artifact": null,
+      "input_hash": null,
+      "output_hash": null,
+      "completed_at": null
+    },
+    {
+      "name": "render",
+      "status": "pending",
+      "artifact": null,
+      "input_hash": null,
+      "output_hash": null,
+      "completed_at": null
+    }
+  ]
+}

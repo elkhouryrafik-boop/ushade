@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "key": "crowd_density_agents_per_cell",
+      "value": 20.0,
+      "unit": "agents-per-cell",
+      "tier": "ASSUMED",
+      "source": "PPO policy (weights unvalidated until Phase 2b)",
+      "stage": "crowd_grid"
+    }
+  ]
+}

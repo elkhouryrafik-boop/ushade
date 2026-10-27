@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/gh_request/1.0.0",
+  "title": "gh_request",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "IN_SunVector": "unit-vector"
+  },
+  "description": "Phase 4 Rhino.Compute / Grasshopper request seam. Node names match the PRD Grasshopper 'Get' nodes EXACTLY: IN_Footprint (curves/polygons), IN_FlowVectors (lines), IN_SunVector (3D solar vector).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "IN_Footprint", "IN_FlowVectors", "IN_SunVector"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "IN_Footprint": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/polygon" }
+    },
+    "IN_FlowVectors": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/line" }
+    },
+    "IN_SunVector": {
+      "type": "array",
+      "items": { "type": "number" },
+      "minItems": 3,
+      "maxItems": 3
+    }
+  },
+  "$defs": {
+    "point_m": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x_m", "y_m"],
+      "properties": {
+        "x_m": { "type": "number" },
+        "y_m": { "type": "number" }
+      }
+    },
+    "polygon": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/point_m" },
+      "minItems": 3
+    },
+    "line": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["origin", "destination"],
+      "properties": {
+        "origin": { "$ref": "#/$defs/point_m" },
+        "destination": { "$ref": "#/$defs/point_m" }
+      }
+    }
+  }
+}

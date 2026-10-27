@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/utci_grid/1.0.0",
+  "title": "utci_grid",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "x_m": "metre",
+    "y_m": "metre",
+    "utci_c": "celsius",
+    "baseline_utci_c": "celsius",
+    "cell_size_m": "metre"
+  },
+  "description": "MASTER spatial artifact (CONTRACT-03). Embeds the master lattice that all other grids snap to. Per-cell baseline_utci_c is the no-shade baseline (CONTRACT-05) — the Phase 5b delta denominator, GROUNDED direct infrared output.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "crs", "lattice", "cells"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "crs": { "$ref": "https://heatguard/contracts/_defs/crs.schema.json#/$defs/utm31n" },
+    "lattice": { "$ref": "https://heatguard/contracts/_defs/lattice.schema.json" },
+    "cells": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/cell" }
+    }
+  },
+  "$defs": {
+    "cell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x_m", "y_m", "utci_c", "baseline_utci_c"],
+      "properties": {
+        "x_m": { "type": "number" },
+        "y_m": { "type": "number" },
+        "utci_c": { "type": "number" },
+        "baseline_utci_c": { "type": "number" },
+        "sun_vector": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 3,
+          "maxItems": 3
+        }
+      }
+    }
+  }
+}

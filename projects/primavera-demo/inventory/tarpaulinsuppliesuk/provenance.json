@@ -1,0 +1,2073 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "key": "listing_0_material_id",
+      "value": "membr-hdpe-shade-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/110gsm-green-hdpe-wind-barrier-mesh-with-50-shade-40-airflow-reduction-uv-stabilised-with-5cm-eyelets (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_0_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_0_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_1_material_id",
+      "value": "membr-hdpe-shade-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/110gsm-green-hdpe-wind-barrier-mesh-with-50-shade-40-airflow-reduction-uv-stabilised-with-5cm-eyelets (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_1_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_1_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_2_material_id",
+      "value": "membr-hdpe-shade-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/110gsm-green-hdpe-wind-barrier-mesh-with-50-shade-40-airflow-reduction-uv-stabilised-with-5cm-eyelets (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_2_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_2_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_3_material_id",
+      "value": "membr-hdpe-shade-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/110gsm-green-hdpe-wind-barrier-mesh-with-50-shade-40-airflow-reduction-uv-stabilised-with-5cm-eyelets (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_3_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_3_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_4_material_id",
+      "value": "membr-hdpe-shade-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/110gsm-green-hdpe-wind-barrier-mesh-with-50-shade-40-airflow-reduction-uv-stabilised-with-5cm-eyelets (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_4_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_4_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_5_material_id",
+      "value": "membr-hdpe-shade-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/110gsm-green-hdpe-wind-barrier-mesh-with-50-shade-40-airflow-reduction-uv-stabilised-with-5cm-eyelets (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_5_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_5_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_6_material_id",
+      "value": "membr-hdpe-shade-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/110gsm-green-hdpe-wind-barrier-mesh-with-50-shade-40-airflow-reduction-uv-stabilised-with-5cm-eyelets (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_6_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_6_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_7_material_id",
+      "value": "membr-hdpe-shade-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/110gsm-green-hdpe-wind-barrier-mesh-with-50-shade-40-airflow-reduction-uv-stabilised-with-5cm-eyelets (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_7_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_7_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_8_material_id",
+      "value": "membr-hdpe-shade-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/110gsm-green-hdpe-wind-barrier-mesh-with-50-shade-40-airflow-reduction-uv-stabilised-with-5cm-eyelets (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_8_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_8_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_9_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/orange-tarpaulin-90gsm-heavy-duty-waterproof-cover-for-garden-camping-diy-protection (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_9_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_9_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_10_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/orange-tarpaulin-90gsm-heavy-duty-waterproof-cover-for-garden-camping-diy-protection (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_10_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_10_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_11_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/orange-tarpaulin-90gsm-heavy-duty-waterproof-cover-for-garden-camping-diy-protection (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_11_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_11_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_12_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/orange-tarpaulin-90gsm-heavy-duty-waterproof-cover-for-garden-camping-diy-protection (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_12_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_12_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_13_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/orange-tarpaulin-90gsm-heavy-duty-waterproof-cover-for-garden-camping-diy-protection (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_13_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_13_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_14_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/200gsm-green-heavy-duty-waterproof-tarpaulin-sheet-cover (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_14_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_14_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_15_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/200gsm-green-heavy-duty-waterproof-tarpaulin-sheet-cover (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_15_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_15_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_16_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/200gsm-green-heavy-duty-waterproof-tarpaulin-sheet-cover (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_16_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_16_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_17_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/200gsm-green-heavy-duty-waterproof-tarpaulin-sheet-cover (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_17_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_17_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_18_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/200gsm-green-heavy-duty-waterproof-tarpaulin-sheet-cover (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_18_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_18_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_19_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/200gsm-green-heavy-duty-waterproof-tarpaulin-sheet-cover (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_19_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_19_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_20_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/200gsm-green-heavy-duty-waterproof-tarpaulin-sheet-cover (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_20_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_20_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_21_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_21_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_21_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_22_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_22_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_22_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_23_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_23_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_23_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_24_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_24_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_24_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_25_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_25_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_25_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_26_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_26_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_26_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_27_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_27_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_27_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_28_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_28_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_28_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_29_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_29_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_29_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_30_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_30_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_30_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_31_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/270gsm-extra-heavy-duty-tarpaulin-waterproof-ground-sheet-cover-black-gold (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_31_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_31_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_32_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_32_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_32_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_33_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_33_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_33_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_34_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_34_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_34_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_35_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_35_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_35_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_36_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_36_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_36_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_37_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_37_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_37_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_38_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_38_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_38_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_39_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_39_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_39_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_40_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_40_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_40_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_41_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_41_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_41_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_42_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_42_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_42_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_43_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_43_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_43_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_44_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_44_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_44_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_45_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_45_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_45_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_46_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_46_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_46_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_47_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_47_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_47_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_48_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_48_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_48_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_49_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_49_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_49_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_50_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/clear-100gsm-monotex-tarpaulin-waterproof-uv-stabilised-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_50_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_50_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_51_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/1-2m-x-1-8m-heavy-duty-canvas-tarpaulin-waxed-cotton-cover-with-eyelets (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_51_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_51_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_52_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/100m-roll-8mm-shock-cord-versatile-outdoor-transport-use (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_52_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_52_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_53_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/170gsm-monoflex-leno-tarpaulin-heavy-duty-multi-size-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_53_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_53_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_54_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/170gsm-monoflex-leno-tarpaulin-heavy-duty-multi-size-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_54_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_54_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_55_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/170gsm-monoflex-leno-tarpaulin-heavy-duty-multi-size-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_55_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_55_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_56_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/170gsm-monoflex-leno-tarpaulin-heavy-duty-multi-size-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_56_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_56_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_57_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/170gsm-monoflex-leno-tarpaulin-heavy-duty-multi-size-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_57_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_57_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_58_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/170gsm-monoflex-leno-tarpaulin-heavy-duty-multi-size-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_58_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_58_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_59_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/170gsm-monoflex-leno-tarpaulin-heavy-duty-multi-size-sheet (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_59_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_59_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_60_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/heavy-duty-80gsm-black-white-tarpaulin-multiple-sizes (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_60_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_60_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_61_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/heavy-duty-80gsm-black-white-tarpaulin-multiple-sizes (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_61_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_61_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_62_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/heavy-duty-80gsm-black-white-tarpaulin-multiple-sizes (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_62_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_62_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_63_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/heavy-duty-80gsm-black-white-tarpaulin-multiple-sizes (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_63_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_63_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_64_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/heavy-duty-80gsm-black-white-tarpaulin-multiple-sizes (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_64_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_64_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_65_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/heavy-duty-80gsm-black-white-tarpaulin-multiple-sizes (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_65_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_65_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_66_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/heavy-duty-80gsm-black-white-tarpaulin-multiple-sizes (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_66_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_66_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_67_material_id",
+      "value": "membr-pp-cargo-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/rubber-wear-sleeve-for-50mm-ratchet-straps-edge-protection (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_67_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_67_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_68_material_id",
+      "value": "membr-pp-cargo-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/rubber-wear-sleeve-for-35mm-ratchet-straps-rated-3-tonne (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_68_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_68_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_69_material_id",
+      "value": "membr-pp-cargo-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/rubber-wear-sleeve-for-25mm-ratchet-straps-800kg-1-5t (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_69_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_69_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_70_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/30m-blue-poly-rope-coil-lorry-rope-heavy-duty-utility-rope (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_70_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_70_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_71_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/30m-blue-poly-rope-coil-lorry-rope-heavy-duty-utility-rope (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_71_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_71_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_72_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/30m-blue-poly-rope-coil-lorry-rope-heavy-duty-utility-rope (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_72_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_72_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_73_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/30m-blue-poly-rope-coil-lorry-rope-heavy-duty-utility-rope (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_73_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_73_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_74_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/30m-blue-poly-rope-coil-lorry-rope-heavy-duty-utility-rope (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_74_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_74_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_75_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/30m-blue-poly-rope-coil-lorry-rope-heavy-duty-utility-rope (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_75_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_75_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_76_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/black-bungee-cord-reel-heavy-duty-elastic-shock-cord-6mm-10mm (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_76_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_76_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_77_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/black-bungee-cord-reel-heavy-duty-elastic-shock-cord-6mm-10mm (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_77_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_77_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_78_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/black-bungee-cord-reel-heavy-duty-elastic-shock-cord-6mm-10mm (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_78_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_78_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_79_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/black-bungee-cord-hank-6mm-x-20m-elastic-shock-cord-for-outdoor-use (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_79_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_79_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_80_material_id",
+      "value": "membr-pp-festival-carpet",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/laminated-twill-dust-sheet-heavy-duty-cotton-sheet-with-waterproof-backing-spill-resistant-floor-furniture-protection-9ft-x-12ft (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_80_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_80_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_81_material_id",
+      "value": "membr-pp-festival-carpet",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/laminated-twill-dust-sheet-heavy-duty-cotton-sheet-with-waterproof-backing-spill-resistant-floor-furniture-protection-9ft-x-12ft (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_81_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_81_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_82_material_id",
+      "value": "membr-pp-festival-carpet",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/cotton-calico-dust-sheet-lightweight-reusable-protective-sheet-9ft-x-12ft-floor-furniture-cover-for-painting-decorating (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_82_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_82_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_83_material_id",
+      "value": "membr-pp-festival-carpet",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/cotton-canvas-dust-sheet-heavy-duty-painter-s-protective-cover-2-7m-x-3-6m-3-5kg (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_83_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_83_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_84_material_id",
+      "value": "membr-pp-cargo-net",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/500m-heavy-duty-lorry-rope-on-wooden-reel-6mm-polypropylene-load-securing-rope (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_84_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_84_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_85_material_id",
+      "value": "struct-scaffold-tube-48",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/220m-blue-polypropylene-rope-coil-heavy-duty-general-purpose-rope-4mm-16mm (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_85_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_85_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_86_material_id",
+      "value": "struct-scaffold-tube-48",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/220m-blue-polypropylene-rope-coil-heavy-duty-general-purpose-rope-4mm-16mm (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_86_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_86_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_87_material_id",
+      "value": "struct-scaffold-tube-48",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/220m-blue-polypropylene-rope-coil-heavy-duty-general-purpose-rope-4mm-16mm (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_87_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_87_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_88_material_id",
+      "value": "struct-scaffold-tube-48",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/220m-blue-polypropylene-rope-coil-heavy-duty-general-purpose-rope-4mm-16mm (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_88_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_88_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_89_material_id",
+      "value": "struct-scaffold-tube-48",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/220m-blue-polypropylene-rope-coil-heavy-duty-general-purpose-rope-4mm-16mm (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_89_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_89_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_90_material_id",
+      "value": "struct-scaffold-tube-48",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/220m-blue-polypropylene-rope-coil-heavy-duty-general-purpose-rope-4mm-16mm (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_90_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_90_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_91_material_id",
+      "value": "struct-scaffold-tube-48",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/220m-blue-polypropylene-rope-coil-heavy-duty-general-purpose-rope-4mm-16mm (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_91_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_91_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_92_material_id",
+      "value": "struct-scaffold-tube-48",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/black-cable-ties-100-pack (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_92_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_92_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_93_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuppliesuk.co.uk/products/black-bungee-cord-6mm-x-20m (fetched 2026-06-22T13:27:47.310064+00:00)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    },
+    {
+      "key": "listing_93_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuppliesuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_93_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuppliesuk"
+    }
+  ]
+}

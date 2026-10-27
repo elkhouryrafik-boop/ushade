@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0.0",
+  "crs": {
+    "epsg": 32631,
+    "units": "metre"
+  },
+  "lattice": {
+    "origin_x_m": 434776.0,
+    "origin_y_m": 4584057.0,
+    "cell_size_m": 6.0,
+    "cols": 139,
+    "rows": 153
+  },
+  "coverage_model": "offset_shadow",
+  "stopping_rule": {
+    "k": 5,
+    "budget": 150000,
+    "cost_per_structure": 50000.0
+  },
+  "total_demand": 3124.793500000003,
+  "covered_demand": 1178.9139000000002,
+  "coverage_pct": 37.72773784891703,
+  "structures": [
+    {
+      "rank": 1,
+      "center": {
+        "x_m": 435049.0,
+        "y_m": 4584126.0
+      },
+      "area_m2": 576.0,
+      "marginal_demand": 296.15760000000006,
+      "cumulative_demand": 296.15760000000006,
+      "coverage_pct": 9.477669484399522,
+      "newly_covered_cell_count": 5,
+      "robustness": "conditional",
+      "surviving_snapshots": [
+        "as-cached",
+        "far-stage-corrected",
+        "sun-late-afternoon+crowd-headliner"
+      ]
+    },
+    {
+      "rank": 2,
+      "center": {
+        "x_m": 435373.0,
+        "y_m": 4584510.0
+      },
+      "area_m2": 576.0,
+      "marginal_demand": 186.4696,
+      "cumulative_demand": 482.6272000000001,
+      "coverage_pct": 15.445091011614036,
+      "newly_covered_cell_count": 2,
+      "robustness": "conditional",
+      "surviving_snapshots": [
+        "as-cached",
+        "sun-late-afternoon+crowd-headliner"
+      ]
+    },
+    {
+      "rank": 3,
+      "center": {
+        "x_m": 435451.0,
+        "y_m": 4584618.0
+      },
+      "area_m2": 576.0,
+      "marginal_demand": 175.50080000000003,
+      "cumulative_demand": 658.1280000000002,
+      "coverage_pct": 21.06148774311005,
+      "newly_covered_cell_count": 8,
+      "robustness": "conditional",
+      "surviving_snapshots": [
+        "as-cached",
+        "far-stage-corrected"
+      ]
+    },
+    {
+      "rank": 4,
+      "center": {
+        "x_m": 435025.0,
+        "y_m": 4584624.0
+      },
+      "area_m2": 576.0,
+      "marginal_demand": 351.2531,
+      "cumulative_demand": 1009.3811000000002,
+      "coverage_pct": 32.30232973794906,
+      "newly_covered_cell_count": 5,
+      "robustness": "conditional",
+      "surviving_snapshots": [
+        "as-cached",
+        "far-stage-corrected"
+      ]
+    },
+    {
+      "rank": 5,
+      "center": {
+        "x_m": 435547.0,
+        "y_m": 4584648.0
+      },
+      "area_m2": 576.0,
+      "marginal_demand": 169.53280000000004,
+      "cumulative_demand": 1178.9139000000002,
+      "coverage_pct": 37.72773784891703,
+      "newly_covered_cell_count": 4,
+      "robustness": "conditional",
+      "surviving_snapshots": [
+        "as-cached",
+        "far-stage-corrected",
+        "sun-late-afternoon+crowd-headliner"
+      ]
+    }
+  ],
+  "infeasible": null
+}

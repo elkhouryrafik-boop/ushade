@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/acceptance_verdict/1.0.0",
+  "title": "acceptance_verdict",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "coverage_pct": "percent",
+    "utci_delta_c": "celsius",
+    "X_c": "celsius",
+    "Y_pct": "percent"
+  },
+  "description": "Phase 5b Cooling Acceptance Gate verdict (CONTRACT-04/05). PASS requires coverage_pct >= Y_pct AND utci_delta_c >= X_c. utci_delta_c = mean over shaded cells of (baseline_utci_c - shaded_utci_c) * (1 - solar_transmissivity); baseline_ref points at the persisted utci_grid.baseline_utci_c denominator. X_c=4 and Y_pct=70 are locked in Phase 0, immutable post-run.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "coverage_pct", "utci_delta_c", "X_c", "Y_pct", "verdict", "baseline_ref"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "coverage_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+    "utci_delta_c": { "type": "number" },
+    "X_c": { "type": "number" },
+    "Y_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+    "verdict": { "enum": ["PASS", "FAIL"] },
+    "baseline_ref": { "type": "string", "minLength": 1 }
+  }
+}

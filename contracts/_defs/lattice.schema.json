@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/_defs/lattice.schema.json",
+  "title": "lattice",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "origin_x_m": "metre",
+    "origin_y_m": "metre",
+    "cell_size_m": "metre"
+  },
+  "description": "Master-lattice descriptor (CONTRACT-03). Defined once here, embedded by utci_grid (the authority) and $ref-ed by crowd_grid and score_grid. Equality of this object across spatial artifacts IS the alignment contract.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["origin_x_m", "origin_y_m", "cell_size_m", "cols", "rows"],
+  "properties": {
+    "origin_x_m": { "type": "number" },
+    "origin_y_m": { "type": "number" },
+    "cell_size_m": { "type": "number", "exclusiveMinimum": 0 },
+    "cols": { "type": "integer", "minimum": 1 },
+    "rows": { "type": "integer", "minimum": 1 }
+  }
+}

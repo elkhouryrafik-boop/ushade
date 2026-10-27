@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.1.0",
+  "selected_id": "membr-pe-yacht-shrinkwrap",
+  "is_membrane": true,
+  "transport_carbon_kgco2e": 1.290816,
+  "cost_total_eur": 0.0,
+  "solar_transmissivity": 0.4,
+  "selection_basis": "transport_carbon_min",
+  "availability_gated": false,
+  "candidates_considered": 2,
+  "cooling_correction_factor": 0.6,
+  "mass_balance": {
+    "label": "ASSUMED",
+    "scaffold_kg_rented": 0.0,
+    "membrane_m2_recovered": 5976.0,
+    "fixings_kg_new": 168.0
+  },
+  "next_life": {
+    "status": "ASSUMED",
+    "receiver": "receiver TBD \u2014 team contact pending",
+    "return_mass_kg": 1075.68
+  },
+  "tent_comparison": {
+    "label": "ASSUMED",
+    "baseline_kgco2e_per_m2": 4.0,
+    "source": "single-use PVC marquee baseline, ICE v2.0 (Hammond & Jones, Univ. of Bath), PVC 5.6 kgCO2e/kg A1-A3, ~0.7 kg/m2 fabric ASSUMED"
+  },
+  "infeasible": false
+}

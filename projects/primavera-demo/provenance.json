@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "key": "crowd_density",
+      "value": 3.125,
+      "tier": "DERIVED",
+      "source": "Phase 2b PPO output \u2014 DERIVED: crowd_density realised under a CITED Weidmann speed-density CAP; the FD benchmark validates the CALIBRATION of that cap (speed law applied as a kinematic limit), not a policy-discovered FD; policy-bound artifact benchmark_result.json green at LOCKED +/-20%; see MODEL_CARD.md Limitations",
+      "stage": "crowd_grid",
+      "unit": "agents-per-cell"
+    },
+    {
+      "key": "sim_seed",
+      "value": 1789,
+      "tier": "ASSUMED",
+      "source": "fixed runtime inference seed (logged \u2014 same seed => byte-identical density field)",
+      "stage": "crowd_grid"
+    },
+    {
+      "key": "score",
+      "value": 171.798,
+      "tier": "DERIVED",
+      "source": "Score = crowd_density \u00b7 max(utci\u221226,0); greedy budget-constrained allocation (no best-coverage claim)",
+      "stage": "score_grid",
+      "unit": "agent-celsius",
+      "formula": "crowd_density\u00b7(utci\u221226)",
+      "inputs": [
+        "utci_grid",
+        "crowd_grid"
+      ]
+    },
+    {
+      "key": "cost_per_cell",
+      "value": 900.0,
+      "tier": "ASSUMED",
+      "source": "flat \u20ac/m\u00b2 placeholder reconciled against the selected membrane in Phase 5 (no Phase-5 dependency)",
+      "stage": "score_grid",
+      "unit": "eur-per-cell"
+    },
+    {
+      "key": "sim_seed",
+      "value": 1789,
+      "tier": "ASSUMED",
+      "source": "upstream crowd sim seed propagated + logged \u2014 byte-identical reruns (CORE-05)",
+      "stage": "score_grid"
+    },
+    {
+      "key": "geometry",
+      "value": "PREVIEW",
+      "tier": "DERIVED",
+      "source": "PREVIEW reference geometry (offline stand-in for the live Rhino/Grasshopper solve); decoded to metres + Y-up + origin-translated .gltf/.obj",
+      "stage": "gh_response"
+    },
+    {
+      "key": "bom",
+      "value": {
+        "pillars": 84,
+        "membrane_m2": 5976.0
+      },
+      "tier": "DERIVED",
+      "source": "DERIVED-preview from the PREVIEW pillar grid after the FAITHFUL flow-cull",
+      "stage": "gh_response"
+    },
+    {
+      "key": "karamba",
+      "value": "live-only, pre-screening, requires engineering sign-off",
+      "tier": "ASSUMED",
+      "source": "Karamba is live-only, pre-screening \u2014 NOT certification; requires wind-load certification + an engineering sign-off (GEOM-04). Never run offline.",
+      "stage": "gh_response"
+    },
+    {
+      "key": "sun_vector",
+      "value": "peak-sun-hour (A1)",
+      "tier": "ASSUMED",
+      "source": "deterministic IN_SunVector at PEAK_SUN_HOUR over Parc del F\u00f2rum (ASSUMED A1)",
+      "stage": "gh_response"
+    },
+    {
+      "key": "shadow_coverage_pct",
+      "value": 1.0,
+      "tier": "DERIVED",
+      "source": "deterministic offline shadow projection (roof-mesh-projection) onto the footprint plane at peak sun; reported against the 0.8 GEOM-06 floor (report-not-raise)",
+      "stage": "gh_response",
+      "unit": "fraction"
+    },
+    {
+      "key": "coverage_pct",
+      "value": 37.7277,
+      "tier": "DERIVED",
+      "source": "multi-snapshot robust labelling over a structured sun\u00d7crowd family incl. a far-stage-corrected world; robust=in-all, conditional=in-some; DERIVED-from-ASSUMED demand (crowd_density ASSUMED) \u2014 over covered DEMAND, never a cooling/\u00b0C delta",
+      "stage": "structure_zones",
+      "unit": "percent",
+      "inputs": [
+        "utci_grid",
+        "crowd_grid"
+      ]
+    },
+    {
+      "key": "k",
+      "value": 5,
+      "tier": "ASSUMED",
+      "source": "ASSUMED_K_DEFAULT \u2014 'I can build N canopies'; primary stopping cap, tunable pre-run, immutable after an accepted run",
+      "stage": "structure_zones"
+    },
+    {
+      "key": "cost_per_structure",
+      "value": 50000.0,
+      "tier": "ASSUMED",
+      "source": "flat \u20ac/structure placeholder reconciled in Phase 5 (no Phase-5 dependency)",
+      "stage": "structure_zones",
+      "unit": "euro"
+    },
+    {
+      "key": "coverage_model",
+      "value": "offset_shadow",
+      "tier": "ASSUMED",
+      "source": "per-structure offset-shadow: ASSUMED canopy half-span 12.0 m, shadow offset assumed-noon (real-sun-vector when present, else assumed high-noon)",
+      "stage": "structure_zones"
+    }
+  ]
+}

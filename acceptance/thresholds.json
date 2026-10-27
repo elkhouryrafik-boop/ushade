@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "x_utci_reduction_c": 4,
+  "y_coverage_pct": 70,
+  "declared_on": "2026-06-10",
+  "immutable": true,
+  "x_hash_input": "sha256 of canonical JSON: json.dumps({\"x_utci_reduction_c\":4,\"y_coverage_pct\":70}, sort_keys=True, separators=(\",\",\":\")). See acceptance/HASHING.md.",
+  "content_sha256": "1c6c79fe8e66d467118804945a6000abb2f113463dbe5253b66e62ba463cb864"
+}

@@ -1,0 +1,167 @@
+[project]
+name = "heatguard"
+version = "0.0.0"
+# Target runtime is Python 3.12 (STACK.md); >=3.11 is permitted so the contracts
+# install on 3.11 dev machines. No 3.12-only syntax is used in Phase 0.
+requires-python = ">=3.11"
+dependencies = [
+    "jsonschema==4.26.*",
+    # uri-format assertion (render.render_url) — without a concrete provider the
+    # jsonschema `uri` checker silently no-ops, reopening the cross-runtime
+    # `format` drift CONTRACT-02 forbids (WR-01). `date` needs no extra (stdlib).
+    "rfc3986-validator==0.1.1",
+    "referencing==0.37.*",
+    "pydantic==2.13.*",
+    "pydantic-settings>=2,<3",
+    "python-dotenv",
+    # Phase 2a Climate Layer offline grid logic: result.merged_grid is a numpy
+    # array; crop-to-non-NaN-bbox + NaN masking run with NO infrared-sdk installed
+    # (the default offline suite never needs the paid SDK — see the `live` extra).
+    # numpy stays 1.26.* (Phase-15 decision, 2026-06-21): jupedsim 1.4.2 hard-requires numpy~=2.2,
+    # but bumping to numpy 2 regresses the FROZEN grid.py DBSCAN path (bad_alloc in the dwell-zone
+    # clustering, crowd tier) and risks Phase 13/14 cache reproducibility — i.e. it disturbs the
+    # firewall Phase 15 must NOT touch. So the crowdsim extra pins jupedsim 1.2.x (numpy~=1.25,
+    # same CFSM + journey/stage API), keeping numpy 1.26 and the whole base+crowd tier green.
+    "numpy==1.26.*",
+    # pyproj is the projection engine already imported transitively by src/crs
+    # (lon/lat -> EPSG:32631, the ONE CRS boundary). Declare it explicitly so the
+    # Climate Layer's CRS conversion does not rely on an undeclared transitive dep.
+    "pyproj>=3.6,<4",
+    # Phase 3 Greedy Coupling Core: shapely powers the cells->footprint polygon
+    # union (unary_union of cell squares). PROMOTED from the `crowd` extra to base
+    # (A1) — the greedy core is a torch-free, offline, BASE-tier stage, so ALL of
+    # its tests (scoring + allocation + footprint) run under `-m "not crowd"`. The
+    # two-tier split exists ONLY to isolate torch; shapely is a light C-extension
+    # wheel with no torch, so it belongs in base. Pin unchanged (`>=2,<3`).
+    "shapely>=2,<3",
+    # Phase 13 Exact ILP-MCLP placer: scipy.optimize.milp (HiGHS, bundled in the wheel)
+    # solves the max-coverage MILP to proven optimality. PROMOTED to base (clone the shapely
+    # A1 note) — scipy is torch-free and a light C-extension wheel, so the exact-ILP tests run
+    # in the BASE test tier (`-m "not crowd and not geom"`); it is NOT a `crowd`-style extra.
+    # The solver itself is LAZY-imported inside the cache-miss / solve path (D-02) so the
+    # default greedy `import core.placement_stage` stays scipy-free. The `<2` upper pin matters:
+    # a HiGHS change across a scipy MAJOR can shift WHICH of two tied-optimal sets is returned —
+    # mitigated by the in-objective lexicographic tiebreak + recording `scipy_version` in the
+    # optimality certificate + folding it into the placement cache key (D-03). Do NOT add scipy
+    # to the `crowd` extra (clone the shapely T-03-01 dedup note).
+    "scipy>=1.12,<2",
+    # pandas is imported at module top by seven src modules (detection, classifier, carbon,
+    # logistics, marketplace, predictions, design_intelligence) and by the CSV readers the
+    # base test tier exercises, so the base tier cannot collect without it. It was listed in
+    # requirements.txt but absent here, which made `pip install -e .` insufficient.
+    "pandas>=2.0,<3",
+    # Phase 5 Material Recovery Inventory network seam: httpx (Shopify /products.json +
+    # OSRM/Nominatim road routing) and scrapling (Exoandamiajes/Mascus HTML catalog).
+    # BOTH are import-guarded / LAZY-imported INSIDE the fetch methods (mirror the
+    # climate `live` quarantine), so the DEFAULT offline suite imports src/inventory
+    # with NO network dispatch and injects a fake fetcher. Declared in base (not an
+    # extra) so `import inventory.*` is reproducible and the routing primitives resolve
+    # offline; the network is only touched on a real live fetch / `HEATGUARD_LIVE_*` run.
+    "httpx>=0.27,<1",
+    "scrapling>=0.4,<0.5",
+    # Phase 6 render preprocessing: Pillow rasterizes the depth/canny ControlNet
+    # conditioning map from the Phase-4 .obj (preprocess.py) with NO headless GL. PROMOTED
+    # to base (clone the shapely A1 note) — it is a light wheel with no GL/torch and the
+    # offline render tests exercise the deterministic map, so it belongs in base. The fal.ai
+    # SDK stays quarantined in the `render` extra (lazy, live-only).
+    "pillow>=10,<12",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.0.*",
+    "ruff",
+]
+# Live infrared.city fetch path (CLIMATE-01) ONLY. infrared-sdk is import-guarded /
+# lazy-imported inside the live call function, so the DEFAULT offline suite runs green
+# WITHOUT this installed. Floor 0.4.4 = the version that added `result.bounds`, which
+# Phase 2a needs for WGS84 georeferencing. NEVER add infrared-sdk to base dependencies
+# (that would make the offline suite require a paid SDK + network — T-02a-02).
+live = [
+    "infrared-sdk>=0.4.4,<0.5",
+]
+# Phase 2b Crowd Simulation (DRL). The real-PPO stack (torch + stable-baselines3 +
+# gymnasium) is LAZY-imported inside src/crowd/ so the DEFAULT offline suite runs green
+# WITHOUT it (mirror of the `live` quarantine — T-02b-02). Unlike `live`, the crowd
+# suite's offline determinism + benchmark tests DO need this group; they are gated behind
+# the `crowd` pytest marker and run via `pip install -e ".[crowd,dev]"` in CI.
+# numpy stays the Phase-2a `numpy==1.26.*` base pin: SB3 requires `numpy>=1.20,<3`, so 1.26 is in
+# range — do NOT bump it (RESEARCH §Standard Stack). Phase-15 confirmed this: bumping to numpy 2
+# (which jupedsim 1.4.2 demands) regresses the FROZEN grid.py DBSCAN path, so the crowdsim extra
+# pins jupedsim 1.2.x (numpy~=1.25-compatible) instead. Install the torch CPU build via the
+# dedicated CPU index-url (`--index-url https://download.pytorch.org/whl/cpu`) to avoid the CUDA wheel.
+crowd = [
+    "stable-baselines3>=2.8,<3",
+    "gymnasium>=1.0,<2",
+    "torch>=2.3,<2.13",
+    "scikit-learn>=1.5,<2",
+    # shapely was PROMOTED to base [project].dependencies for Phase 3 (A1) — it is
+    # torch-free and the greedy core's footprint tests run in the base tier. Removed
+    # here to avoid a duplicate/conflicting pin (T-03-01).
+]
+# Phase 15 JuPedSim crowd swap (Collision-Free Speed Model). jupedsim is LAZY-imported inside
+# src/crowdsim/ so the DEFAULT offline suite runs green WITHOUT it (mirror of `crowd`/`geom`).
+# scikit-learn is pulled by the FROZEN grid.py DBSCAN on the crowdsim path (Pitfall 5.5) — add it
+# so the tier is self-sufficient WITHOUT the heavy `crowd`/torch extra. LGPLv3+ (pip dynamic-link
+# OK; do NOT vendor/patch the C++ core). cp311 win_amd64 wheel verified on the 3.11 runtime.
+# The labelled-legacy PPO still depends on the `crowd` extra above (torch + SB3), so `crowd`
+# survives unchanged (D-05). Base test selection convention becomes:
+#     -m "not crowd and not crowdsim and not geom"
+# Version pin (Phase-15 decision, 2026-06-21): jupedsim 1.2.x — NOT 1.4.x. 1.4.2 hard-requires
+# numpy~=2.2, and bumping the base numpy to 2 regresses the FROZEN grid.py DBSCAN path (bad_alloc)
+# + risks Phase 13/14 cache reproducibility (firewall violation). 1.2.1 is numpy~=1.25-compatible
+# (runs on the base numpy 1.26) and exposes the SAME high-level API the engine needs (Simulation,
+# CollisionFreeSpeedModel, add_waypoint_stage, add_waiting_set_stage/WaitingSetStage, round-robin
+# transitions, add_journey, switch_agent_journey, distribute_by_number — all verified in the 1.2.1 wheel).
+crowdsim = ["jupedsim>=1.2.1,<1.3", "scikit-learn>=1.5,<2"]
+# Phase 2.2 Console API (FastAPI + uvicorn). Quarantined as an optional group so the
+# DEFAULT offline pytest suite stays FastAPI-free (mirrors the `live` / `crowd`
+# pattern). tests/test_api.py gates itself via pytest.importorskip("fastapi").
+api = [
+    "fastapi[standard]>=0.115.0,<0.116",
+    "uvicorn[standard]>=0.32.0,<0.33",
+]
+# Phase 4 Structural Geometry decode + PREVIEW generator. rhino3dm/trimesh are
+# LAZY-imported inside src/geom/decode.py + reference_generator.py so the DEFAULT
+# offline suite runs green WITHOUT this group (mirror of `live`/`crowd` — T-04 Pitfall 2).
+# shapely is ALREADY base (Phase 3, A1) — do NOT re-add it here (clone the crowd-extra
+# T-03-01 dedup note).
+geom = [
+    "rhino3dm>=8,<9",
+    # compute-rhino3d's latest published distribution is 0.12.2 (the plan's
+    # >=0.13,<0.14 pin has no matching wheel on PyPI — [Rule 3] blocking fix). The
+    # live POST seam talks plain HTTP via axios/requests, so this client is optional
+    # convenience only; pin to the current released line.
+    "compute-rhino3d>=0.12,<0.13",
+    "trimesh>=4,<5",
+]
+# Phase 6 Render Pipeline (ControlNet + FLUX.1 via fal.ai). The fal SDK is LAZY-imported
+# inside render.fal_client.FalRenderClient.render so the DEFAULT offline suite runs green
+# WITHOUT it (mirror of `live`/`crowd`/`geom`). The conditioning-map rasterizer (Pillow) is
+# BASE — only the live network seam is quarantined here. Install for a live render:
+# `pip install -e ".[render,dev]"` + set FAL_KEY + HEATGUARD_LIVE_RENDER.
+render = [
+    "fal-client>=0.5,<1",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# No importable package yet (greenfield); src/ modules arrive in later plans.
+py-modules = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+# "." makes `import src.api.app` (tests/conftest_api.py, tests/test_api.py)
+# resolve under bare `pytest` too — `python -m pytest` only worked because the
+# CWD lands on sys.path (MD-02).
+pythonpath = ["src", "."]
+markers = [
+    "crowd: requires the crowd extra (torch + stable-baselines3); excluded by `-m \"not crowd\"`",
+    "crowdsim: requires the crowdsim extra (jupedsim); excluded by `-m \"not crowdsim\"`",
+    "geom: requires the geom extra (rhino3dm + trimesh); excluded by `-m \"not geom\"`",
+    "red: Wave-0 DESIGNED-RED specs for not-yet-built code (Phase 7); excluded from the green suite by `-m \"not red\"` until the implementing plan removes the marker",
+]

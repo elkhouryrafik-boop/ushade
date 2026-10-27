@@ -1,0 +1,16 @@
+stakeholder_id|name|type|role|materials_offered|materials_needed|location|distance_to_forum_km|lat|lon|status|contact|notes
+SH001|Example Media Group|owner|Billboard rotation and PVC surplus|PVC;ALU||Demo District A|15.2|41.345|2.037|active|demo-owner@example.org|Synthetic record. 14-day rotation illustrative only.
+SH002|Sample Marine Yard|owner|Marine materials and PE surplus|SHR;NET||Demo District B|3.1|41.385|2.196|active|demo-yard@example.org|Synthetic record. Seasonal refit window illustrative only.
+SH003|Placeholder Structures Ltd|owner|Offcut aluminium and timber|ALU;TIM||Demo District C|9.4|41.566|2.158|active|demo-structures@example.org|Synthetic record.
+SH004|Demo Exhibition Centre|owner|Event waste and carpet|TEX;PVC||Demo District D|7.8|41.354|2.130|active|demo-centre@example.org|Synthetic record.
+SH005|Sample Events Collective|owner|Temporary structure salvage|ALU;TEX||Demo District E|5.6|41.411|2.221|active|demo-events@example.org|Synthetic record.
+SH006|Demo City Authority|authority|Municipal collection streams|MUN;ORG||City-wide|0.0|41.385|2.173|active|demo-authority@example.org|Synthetic record.
+SH007|Placeholder Port Services|owner|Industrial recycling stream|REC;ALU||Demo District F|2.4|41.350|2.170|active|demo-port@example.org|Synthetic record.
+SH008|Example Textile Lab|processor|Fabric reclaim and testing|TEX||Demo District G|28.5|41.930|2.254|active|demo-textile@example.org|Synthetic record.
+SH009|Demo Waste Network|processor|Collection point network|MUN;REC||City-wide|0.0|41.385|2.173|active|demo-waste@example.org|Synthetic record.
+SH010|Sample Research Studio|recipient|Research and prototyping partner|ALU;TIM||Demo District H|4.2|41.404|2.203|active|demo-research@example.org|Synthetic record.
+SH011|Placeholder Architecture Studio|recipient|Design and installation partner|PVC;TEX||Demo District I|6.1|41.392|2.168|active|demo-studio@example.org|Synthetic record.
+SH012|Example Design Office|recipient|Fabrication partner|ALU;NET||Demo District J|7.3|41.402|2.161|active|demo-design@example.org|Synthetic record.
+SH013|Demo Festival Operator|recipient|Temporary venue operator|TEX;PVC||Demo District K|3.9|41.364|2.156|active|demo-festival@example.org|Synthetic record.
+SH014|Sample Culture Association|recipient|Community event organiser|TEX||Demo District E|5.6|41.411|2.221|active|demo-culture@example.org|Synthetic record.
+SH015|Placeholder Venue Group|recipient|Multi-site venue operator|ALU;TEX||Demo District D|7.8|41.354|2.130|active|demo-venue@example.org|Synthetic record.

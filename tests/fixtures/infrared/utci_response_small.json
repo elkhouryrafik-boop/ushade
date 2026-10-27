@@ -1,0 +1,16 @@
+{
+  "_README": "Recorded SMALL synthetic infrared.city UTCI response (record/replay fixture for the offline Climate Layer suite). merged_grid is an 8x8 grid of degrees Celsius. GRID CONVENTION (RESEARCH Pitfall 1, skill grid-conventions.md): row 0 = SOUTH edge, col 0 = WEST edge (plot with origin='lower'). null = NaN = OUTSIDE the site polygon (the SDK returns 512x512 with data in one corner; here the outer 1-cell ring is masked). The interior cell at [row 3][col 3] = 24.5 is a known <26 C cell preserved into the artifact (CLIMATE-02 is a SCORE-time filter, NOT a write-time drop — RESEARCH Pitfall 2). Remaining interior cells span ~26..34 C. bounds is the true NE-padded WGS84 grid extent (result.bounds, SDK 0.4.4+), a tiny real box near the Parc del Forum centroid so projection through src/crs yields sane EPSG:32631 metres.",
+  "merged_grid": [
+    [null, null, null, null, null, null, null, null],
+    [null, 26.2, 27.1, 28.0, 29.4, 30.2, 31.6, null],
+    [null, 27.8, 29.0, 30.5, 31.2, 32.0, 33.1, null],
+    [null, 28.4, 30.1, 24.5, 32.6, 33.4, 30.0, null],
+    [null, 29.9, 31.3, 32.2, 33.0, 33.8, 31.5, null],
+    [null, 30.6, 32.1, 33.0, 33.6, 34.0, 32.4, null],
+    [null, 26.0, 28.3, 30.9, 31.8, 32.7, 29.7, null],
+    [null, null, null, null, null, null, null, null]
+  ],
+  "bounds": [2.2200, 41.4100, 2.2210, 41.4112],
+  "min_legend": 24.5,
+  "max_legend": 34.0
+}

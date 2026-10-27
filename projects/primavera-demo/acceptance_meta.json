@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0-sidecar",
+  "comfort_gap_pct": 96.131792,
+  "eur_per_deg_c": {
+    "value_eur_per_c": null,
+    "placeholder": true,
+    "cost_total_eur": 0.0,
+    "provenance": "PLACEHOLDER",
+    "note": "free recovered material in the demo (cost_total_eur = 0.0); \u20ac/\u00b0C is a PLACEHOLDER, NOT a real 0 \u20ac/\u00b0C. Computes normally once a non-zero Phase-5 cost_total_eur lands."
+  },
+  "coverage_pct": 100.0,
+  "baseline_conditions": {
+    "site": "Parc del F\u00f2rum, Barcelona",
+    "latlon": [
+      41.4106,
+      2.227
+    ],
+    "date": "2026-06-14",
+    "peak_band": "12-16 local (midpoint 14)",
+    "baseline_mean_c": 30.99314522371302,
+    "coverage_basis": "roof-mesh-projection",
+    "sky_albedo": "ASSUMED (infrared.city radiation-based model assumptions; see acceptance/baseline_spec.md)"
+  },
+  "predicted_utci_delta_c": 4.8,
+  "measured_utci_delta_c": null,
+  "predicted_vs_measured": {
+    "predicted_utci_delta_c": 4.8,
+    "measured_utci_delta_c": null,
+    "monitoring_protocol": "ISO 7726: globe thermometer + air-temperature/RH probes at 1.1 m; stations at canopy centre, canopy edge, and an unshaded control; 5-min logging; raw CSV published open. measured_utci_delta_c stays null until a real on-site campaign lands \u2014 never fabricated."
+  },
+  "provenance_labels": {
+    "comfort_gap_pct": "DERIVED",
+    "comfort_gap_note": "= utci_delta_c / (baseline_mean_c \u2212 26) \u00d7 100; % of the (UTCI \u2212 26) comfort gap closed over the target shaded cells.",
+    "eur_per_deg_c": "PLACEHOLDER",
+    "coverage_pct": "DERIVED",
+    "utci_delta_c": "DERIVED (ASSUMED ideal_delta \u00d7 (1\u2212\u03c4) over GROUNDED baseline)",
+    "baseline_mean_c": "GROUNDED",
+    "measured_utci_delta_c": "PLACEHOLDER (reserved; ISO 7726 \u2014 never fabricated)"
+  }
+}

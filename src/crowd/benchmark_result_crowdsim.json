@@ -1,0 +1,41 @@
+{
+  "passed": false,
+  "engine_fingerprint": "jupedsim=1.2.1;model=CollisionFreeSpeedModel;radius=0.12",
+  "reference": "MADRAS Lyon Fete des Lumieres (Zenodo 10.5281/zenodo.13830435, CC-BY 4.0)",
+  "measured_on": "2026-06-22",
+  "tolerance_rel": 0.5,
+  "fruin_max_people_per_m2": 6.0,
+  "frames_recorded": 40,
+  "settle_frames": 20,
+  "observed": {
+    "mean_occupied": 0.8727544910179641,
+    "p50": 0.75,
+    "p90": 1.75,
+    "p99": 2.75,
+    "max": 3.75
+  },
+  "simulated": {
+    "mean_occupied": 1.5527737615097785,
+    "p50": 0.75,
+    "p90": 4.5,
+    "p99": 7.75,
+    "max": 10.75
+  },
+  "rel_err": {
+    "mean_occupied": 0.7791644471501407,
+    "p90": 1.5714285714285714,
+    "p99": 1.8181818181818181,
+    "max": 1.8666666666666667
+  },
+  "within_tolerance": {
+    "mean_occupied": false,
+    "p90": false,
+    "p99": false
+  },
+  "fruin_ok": false,
+  "raw_max_diagnostic": {
+    "rel_err": 1.8666666666666667,
+    "note": "raw single-cell max \u2014 reported diagnostic, not a gate metric (noisiest statistic; physical bound is the Fruin ceiling above)"
+  },
+  "validated_subclaim": "crowd-density MAGNITUDE/regime vs real measured festival (Lyon). Site-specific spatial allocation at Parc del Forum remains ASSUMED (no open data)."
+}

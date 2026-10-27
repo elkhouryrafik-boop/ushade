@@ -1,0 +1,1391 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "key": "listing_0_material_id",
+      "value": "struct-scaffold-tube-48",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/pipe-horizonal-crossbars (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_0_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_0_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_1_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/copy-of-moving-head-totem-square-truss-packages (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_1_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_1_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_2_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/between-truss-bracket-for-multi-layer-storage-of-truss (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_2_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_2_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_3_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-packages-for-trade-show-booths-9-84-ft-high (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_3_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_3_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_4_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-packages-for-trade-show-booths-9-84-ft-high (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_4_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_4_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_5_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-packages-for-trade-show-booths-9-84-ft-high (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_5_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_5_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_6_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-packages-for-trade-show-booths-9-84-ft-high (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_6_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_6_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_7_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-11-48-high-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_7_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_7_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_8_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-11-48-high-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_8_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_8_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_9_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-11-48-high-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_9_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_9_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_10_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-11-48-high-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_10_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_10_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_11_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-11-48-high-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_11_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_11_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_12_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/goalie-post-20ft-x-10ft-12-2mm-square-truss-package-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_12_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_12_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_13_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/goalie-post-10ft-x-10ft-12-2mm-square-truss-package-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_13_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_13_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_14_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/goalie-post-20ft-x-10ft-12-2mm-triangle-truss-package-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_14_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_14_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_15_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/goalie-post-10ft-x-10ft-12-2mm-triangle-truss-package-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_15_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_15_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_16_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/ata-case-for-connical-connectors-pins (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_16_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_16_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_17_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/hardware-pack-for-square-lighter-duty-truss (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_17_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_17_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_18_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/single-conical-connector-with-pins-and-safety-clips-for-lighter-duty-truss (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_18_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_18_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_19_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/truss-storage-transportation-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_19_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_19_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_20_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-booth-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_20_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_20_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_21_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-booth-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_21_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_21_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_22_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-booth-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_22_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_22_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_23_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-booth-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_23_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_23_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_24_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/moving-head-totem-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_24_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_24_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_25_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-booth-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_25_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_25_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_26_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-booth-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_26_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_26_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_27_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-booth-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_27_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_27_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_28_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/trade-show-booth-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_28_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_28_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_29_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-14-84-high-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_29_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_29_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_30_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-14-84-high-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_30_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_30_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_31_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-14-84-high-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_31_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_31_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_32_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-14-84-high-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_32_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_32_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_33_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-14-84-high-triangle-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_33_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_33_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_34_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-14-84-high-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_34_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_34_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_35_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-14-84-high-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_35_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_35_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_36_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-14-84-high-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_36_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_36_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_37_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-14-84-high-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_37_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_37_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_38_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-14-84-high-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_38_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_38_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_39_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-11-48-high-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_39_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_39_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_40_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-11-48-high-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_40_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_40_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_41_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-11-48-high-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_41_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_41_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_42_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-11-48-high-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_42_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_42_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_43_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-11-48-high-square-truss-packages-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_43_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_43_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_44_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/straight-light-roof-10m-x-8m-32-8ft-x-26-2ft-construction-with-canopy-and-walls-stage-not-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_44_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_44_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_45_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/straight-light-roof-8m-x-6m-26-2ft-x-19-6ft-construction-with-canopy-and-walls-stage-not-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_45_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_45_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_46_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/straight-light-roof-6m-x-4m-19-6ft-x-13-1ft-construction-with-canopy-and-walls-stage-not-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_46_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_46_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_47_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-straight-shape-roof-system-390-square-truss-construction-canopy-and-walls-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_47_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_47_availability",
+      "value": "out_of_stock",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_48_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-gable-shape-roof-system-290mm-11-4-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_48_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_48_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_49_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-gable-shape-roof-system-290mm-11-4-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_49_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_49_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_50_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-gable-shape-roof-system-290mm-11-4-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_50_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_50_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_51_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-arched-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_51_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_51_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_52_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-arched-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_52_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_52_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_53_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-arched-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_53_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_53_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_54_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-straight-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_54_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_54_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_55_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-straight-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_55_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_55_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_56_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-straight-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_56_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_56_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_57_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-gable-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_57_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_57_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_58_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-gable-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_58_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_58_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_59_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-gable-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_59_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_59_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_60_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-truss-connection-system-parts (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_60_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_60_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_61_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-truss-connection-system-parts (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_61_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_61_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_62_material_id",
+      "value": "struct-alu-truss-h30v",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://www.proflextruss.com/products/proflex-truss-connection-system-parts (fetched 2026-06-22T13:27:42.729711+00:00)",
+      "stage": "inventory_proflextruss"
+    },
+    {
+      "key": "listing_62_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_proflextruss",
+      "unit": "km"
+    },
+    {
+      "key": "listing_62_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_proflextruss"
+    }
+  ]
+}

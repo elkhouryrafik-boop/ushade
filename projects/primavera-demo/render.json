@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0.0",
+  "render_url": "https://v3b.fal.media/files/b/0a9e7552/Kw4UIGLKnGKtPgIJhRBha_861e64cc596c4add8efaa9648757d249.jpg",
+  "conditioning_scale": 1.0,
+  "denoising_strength": 0.75,
+  "model": "depth",
+  "prompt_ref": "render_prompt.txt"
+}

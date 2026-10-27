@@ -1,0 +1,2271 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "key": "listing_0_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/uv-protected-waterproof-tarpaulins-white-110gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_0_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_0_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_1_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/uv-protected-waterproof-tarpaulins-white-110gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_1_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_1_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_2_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/uv-protected-waterproof-tarpaulins-white-110gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_2_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_2_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_3_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/uv-protected-waterproof-tarpaulins-white-110gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_3_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_3_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_4_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/uv-protected-waterproof-tarpaulins-white-110gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_4_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_4_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_5_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/uv-protected-waterproof-tarpaulins-white-110gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_5_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_5_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_6_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/uv-protected-waterproof-tarpaulins-white-110gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_6_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_6_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_7_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/uv-protected-waterproof-tarpaulins-white-110gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_7_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_7_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_8_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/uv-protected-waterproof-tarpaulins-white-110gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_8_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_8_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_9_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/uv-protected-waterproof-tarpaulins-white-110gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_9_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_9_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_10_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/natural-hessian-jute-roll-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_10_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_10_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_11_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/natural-hessian-jute-roll-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_11_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_11_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_12_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/natural-hessian-jute-roll-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_12_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_12_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_13_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/natural-hessian-jute-roll-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_13_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_13_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_14_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/natural-hessian-jute-roll-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_14_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_14_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_15_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/natural-hessian-jute-roll-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_15_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_15_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_16_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/high-quality-heavy-duty-white-ball-bungees-30cm-tarpaulin-fixing-ball-bungees (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_16_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_16_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_17_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/high-quality-heavy-duty-white-ball-bungees-30cm-tarpaulin-fixing-ball-bungees (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_17_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_17_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_18_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_18_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_18_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_19_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_19_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_19_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_20_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_20_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_20_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_21_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_21_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_21_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_22_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_22_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_22_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_23_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_23_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_23_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_24_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_24_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_24_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_25_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_25_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_25_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_26_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_26_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_26_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_27_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_27_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_27_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_28_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_28_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_28_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_29_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_29_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_29_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_30_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_30_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_30_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_31_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_31_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_31_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_32_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_32_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_32_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_33_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_33_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_33_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_34_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-heavy-duty-silver-tarpaulin-200gsm-silver-tarp-sheet (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_34_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_34_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_35_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_35_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_35_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_36_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_36_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_36_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_37_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_37_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_37_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_38_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_38_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_38_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_39_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_39_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_39_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_40_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_40_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_40_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_41_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_41_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_41_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_42_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_42_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_42_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_43_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_43_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_43_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_44_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_44_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_44_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_45_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/green-tarpaulin-200gsm-uv-protected-tightly-woven-polyethylene-waterproof-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_45_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_45_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_46_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_46_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_46_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_47_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_47_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_47_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_48_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_48_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_48_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_49_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_49_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_49_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_50_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_50_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_50_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_51_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_51_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_51_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_52_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_52_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_52_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_53_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_53_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_53_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_54_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_54_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_54_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_55_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_55_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_55_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_56_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/flame-retardant-waterproof-white-tarpaulin-200gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_56_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_56_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_57_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_57_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_57_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_58_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_58_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_58_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_59_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_59_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_59_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_60_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_60_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_60_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_61_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_61_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_61_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_62_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_62_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_62_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_63_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_63_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_63_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_64_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_64_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_64_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_65_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_65_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_65_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_66_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_66_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_66_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_67_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_67_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_67_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_68_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_68_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_68_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_69_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_69_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_69_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_70_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_70_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_70_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_71_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_71_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_71_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_72_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_72_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_72_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_73_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_73_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_73_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_74_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_74_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_74_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_75_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_75_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_75_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_76_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_76_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_76_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_77_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_77_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_77_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_78_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_78_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_78_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_79_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_79_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_79_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_80_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_80_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_80_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_81_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_81_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_81_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_82_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_82_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_82_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_83_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_83_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_83_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_84_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_84_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_84_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_85_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_85_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_85_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_86_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_86_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_86_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_87_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_87_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_87_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_88_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_88_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_88_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_89_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_89_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_89_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_90_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_90_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_90_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_91_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_91_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_91_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_92_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_92_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_92_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_93_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_93_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_93_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_94_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/multipurpose-waterproof-uv-protected-super-white-200gsm-tarpaulin (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_94_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_94_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_95_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-silver-and-green-high-quality-medium-weight-tarpaulin-140gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_95_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_95_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_96_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-silver-and-green-high-quality-medium-weight-tarpaulin-140gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_96_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_96_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_97_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-silver-and-green-high-quality-medium-weight-tarpaulin-140gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_97_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_97_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_98_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-silver-and-green-high-quality-medium-weight-tarpaulin-140gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_98_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_98_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_99_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-silver-and-green-high-quality-medium-weight-tarpaulin-140gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_99_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_99_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_100_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-silver-and-green-high-quality-medium-weight-tarpaulin-140gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_100_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_100_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_101_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-silver-and-green-high-quality-medium-weight-tarpaulin-140gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_101_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_101_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_102_material_id",
+      "value": "membr-recycled-pe-tarp",
+      "tier": "GROUNDED",
+      "source": "scraped listing https://tarpaulinsuk.uk/products/waterproof-silver-and-green-high-quality-medium-weight-tarpaulin-140gsm (fetched 2026-06-22T13:27:55.257183+00:00)",
+      "stage": "inventory_tarpaulinsuk"
+    },
+    {
+      "key": "listing_102_distance_km",
+      "value": 22.338,
+      "tier": "DERIVED",
+      "source": "geocoded ROAD route Nominatim+OSRM, supplier -> Parc del F\u00f2rum",
+      "stage": "inventory_tarpaulinsuk",
+      "unit": "km"
+    },
+    {
+      "key": "listing_102_availability",
+      "value": "available",
+      "tier": "ASSUMED",
+      "source": "availability from scraped variants[].available (ASSUMED until datasheet)",
+      "stage": "inventory_tarpaulinsuk"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/material_selection/1.1.0",
+  "title": "material_selection",
+  "x-schema-version": "1.1.0",
+  "x-units": {
+    "transport_carbon_kgco2e": "kgco2e",
+    "cost_total_eur": "euro"
+  },
+  "description": "Phase 5 material choice + locked budget roll-up. transport_carbon_kgco2e is transport-only (recycled cut-off, manufacturing = 0, ASSUMED). solar_transmissivity is null for structural-only materials; a selected MEMBRANE must be non-null (is_membrane=true requires a number) so the Phase 5b (1 - tau) cooling correction is well-defined. selected_id must be one of the 10 frozen data/materials.json ids. v1.1.0 adds the availability-gate + recovery-reporting fields: selection_basis (the SORT KEY, always 'transport_carbon_min' — NEVER price; the honesty marker, hence required); availability_gated (D-06); cooling_correction_factor = (1 - tau), DERIVED, feeds Phase 5b — tau touches cooling ONLY, never cost/carbon; mass_balance (D-12, EXACT reserved field names from src/geom/geom.py); next_life (D-14 textile afterlife, ASSUMED placeholder, never a fabricated receiver); tent_comparison (D-13, exactly ONE ASSUMED-labelled ICE-cited baseline); infeasible (D-06: true => no available candidate).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "selected_id", "is_membrane", "transport_carbon_kgco2e", "cost_total_eur", "solar_transmissivity", "selection_basis"],
+  "properties": {
+    "schema_version": { "const": "1.1.0" },
+    "selected_id": { "type": "string", "minLength": 1 },
+    "is_membrane": { "type": "boolean" },
+    "transport_carbon_kgco2e": { "type": "number", "minimum": 0 },
+    "cost_total_eur": { "type": "number", "minimum": 0 },
+    "solar_transmissivity": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "selection_basis": { "const": "transport_carbon_min" },
+    "availability_gated": { "type": "boolean" },
+    "candidates_considered": { "type": "integer", "minimum": 0 },
+    "cooling_correction_factor": { "type": "number", "minimum": 0, "maximum": 1 },
+    "mass_balance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "scaffold_kg_rented", "membrane_m2_recovered", "fixings_kg_new"],
+      "properties": {
+        "label": { "type": "string" },
+        "scaffold_kg_rented": { "type": "number", "minimum": 0 },
+        "membrane_m2_recovered": { "type": "number", "minimum": 0 },
+        "fixings_kg_new": { "type": "number", "minimum": 0 }
+      }
+    },
+    "next_life": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "receiver", "return_mass_kg"],
+      "properties": {
+        "status": { "enum": ["ASSUMED", "GROUNDED"] },
+        "receiver": { "type": "string" },
+        "return_mass_kg": { "type": "number", "minimum": 0 }
+      }
+    },
+    "tent_comparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "baseline_kgco2e_per_m2", "source"],
+      "properties": {
+        "label": { "const": "ASSUMED" },
+        "baseline_kgco2e_per_m2": { "type": "number", "minimum": 0 },
+        "source": { "type": "string" }
+      }
+    },
+    "infeasible": { "type": "boolean" }
+  },
+  "allOf": [
+    {
+      "$comment": "A selected MEMBRANE must declare a non-null solar_transmissivity so the (1 - tau) cooling correction (Golden Rule, Phase 5b) is well-defined. Structural-only materials keep tau = null. The membrane-non-null guardrail is unit-tested in Phase 5.",
+      "if": {
+        "properties": { "is_membrane": { "const": true } },
+        "required": ["is_membrane"]
+      },
+      "then": {
+        "properties": { "solar_transmissivity": { "type": "number" } }
+      }
+    }
+  ]
+}

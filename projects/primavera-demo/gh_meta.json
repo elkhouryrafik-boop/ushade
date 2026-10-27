@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0-sidecar",
+  "stage": "gh_response",
+  "preview_label": "PREVIEW",
+  "egress": {
+    "clearance_width_m": 8.0,
+    "flow_vector_count": 1
+  },
+  "mass_balance": {
+    "label": "ASSUMED",
+    "scaffold_kg_rented": 0.0,
+    "membrane_m2_recovered": 0.0,
+    "fixings_kg_new": 0.0
+  },
+  "certification_needs": [
+    "wind-load certification",
+    "engineering stamp",
+    "on-site heat-safety sign-off"
+  ],
+  "shadow_coverage_pct": 1.0,
+  "shadow_coverage_basis": "roof-mesh-projection",
+  "coverage_floor": 0.8,
+  "shadow_polygon_m": {
+    "basis": "roof-mesh-projection",
+    "min_corner_m": [
+      434974.0,
+      4584117.0
+    ],
+    "polygons_xy_m": [
+      [
+        [
+          588.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          768.0
+        ],
+        [
+          588.0,
+          768.0
+        ],
+        [
+          588.0,
+          0.0
+        ]
+      ]
+    ]
+  },
+  "bom": {
+    "pillars": 84,
+    "membrane_m2": 5976.0
+  },
+  "note": "non-contract sidecar; PREVIEW/ASSUMED-grade. Karamba is live-only pre-screening, NOT certification. The frozen gh_response is never amended (additionalProperties:false)."
+}

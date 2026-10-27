@@ -1,0 +1,21 @@
+source_id|source_name|source_type|material_codes|quantity_m2|quantity_kg|availability_start|availability_end|location_lat|location_lon|distance_to_forum_km|condition|confidence|detection_method|carbon_avoided_kg|contact
+DET001|Synthetic port stream 01 - demo district|port|ORG|862|546|2026-06-09|2026-07-04|41.473|2.162|19.7|excellent|0.7|manual_report|504|demo-operator@example.org
+DET002|Synthetic festival stream 02 - demo district|festival|ALU|166|2987|2026-06-27|2026-07-06|41.558|2.217|9.5|fair|0.8|site_survey|625|demo-operator@example.org
+DET003|Synthetic retail stream 03 - demo district|retail|ORG|637|1098|2026-06-12|2026-07-20|41.466|2.195|18.3|good|0.85|site_survey|3879|demo-operator@example.org
+DET004|Synthetic construction stream 04 - demo district|construction|SHR|185|3274|2026-06-16|2026-07-05|41.332|2.055|16.7|good|0.7|scheduled_rotation|8565|demo-operator@example.org
+DET005|Synthetic logistics stream 05 - demo district|logistics|SHR;TIM;SCF|109|3844|2026-06-25|2026-07-08|41.527|2.275|3.8|good|0.8|manual_report|8948|demo-operator@example.org
+DET006|Synthetic municipal stream 06 - demo district|municipal|ALU;CRP;SHR|117|33|2026-06-05|2026-07-22|41.505|2.291|22.2|good|0.7|manual_report|8049|demo-operator@example.org
+DET007|Synthetic marine stream 07 - demo district|marine|TEX;HRS|746|425|2026-06-03|2026-07-27|41.488|2.141|2.1|fair|0.8|scheduled_rotation|1448|demo-operator@example.org
+DET008|Synthetic advertising stream 08 - demo district|advertising|TIM|464|1064|2026-06-07|2026-07-23|41.315|2.084|24.4|fair|0.8|manual_report|536|demo-operator@example.org
+DET009|Synthetic port stream 09 - demo district|port|ORG;TIM|353|1164|2026-06-06|2026-07-28|41.537|2.135|14.1|fair|0.7|manual_report|710|demo-operator@example.org
+DET010|Synthetic festival stream 10 - demo district|festival|PVC;HRS;CRP|671|151|2026-06-07|2026-07-15|41.585|2.256|19.7|excellent|0.7|site_survey|8069|demo-operator@example.org
+DET011|Synthetic retail stream 11 - demo district|retail|SCF;CRP|542|4190|2026-06-28|2026-07-19|41.366|2.251|14.5|fair|0.8|scheduled_rotation|7356|demo-operator@example.org
+DET012|Synthetic construction stream 12 - demo district|construction|SHR;REC|621|2895|2026-06-05|2026-07-13|41.304|2.144|8.5|good|0.95|scheduled_rotation|67|demo-operator@example.org
+DET013|Synthetic logistics stream 13 - demo district|logistics|SHR;REC|780|1551|2026-06-21|2026-07-08|41.533|2.267|19.4|excellent|0.8|scheduled_rotation|8745|demo-operator@example.org
+DET014|Synthetic municipal stream 14 - demo district|municipal|ORG|799|2052|2026-06-09|2026-07-24|41.39|2.234|19.9|good|0.9|site_survey|6539|demo-operator@example.org
+DET015|Synthetic marine stream 15 - demo district|marine|PVC|613|326|2026-06-06|2026-07-08|41.306|2.27|20.6|fair|0.85|scheduled_rotation|1959|demo-operator@example.org
+DET016|Synthetic advertising stream 16 - demo district|advertising|CRP;MUN|371|3445|2026-06-08|2026-07-15|41.302|2.264|21.4|excellent|0.8|scheduled_rotation|4899|demo-operator@example.org
+DET017|Synthetic port stream 17 - demo district|port|HRS;SHR;TIM|376|1461|2026-06-25|2026-07-23|41.546|2.215|3.7|excellent|0.8|manual_report|6914|demo-operator@example.org
+DET018|Synthetic festival stream 18 - demo district|festival|ALU|757|3706|2026-06-11|2026-07-08|41.369|2.172|15.0|good|0.85|manual_report|4374|demo-operator@example.org
+DET019|Synthetic retail stream 19 - demo district|retail|PVC;SCF;ALU|603|1664|2026-06-13|2026-07-12|41.649|2.122|4.8|good|0.7|manual_report|6788|demo-operator@example.org
+DET020|Synthetic construction stream 20 - demo district|construction|REC;TEX;SHR|770|861|2026-06-28|2026-07-11|41.501|2.092|12.6|excellent|0.7|scheduled_rotation|5268|demo-operator@example.org

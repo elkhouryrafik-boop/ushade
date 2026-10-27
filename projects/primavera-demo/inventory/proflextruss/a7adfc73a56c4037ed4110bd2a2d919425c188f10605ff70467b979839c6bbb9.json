@@ -1,0 +1,942 @@
+{
+  "schema_version": "1.0.0",
+  "source_id": "proflextruss",
+  "source_url": "https://www.proflextruss.com",
+  "fetched_at": "2026-06-22T13:27:41.073824+00:00",
+  "status": "live",
+  "provenance_tier": "GROUNDED",
+  "listings": [
+    {
+      "material_id": "struct-scaffold-tube-48",
+      "source_url": "https://www.proflextruss.com/products/pipe-horizonal-crossbars",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 0.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/copy-of-moving-head-totem-square-truss-packages",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 649.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/between-truss-bracket-for-multi-layer-storage-of-truss",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 29.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-packages-for-trade-show-booths-9-84-ft-high",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4449.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-packages-for-trade-show-booths-9-84-ft-high",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3349.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-packages-for-trade-show-booths-9-84-ft-high",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4549.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-packages-for-trade-show-booths-9-84-ft-high",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 5899.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-11-48-high-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3349.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-11-48-high-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3699.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-11-48-high-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3949.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-11-48-high-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4399.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-11-48-high-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3549.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/goalie-post-20ft-x-10ft-12-2mm-square-truss-package-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 2199.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/goalie-post-10ft-x-10ft-12-2mm-square-truss-package-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 1699.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/goalie-post-20ft-x-10ft-12-2mm-triangle-truss-package-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 1999.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/goalie-post-10ft-x-10ft-12-2mm-triangle-truss-package-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 1349.97,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/ata-case-for-connical-connectors-pins",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 249.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/hardware-pack-for-square-lighter-duty-truss",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 16.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/single-conical-connector-with-pins-and-safety-clips-for-lighter-duty-truss",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 6.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/truss-storage-transportation-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 529.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-booth-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4449.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-booth-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3349.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-booth-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4549.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-booth-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 5899.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/moving-head-totem-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 569.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-booth-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 2619.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-booth-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3029.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-booth-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3549.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/trade-show-booth-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4299.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-14-84-high-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3499.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-14-84-high-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3919.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-14-84-high-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4159.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-14-84-high-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4629.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-14-84-high-triangle-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 3794.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-14-84-high-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4699.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-14-84-high-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 5149.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-14-84-high-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4649.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-14-84-high-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 6099.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-14-84-high-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4799.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-11-48-high-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4049.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-11-48-high-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4499.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-11-48-high-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4799.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-11-48-high-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 5449.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-11-48-high-square-truss-packages-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 4169.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/straight-light-roof-10m-x-8m-32-8ft-x-26-2ft-construction-with-canopy-and-walls-stage-not-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 9.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/straight-light-roof-8m-x-6m-26-2ft-x-19-6ft-construction-with-canopy-and-walls-stage-not-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 9.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/straight-light-roof-6m-x-4m-19-6ft-x-13-1ft-construction-with-canopy-and-walls-stage-not-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 9.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-straight-shape-roof-system-390-square-truss-construction-canopy-and-walls-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "out_of_stock",
+      "price_eur": 0.0,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-gable-shape-roof-system-290mm-11-4-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 20382.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-gable-shape-roof-system-290mm-11-4-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 25299.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-gable-shape-roof-system-290mm-11-4-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 30579.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-arched-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 53899.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-arched-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 67429.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-arched-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 48509.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-straight-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 31239.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-straight-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 37069.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-straight-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 39499.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-gable-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 44879.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-gable-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 53019.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-gable-shape-roof-system-390mm-15-35-square-truss-construction-canopy-and-walls-included-connecting-hardware-included",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 59509.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-truss-connection-system-parts",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 5.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-truss-connection-system-parts",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 1.99,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    },
+    {
+      "material_id": "struct-alu-truss-h30v",
+      "source_url": "https://www.proflextruss.com/products/proflex-truss-connection-system-parts",
+      "fetched_at": "2026-06-22T13:27:42.729711+00:00",
+      "availability": "available",
+      "price_eur": 0.75,
+      "distance_km": 22.338,
+      "distance_tier": "DERIVED",
+      "qty_available": null
+    }
+  ],
+  "rejected": [
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Black Square Straight Truss",
+      "source_url": "https://www.proflextruss.com/products/f34-black-square-straight-truss"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Black Square Straight Truss",
+      "source_url": "https://www.proflextruss.com/products/f34-black-square-straight-truss"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Black Square Straight Truss",
+      "source_url": "https://www.proflextruss.com/products/f34-black-square-straight-truss"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Black Square Straight Truss",
+      "source_url": "https://www.proflextruss.com/products/f34-black-square-straight-truss"
+    },
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "2 Width Drapes = 116\" Wide = 9.6' Wide",
+      "source_url": "https://www.proflextruss.com/products/2-width-drapes-116-wide-9-6-wide"
+    },
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "2 Width Drapes = 116\" Wide = 9.6' Wide",
+      "source_url": "https://www.proflextruss.com/products/2-width-drapes-116-wide-9-6-wide"
+    },
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "2 Width Drapes = 116\" Wide = 9.6' Wide",
+      "source_url": "https://www.proflextruss.com/products/2-width-drapes-116-wide-9-6-wide"
+    },
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "Black Drapes - Fire Rated",
+      "source_url": "https://www.proflextruss.com/products/black-drapes-fire-rated"
+    },
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "Black Drapes - Fire Rated",
+      "source_url": "https://www.proflextruss.com/products/black-drapes-fire-rated"
+    },
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "Black Drapes - Fire Rated",
+      "source_url": "https://www.proflextruss.com/products/black-drapes-fire-rated"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "Square Light Duty 3-way 90 degree Horizontal T Junction",
+      "source_url": "https://www.proflextruss.com/products/copy-of-copy-of-lighter-duty-truss-corner-section"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "Square Light Duty 3-way 90 degree Corner",
+      "source_url": "https://www.proflextruss.com/products/copy-of-lighter-duty-truss-corner-section"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss - 3 Way 90\u02da Right Corner",
+      "source_url": "https://www.proflextruss.com/products/triangle-90-730-corner-with-leg-right-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss -  2 Way 90\u02da Horizontal Corner",
+      "source_url": "https://www.proflextruss.com/products/triangle-90-730-horizontal-corner-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss - 2 Way 90\u02da Vertical Corner",
+      "source_url": "https://www.proflextruss.com/products/triangle-90-730-vertical-corner-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss - 3 Way 90\u02da Left Corner",
+      "source_url": "https://www.proflextruss.com/products/triangle-90-730-corner-with-leg-left-connecting-hardware-included"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "Heavy duty triangle truss plate",
+      "source_url": "https://www.proflextruss.com/products/ground-plate-for-triangle-2-truss-80x80"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Box Truss 290mm",
+      "source_url": "https://www.proflextruss.com/products/proflex-square-truss-290mm-11-4-x-290mm-11-4-2mm-0-078-straight-sections-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Box Truss 290mm",
+      "source_url": "https://www.proflextruss.com/products/proflex-square-truss-290mm-11-4-x-290mm-11-4-2mm-0-078-straight-sections-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Box Truss 290mm",
+      "source_url": "https://www.proflextruss.com/products/proflex-square-truss-290mm-11-4-x-290mm-11-4-2mm-0-078-straight-sections-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Box Truss 290mm",
+      "source_url": "https://www.proflextruss.com/products/proflex-square-truss-290mm-11-4-x-290mm-11-4-2mm-0-078-straight-sections-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Truss - 4 Way Cross Junction",
+      "source_url": "https://www.proflextruss.com/products/f34-black-square-truss-4-way-cross-junction"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Truss - 4 Way T Junction",
+      "source_url": "https://www.proflextruss.com/products/f34-black-square-truss-4-way-t-junction"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Truss - 3 Way T Junction",
+      "source_url": "https://www.proflextruss.com/products/f34-black-square-truss-3-way-t-junction"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Truss - 3 Way  90\u02da Corner",
+      "source_url": "https://www.proflextruss.com/products/f34-black-square-truss-3-way-90-corner"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34  Square Truss - 2 Way 90\u02da Corner",
+      "source_url": "https://www.proflextruss.com/products/f34-black-square-truss-2-way-90-corner"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "31 x 31 Heavy Duty Ground Plate",
+      "source_url": "https://www.proflextruss.com/products/heavy-duty-ground-plate-for-square-2-truss-80x80"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "23 \u00bd x 23 \u00bd Heavy Duty Ground Plate",
+      "source_url": "https://www.proflextruss.com/products/hd-ground-plate-for-square-2"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "13 x 13 Ground Plate",
+      "source_url": "https://www.proflextruss.com/products/ground-plate-for-square-2"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Box Truss - 4 Way Cross Junction",
+      "source_url": "https://www.proflextruss.com/products/f34-square-truss-4-way-cross-junction"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Box Truss - 4 Way T Junction",
+      "source_url": "https://www.proflextruss.com/products/f34-square-truss-4-way-t-junction"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Box Truss - 3 Way T Junction",
+      "source_url": "https://www.proflextruss.com/products/f34-square-truss-3-way-t-junction"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Box Truss - 3 Way 90\u02da Corner",
+      "source_url": "https://www.proflextruss.com/products/f34-square-truss-3-way-90-corner"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Square Box Truss - 2 Way 90\u02da Corner",
+      "source_url": "https://www.proflextruss.com/products/f34-square-truss-2-way-90-corner"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "Square Lighter-Duty Truss Base Plate",
+      "source_url": "https://www.proflextruss.com/products/square-lighter-duty-truss-base-plate-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "Square Light Duty 2-way 90 degree Corner",
+      "source_url": "https://www.proflextruss.com/products/lighter-duty-truss-corner-section"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "Lighter-Duty Truss Straight Section",
+      "source_url": "https://www.proflextruss.com/products/lighter-duty-truss-straight-section-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "Lighter-Duty Truss Straight Section",
+      "source_url": "https://www.proflextruss.com/products/lighter-duty-truss-straight-section-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "Lighter-Duty Truss Straight Section",
+      "source_url": "https://www.proflextruss.com/products/lighter-duty-truss-straight-section-connecting-hardware-included"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "Ground Plates for Square Trussing",
+      "source_url": "https://www.proflextruss.com/products/ground-plates-for-square-trussing"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "Ground Plates for Square Trussing",
+      "source_url": "https://www.proflextruss.com/products/ground-plates-for-square-trussing"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "Ground Plates for Square Trussing",
+      "source_url": "https://www.proflextruss.com/products/ground-plates-for-square-trussing"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "Ground plate for Triangle truss",
+      "source_url": "https://www.proflextruss.com/products/proflex-triangle-truss-290mm-11-4-x-290mm-11-4-2mm-0-078-ground-plate-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss - 4 Way Cross Junction",
+      "source_url": "https://www.proflextruss.com/products/triangle-x-cross-corner-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss-  3 Way Junction",
+      "source_url": "https://www.proflextruss.com/products/triangle-3-way-corner-with-leg-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss - 3 Way T Horizontal Junction",
+      "source_url": "https://www.proflextruss.com/products/triangle-t-corner-horizontal-connecting-hardware-included"
+    },
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "Roof system ( connecting hardware included )",
+      "source_url": "https://www.proflextruss.com/products/roof-system-connecting-hardware-included"
+    },
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "PA Wings 8m high 3m wide, without chain hoists",
+      "source_url": "https://www.proflextruss.com/products/pa-wings-8m-high-3m-wide-without-chain-hoists-connecting-hardware-included"
+    },
+    {
+      "reason": "no resolvable coarse class",
+      "raw_title": "Manual chain hoists for roof - set of 4, without chain bags",
+      "source_url": "https://www.proflextruss.com/products/manual-chain-hoists-for-roof-set-of-4-without-chain-bags-connecting-hardware-included"
+    },
+    {
+      "reason": "ambiguous coarse class",
+      "raw_title": "Universal corner",
+      "source_url": "https://www.proflextruss.com/products/universal-corner"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "ProFlex Square Truss  290 x 290 3mm Corner Sections",
+      "source_url": "https://www.proflextruss.com/products/proflex-square-truss-290-x-290-3mm-corner-sections"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "ProFlex Square Truss  290 x 290 3mm Corner Sections",
+      "source_url": "https://www.proflextruss.com/products/proflex-square-truss-290-x-290-3mm-corner-sections"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "ProFlex Square Truss  290 x 290 3mm Corner Sections",
+      "source_url": "https://www.proflextruss.com/products/proflex-square-truss-290-x-290-3mm-corner-sections"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "ProFlex Square Truss  290 x 290 3mm Corner Sections",
+      "source_url": "https://www.proflextruss.com/products/proflex-square-truss-290-x-290-3mm-corner-sections"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "ProFlex Square Truss  290 x 290 3mm Corner Sections",
+      "source_url": "https://www.proflextruss.com/products/proflex-square-truss-290-x-290-3mm-corner-sections"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "ProFlex Square Truss  290 x 290 3mm Corner Sections",
+      "source_url": "https://www.proflextruss.com/products/proflex-square-truss-290-x-290-3mm-corner-sections"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss 290mm",
+      "source_url": "https://www.proflextruss.com/products/proflex-triangle-truss-290mm-11-4-x-290mm-11-4-2mm-0-078-straight-sections-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss 290mm",
+      "source_url": "https://www.proflextruss.com/products/proflex-triangle-truss-290mm-11-4-x-290mm-11-4-2mm-0-078-straight-sections-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss 290mm",
+      "source_url": "https://www.proflextruss.com/products/proflex-triangle-truss-290mm-11-4-x-290mm-11-4-2mm-0-078-straight-sections-connecting-hardware-included"
+    },
+    {
+      "reason": "listing matched >1 frozen type",
+      "raw_title": "F34 Triangle Truss 290mm",
+      "source_url": "https://www.proflextruss.com/products/proflex-triangle-truss-290mm-11-4-x-290mm-11-4-2mm-0-078-straight-sections-connecting-hardware-included"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/render/1.0.0",
+  "title": "render",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "conditioning_scale": "dimensionless",
+    "denoising_strength": "dimensionless"
+  },
+  "description": "Phase 6 ControlNet + Stable Diffusion render record. conditioning_scale is locked to const 1.0 (PRD controlnet_conditioning_scale = 1.0 — absolute structural compliance; render must match the Rhino geometry exactly). model is the ControlNet conditioning type (depth | canny).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "render_url", "conditioning_scale", "denoising_strength", "model", "prompt_ref"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "render_url": { "type": "string", "format": "uri" },
+    "conditioning_scale": { "const": 1.0 },
+    "denoising_strength": { "type": "number", "minimum": 0, "maximum": 1 },
+    "model": { "enum": ["depth", "canny"] },
+    "prompt_ref": { "type": "string", "minLength": 1 }
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "site": "Demo Festival Site, Barcelona",
+    "site_coords": {
+      "lat": 41.4106,
+      "lon": 2.2203
+    },
+    "count": 16,
+    "structural": 7,
+    "membrane": 9,
+    "source_doc": "internal material specification table (not published)",
+    "unfrozen_note": "UNFROZEN 2026-06-22 (project directive). The original 10 were frozen; the 6 atlas-sourced archetypes below (steel I-beam, corten container panel, marine sailcloth, PP cargo net, recycled HDPE sheet, recycled shade-cloth) are drawn from real BCN reclaimed streams in the internal material atlas (not published) (named operator + verified distance). Each carries a matching deterministic rule in src/inventory/classifier.py. solar_transmissivity on the new archetypes is a DECLARED honest estimate (the atlas gives no shade factor) — revisit per deployment.",
+    "carbon_formula": "Transport_Carbon = 2 * Distance_km * Mass_tonnes * transport_mode_factor",
+    "carbon_boundary": "Recycled cut-off. Manufacturing carbon = 0 (ASSUMED, ISO 14044 §4.3.4). Transport only.",
+    "field_notes": {
+      "unit": "Quantity basis for cost_per_unit and dimensions.unit_mass_kg. One of: metre, unit, m2.",
+      "theme": "Soft-filter tags for Phase 5 (Phase 1 enum: maritime, natural, industrial, urban). One material may carry several.",
+      "transport_mode_factor": "kgCO2e per tonne-km, road freight. NOW SOURCED 2026-06-22: 0.09752 = DEFRA/DESNZ 2024 'All HGVs, average laden' (GROUNDED). Replaced the prior 0.10 placeholder (near-identical → validated it).",
+      "cost_per_unit": "EUR. Real Spain/EU market price (Phase-2 research, 2026-06-22). Basis (buy / rental-day / reclaim) recorded per material in materials_provenance.json. Reclaimed streams (billboard vinyl, yacht shrink-wrap, marine sailcloth) ≈ €0 + transport. ES listings ex-VAT.",
+      "solar_transmissivity": "Fraction 0–1 of solar radiation passing through the membrane (derived from the source doc shade factors: transmissivity ≈ 1 − shade_factor). null for structural-only materials and for non-overhead covers (PP carpet). Drives the Phase 5b cooling correction per the 2026-06-09 Golden Rule amendment. HDPE shade net is knit-selectable (30–90% shade); a mid value is used — revisit per deployment."
+    },
+    "golden_rule": "AMENDED 2026-06-09. Cooling = geometry × (1 − solar_transmissivity) correction. Carbon stays material-only. See the project PRD (not published) §1 and Phase 5b.",
+    "specs_sourced_at": "2026-06-22",
+    "transport_mode_factor": "0.09752 kgCO2e/tonne-km — DEFRA/DESNZ 2024 'All HGVs, average laden' (GROUNDED, replaces the prior 0.10 placeholder; near-identical, validates it).",
+    "specs_provenance": "Physical specs sourced from real manufacturer datasheets/EPDs (Phase-2 earn-the-data); distances are OSRM road routes to Parc del Fòrum; carbon factor is DEFRA 2024; cost_per_unit is real Spain/EU market price (basis buy/rental/reclaim per material in the ledger; reclaim streams ≈ free + transport). Per-(material,field) tier ledger in data/materials_provenance.json. Caveats: recycled-content of the HDPE knit shade-cloth is DECLARED (no credible recycled-knit datasheet); the recycled PE tarp is the IFRC Eco-Design ≥15%-recycled product; marine-sailcloth reuse is GROUNDED (Sail to Shelter), physical specs from virgin Dacron."
+  },
+  "materials": [
+    {
+      "id": "struct-scaffold-tube-48",
+      "name": "Scaffold Tube 48.3 mm",
+      "type": "STRUCT",
+      "source": "Synthetic scaffold supplier, demo industrial district",
+      "unit": "metre",
+      "theme": [
+        "industrial",
+        "urban"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 2.5,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 3.2,
+        "unit_mass_kg": 3.56
+      },
+      "cost_per_unit": 18.53,
+      "solar_transmissivity": null,
+      "lca_profile": {
+        "distance_km": 22.9,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "struct-alu-truss-h30v",
+      "name": "Aluminium Event Truss (H30V)",
+      "type": "STRUCT",
+      "source": "Synthetic event-rental surplus, demo venue, on-site after a demo festival",
+      "unit": "metre",
+      "theme": [
+        "industrial",
+        "urban"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 12.0,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 2.0,
+        "unit_mass_kg": 6.6
+      },
+      "cost_per_unit": 8.0,
+      "solar_transmissivity": null,
+      "lca_profile": {
+        "distance_km": 4.0,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "struct-euro-pallet-epal",
+      "name": "Euro Pallet (EPAL)",
+      "type": "STRUCT",
+      "source": "Synthetic logistics pool hub, demo industrial district",
+      "unit": "unit",
+      "theme": [
+        "natural",
+        "industrial"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 1.2,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 144.0,
+        "unit_mass_kg": 25.0
+      },
+      "cost_per_unit": 12.99,
+      "solar_transmissivity": null,
+      "lca_profile": {
+        "distance_km": 13.3,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "struct-heras-fence-panel",
+      "name": "Heras Fence Panel",
+      "type": "STRUCT",
+      "source": "Synthetic event-security rental surplus, demo venue",
+      "unit": "unit",
+      "theme": [
+        "industrial",
+        "urban"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 3.5,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 38.0,
+        "unit_mass_kg": 17.0
+      },
+      "cost_per_unit": 18.23,
+      "solar_transmissivity": null,
+      "lca_profile": {
+        "distance_km": 10.0,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "struct-stadium-chair",
+      "name": "Stadium Chair (Portable)",
+      "type": "STRUCT",
+      "source": "Synthetic event rental and municipal surplus, demo venue",
+      "unit": "unit",
+      "theme": [
+        "urban"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 0.5,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 22.0,
+        "unit_mass_kg": 7.5
+      },
+      "cost_per_unit": 8.0,
+      "solar_transmissivity": null,
+      "lca_profile": {
+        "distance_km": 11.5,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "membr-pvc-billboard-vinyl",
+      "name": "PVC Billboard Vinyl",
+      "type": "MEMBR",
+      "source": "Synthetic advertising campaign rotation, demo media operator",
+      "unit": "m2",
+      "theme": [
+        "urban",
+        "industrial"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 3.0,
+        "waterproof": true
+      },
+      "dimensions": {
+        "thickness_mm": 0.36,
+        "unit_mass_kg": 0.45
+      },
+      "cost_per_unit": 0.0,
+      "solar_transmissivity": 0.01,
+      "lca_profile": {
+        "distance_km": 14.8,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "membr-hdpe-shade-net",
+      "name": "Industrial Shade Net (HDPE)",
+      "type": "MEMBR",
+      "source": "Synthetic agricultural supply stream, demo rural district",
+      "unit": "m2",
+      "theme": [
+        "natural",
+        "industrial"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 6.0,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 0.8,
+        "unit_mass_kg": 0.34
+      },
+      "cost_per_unit": 0.77,
+      "solar_transmissivity": 0.4,
+      "lca_profile": {
+        "distance_km": 29.5,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "membr-recycled-pe-tarp",
+      "name": "Recycled PE Tarpaulin",
+      "type": "MEMBR",
+      "source": "Synthetic construction tarp surplus, demo industrial district",
+      "unit": "m2",
+      "theme": [
+        "industrial",
+        "maritime"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 6.0,
+        "waterproof": true
+      },
+      "dimensions": {
+        "thickness_mm": 0.3,
+        "unit_mass_kg": 0.17
+      },
+      "cost_per_unit": 0.95,
+      "solar_transmissivity": 0.0,
+      "lca_profile": {
+        "distance_km": 13.3,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "membr-pe-yacht-shrinkwrap",
+      "name": "PE Yacht Shrink-Wrap",
+      "type": "MEMBR",
+      "source": "Synthetic marine refit yard, demo port district",
+      "unit": "m2",
+      "theme": [
+        "maritime",
+        "natural"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 4.0,
+        "waterproof": true
+      },
+      "dimensions": {
+        "thickness_mm": 0.178,
+        "unit_mass_kg": 0.169
+      },
+      "cost_per_unit": 0.0,
+      "solar_transmissivity": 0.15,
+      "lca_profile": {
+        "distance_km": 14.8,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "membr-pp-festival-carpet",
+      "name": "PP Festival Carpet",
+      "type": "MEMBR",
+      "source": "Synthetic event rental surplus, demo convention centre",
+      "unit": "m2",
+      "theme": [
+        "urban",
+        "natural"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 4.0,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 3.5,
+        "unit_mass_kg": 0.74
+      },
+      "cost_per_unit": 2.5,
+      "solar_transmissivity": null,
+      "lca_profile": {
+        "distance_km": 12.3,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "struct-reclaimed-steel-ibeam",
+      "name": "Reclaimed Steel I-Beam",
+      "type": "STRUCT",
+      "source": "Synthetic construction-demolition metals stream, demo district",
+      "unit": "metre",
+      "theme": [
+        "industrial",
+        "urban"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 6.0,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 5.6,
+        "unit_mass_kg": 22.4
+      },
+      "cost_per_unit": 18.0,
+      "solar_transmissivity": null,
+      "lca_profile": {
+        "distance_km": 13.3,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "struct-corten-container-panel",
+      "name": "Shipping-Container Corten Panel",
+      "type": "STRUCT",
+      "source": "Synthetic container-yard surplus, demo port district",
+      "unit": "m2",
+      "theme": [
+        "maritime",
+        "industrial"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 1.5,
+        "waterproof": true
+      },
+      "dimensions": {
+        "thickness_mm": 1.6,
+        "unit_mass_kg": 15.0
+      },
+      "cost_per_unit": 38.0,
+      "solar_transmissivity": null,
+      "lca_profile": {
+        "distance_km": 14.8,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "membr-marine-sailcloth",
+      "name": "Reclaimed Marine Sailcloth (Dacron)",
+      "type": "MEMBR",
+      "source": "Synthetic marine sailcloth stream, demo port district",
+      "unit": "m2",
+      "theme": [
+        "maritime",
+        "natural"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 5.0,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 0.25,
+        "unit_mass_kg": 0.17
+      },
+      "cost_per_unit": 0.0,
+      "solar_transmissivity": 0.05,
+      "lca_profile": {
+        "distance_km": 14.8,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "membr-pp-cargo-net",
+      "name": "Polypropylene Cargo / Agri Net",
+      "type": "MEMBR",
+      "source": "Synthetic mixed-plastic stream, demo district",
+      "unit": "m2",
+      "theme": [
+        "maritime",
+        "industrial"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 6.0,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 0.7,
+        "unit_mass_kg": 0.055
+      },
+      "cost_per_unit": 5.29,
+      "solar_transmissivity": 0.45,
+      "lca_profile": {
+        "distance_km": 27.6,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "membr-recycled-hdpe-sheet",
+      "name": "Recycled HDPE Sheet",
+      "type": "MEMBR",
+      "source": "Synthetic recycled-HDPE stream, demo district",
+      "unit": "m2",
+      "theme": [
+        "industrial",
+        "natural"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 3.0,
+        "waterproof": true
+      },
+      "dimensions": {
+        "thickness_mm": 4.0,
+        "unit_mass_kg": 3.8
+      },
+      "cost_per_unit": 34.0,
+      "solar_transmissivity": 0.0,
+      "lca_profile": {
+        "distance_km": 13.3,
+        "transport_mode_factor": 0.09752
+      }
+    },
+    {
+      "id": "membr-recycled-shade-cloth",
+      "name": "Recycled Technical Shade-Cloth",
+      "type": "MEMBR",
+      "source": "Synthetic textile and agri-plastic streams, demo district",
+      "unit": "m2",
+      "theme": [
+        "natural",
+        "industrial"
+      ],
+      "usage_conditions": {
+        "max_span_meters": 8.0,
+        "waterproof": false
+      },
+      "dimensions": {
+        "thickness_mm": 1.2,
+        "unit_mass_kg": 0.41
+      },
+      "cost_per_unit": 1.4,
+      "solar_transmissivity": 0.25,
+      "lca_profile": {
+        "distance_km": 29.5,
+        "transport_mode_factor": 0.09752
+      }
+    }
+  ]
+}

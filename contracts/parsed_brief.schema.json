@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/parsed_brief/1.0.0",
+  "title": "parsed_brief",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "capacity": "persons",
+    "budget": "euro"
+  },
+  "description": "Phase 1 LLM parse-only output. Core 4 PRD fields (capacity, budget, date, theme) plus optional festival hour window (festival_start, festival_end). The LLM never designs; this is its sole structured output, validated/retried against this contract.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "capacity", "budget", "date", "theme"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "capacity": { "type": "integer", "minimum": 0 },
+    "budget": { "type": "integer", "minimum": 0 },
+    "date": { "type": "string", "format": "date" },
+    "theme": { "enum": ["maritime", "natural", "industrial", "urban"] },
+    "festival_start": {
+      "type": "string",
+      "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$",
+      "description": "Festival opening time HH:MM (24h). If absent, defaults to 09:00."
+    },
+    "festival_end": {
+      "type": "string",
+      "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$",
+      "description": "Festival closing time HH:MM (24h). If absent, defaults to 23:00."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/inventory_snapshot/1.0.0",
+  "title": "inventory_snapshot",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "distance_km": "km",
+    "qty_available": "unit|m2|metre"
+  },
+  "description": "Phase 5 Material Recovery Inventory per-source snapshot. An AVAILABILITY layer over the data/materials.json archetypes — it adds NO new materials; the classifier binds each live listing to one of the frozen ids. status is the never-silent-degrade label: a failed fetch is stale_snapshot or unavailable, NEVER an empty 'live'. rejected[] is required (even if empty) so the never-silent-drop conservation seam (accepted + rejected == scraped, D-09) has a place to read. distance_km is a DERIVED road route (Nominatim+OSRM, supplier -> Parc del Forum) or a GROUNDED frozen materials.json fallback — distance_tier carries that provenance. No projected coords: this is a flat scalar-km contract (WGS84-agnostic), so it needs no _defs CRS $ref. availability_window is an OPTIONAL per-listing collect-before-landfill clock (from/until) used by the scheduled-surplus source (festival teardown calendar): from = teardown start, until = the perishability deadline; end_date_proxy=true marks until as a slipping planned end-date hypothesis, NEVER a hard expiry. Existing scrape adapters omit the window (it is non-required); a snapshot whose provenance_tier is ASSUMED carries inferred (not scraped) listings — see the scheduled-surplus adapter.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source_id", "fetched_at", "status", "listings", "rejected"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "source_id": { "type": "string", "minLength": 1 },
+    "source_url": { "type": "string" },
+    "fetched_at": { "type": "string", "format": "date-time" },
+    "status": { "enum": ["live", "stale_snapshot", "unavailable"] },
+    "provenance_tier": { "enum": ["GROUNDED", "DERIVED", "ASSUMED"] },
+    "listings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["material_id", "source_url", "fetched_at", "availability"],
+        "properties": {
+          "material_id": { "type": "string" },
+          "source_url": { "type": "string" },
+          "fetched_at": { "type": "string", "format": "date-time" },
+          "qty_available": { "type": ["number", "null"], "minimum": 0 },
+          "availability": { "enum": ["available", "unknown", "out_of_stock"] },
+          "price_eur": { "type": ["number", "null"], "minimum": 0 },
+          "distance_km": { "type": ["number", "null"], "minimum": 0 },
+          "distance_tier": { "enum": ["DERIVED", "GROUNDED"] },
+          "availability_window": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["from", "until"],
+            "properties": {
+              "from": { "type": "string", "format": "date" },
+              "until": { "type": "string", "format": "date" },
+              "end_date_proxy": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "rejected": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["reason", "raw_title"],
+        "properties": {
+          "reason": { "type": "string" },
+          "raw_title": { "type": "string" },
+          "source_url": { "type": "string" }
+        }
+      }
+    }
+  }
+}

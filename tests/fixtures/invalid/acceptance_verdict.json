@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0.0",
+  "coverage_pct": 75.0,
+  "utci_delta_c": 4.5,
+  "X_c": 4.0,
+  "Y_pct": 70.0,
+  "verdict": "MAYBE",
+  "baseline_ref": "utci_grid.baseline_utci_c"
+}

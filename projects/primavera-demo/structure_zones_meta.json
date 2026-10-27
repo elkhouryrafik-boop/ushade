@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0-sidecar",
+  "stage": "structure_zones",
+  "k": 5,
+  "cost_per_structure": 50000.0,
+  "zone_count": 5,
+  "canopy_half_span_m": 12.0,
+  "offset_source": "assumed-noon",
+  "note": "non-contract sidecar; demo coverage is a per-structure ASSUMED canopy (offset_shadow), shadow offset source recorded above. DERIVED-from-ASSUMED; the greedy placer makes no best-coverage claim.",
+  "scenario_set": {
+    "snapshot_ids": [
+      "as-cached",
+      "far-stage-corrected",
+      "sun-late-afternoon+crowd-headliner"
+    ],
+    "family_size": 4,
+    "sun_slices": [
+      "morning",
+      "mid-afternoon",
+      "late-afternoon"
+    ],
+    "crowd_slices": [
+      "early",
+      "peak",
+      "headliner"
+    ],
+    "far_stage_threshold_m": 200.0,
+    "far_stage_boost": 4.0
+  }
+}

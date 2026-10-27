@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0-pending",
+  "stage": "render",
+  "status": "pending_live",
+  "model": "depth",
+  "conditioning_scale": 1.0,
+  "denoising_strength": 0.75,
+  "controlnet_input": "render_controlnet_input.png",
+  "prompt_ref": "render_prompt.txt",
+  "negative_prompt": "geometric distortions, extra pillars, floating elements, broken roof, cartoon, sketchy, low quality render",
+  "note": "ControlNet conditioning map generated; live FLUX.1 render pending a fal.ai FAL_KEY (HEATGUARD_LIVE_RENDER). No image URL is fabricated \u2014 the dashboard shows the labelled stub until a real render runs."
+}

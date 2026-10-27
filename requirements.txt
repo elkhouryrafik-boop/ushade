@@ -1,0 +1,13 @@
+streamlit>=1.33
+pandas>=2.0
+numpy>=1.24
+plotly>=5.18
+folium>=0.15
+anthropic>=0.34
+openai>=1.12
+python-dotenv>=1.0
+Pillow>=10.0
+geopy>=2.4
+tabulate>=0.9
+pytest>=7.4
+streamlit-folium>=0.15

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/gh_response/1.0.0",
+  "title": "gh_response",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "membrane_m2": "square-metre"
+  },
+  "description": "Phase 4 Rhino.Compute / Grasshopper response seam. Holds the two PRD 'Set/Bake' outputs as named contracts: OUT_Mesh (final 3D geometry, Base64) and OUT_BOM (Bill of Materials: Pillars + Membrane_m2). Validated by Node (ajv) at the HTTP hop.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "OUT_Mesh", "OUT_BOM"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "OUT_Mesh": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["b64"],
+      "properties": {
+        "b64": { "type": "string", "contentEncoding": "base64" }
+      }
+    },
+    "OUT_BOM": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pillars", "membrane_m2"],
+      "properties": {
+        "pillars": { "type": "integer", "minimum": 0 },
+        "membrane_m2": { "type": "number", "minimum": 0 }
+      }
+    }
+  }
+}

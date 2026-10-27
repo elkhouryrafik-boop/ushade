@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heatguard/contracts/structure_zones/1.0.0",
+  "title": "structure_zones",
+  "x-schema-version": "1.0.0",
+  "x-units": {
+    "x_m": "metre", "y_m": "metre", "area_m2": "square-metre",
+    "marginal_demand": "agent-celsius", "cumulative_demand": "agent-celsius",
+    "total_demand": "agent-celsius", "covered_demand": "agent-celsius",
+    "coverage_pct": "percent", "cost_per_structure": "euro", "budget": "euro"
+  },
+  "description": "Phase-12 MCLP placement output. Ranked discrete structure ZONES (center, priority, coverage) — the tool never designs (PLACE-09): emits no drawn plan geometry, no part sizing, and no materials list (those are the human architect's design acts). $refs the SAME master lattice as utci_grid (CONTRACT-03). DERIVED-from-ASSUMED (demand uses ASSUMED-grade crowd_density). The greedy placer makes NO best-coverage claim (CORE-05).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "crs", "lattice", "coverage_model", "stopping_rule",
+               "total_demand", "covered_demand", "coverage_pct", "structures", "infeasible"],
+  "properties": {
+    "schema_version": { "const": "1.0.0" },
+    "crs":     { "$ref": "https://heatguard/contracts/_defs/crs.schema.json#/$defs/utm31n" },
+    "lattice": { "$ref": "https://heatguard/contracts/_defs/lattice.schema.json" },
+    "coverage_model": { "enum": ["persisted_shadow", "offset_shadow", "radius"] },
+    "stopping_rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["k"],
+      "properties": {
+        "k": { "type": ["integer", "null"], "minimum": 0 },
+        "budget": { "type": ["number", "null"], "minimum": 0 },
+        "cost_per_structure": { "type": ["number", "null"], "minimum": 0 }
+      }
+    },
+    "total_demand":   { "type": "number", "minimum": 0 },
+    "covered_demand": { "type": "number", "minimum": 0 },
+    "coverage_pct":   { "type": "number", "minimum": 0, "maximum": 100 },
+    "structures": { "type": "array", "items": { "$ref": "#/$defs/zone" } },
+    "infeasible": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["reason"],
+      "properties": {
+        "reason": { "type": "string" },
+        "k": { "type": ["integer", "null"] },
+        "budget": { "type": ["number", "null"] },
+        "cost_per_structure": { "type": ["number", "null"] }
+      }
+    }
+  },
+  "$defs": {
+    "zone": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rank", "center", "area_m2", "marginal_demand", "cumulative_demand",
+                   "coverage_pct", "newly_covered_cell_count", "robustness"],
+      "properties": {
+        "rank": { "type": "integer", "minimum": 1 },
+        "center": {
+          "type": "object", "additionalProperties": false,
+          "required": ["x_m", "y_m"],
+          "properties": { "x_m": { "type": "number" }, "y_m": { "type": "number" } }
+        },
+        "area_m2": { "type": "number", "minimum": 0 },
+        "marginal_demand":   { "type": "number", "minimum": 0 },
+        "cumulative_demand": { "type": "number", "minimum": 0 },
+        "coverage_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "newly_covered_cell_count": { "type": "integer", "minimum": 0 },
+        "robustness": { "enum": ["single-snapshot", "robust", "conditional"] },
+        "surviving_snapshots": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

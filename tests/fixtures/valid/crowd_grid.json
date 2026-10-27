@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "crs": { "epsg": 32631, "units": "metre" },
+  "lattice": {
+    "origin_x_m": 0.0,
+    "origin_y_m": 0.0,
+    "cell_size_m": 10.0,
+    "cols": 1,
+    "rows": 1
+  },
+  "cells": [
+    { "x_m": 5.0, "y_m": 5.0, "crowd_density_agents_per_cell": 20.0 }
+  ]
+}

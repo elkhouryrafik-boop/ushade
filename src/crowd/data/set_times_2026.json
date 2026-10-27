@@ -1,0 +1,226 @@
+{
+  "_meta": {
+    "festival": "a demo festival Barcelona 2026 (Parc del Forum)",
+    "festival_dates": "2026-06-04..06",
+    "source": [
+      "https://www.primaverasound.com/en/barcelona/lineup",
+      "https://clashfinder.com/m/ps26/"
+    ],
+    "transcribed_on": "2026-06-10",
+    "transcribed_by": "HeatGuard Plan 02.1-02 (Clashfinder ps26 HTML grid, festival-day mapped: post-midnight sets belong to the prior evening's festival day)",
+    "tier": "ASSUMED",
+    "note": "Stage start times read verbatim from Clashfinder ps26 (CEST). The ordinal popularity_weight 1-5 is a HAND table approximating Spotify monthly-listener tiers (5 = global megastar, 1 = niche), ASSUMED and looked up 2026-06-10 — it REFINES demand and does NOT gate acceptance (threat T-02.1-04). Stage names are mapped to the 19 geojson stage names exactly (e.g. Clashfinder 'CUPRA' -> geojson 'Cupra', 'CUPRA PULSE' -> 'Cupra Pulse'). hour_block is the set start (HH:MM).",
+    "default_slice": {
+      "day": "Sat",
+      "hour_block": "22:00",
+      "rationale": "RESEARCH Q5/A8 — the deterministic single-snapshot rollout uses ONE representative schedule slice. The Saturday 22:00 headliner peak runs My Bloody Valentine (Estrella Damm, 22:05) and Olivia Rodrigo (Occident, 22:25) concurrently with the Saturday evening main-stage crowd, and rolls straight into The xx (Revolut, 23:40) and Gorillaz (Estrella Damm, late) — the busiest co-active headliner block, so it is the demand profile that most stresses the shade decision. goal_weights_for_slice matches on exact hour_block, so this slice activates the Sat/22:00 rows (My Bloody Valentine, Olivia Rodrigo). ASSUMED slice choice; multi-hour temporal demand is out of scope (deferred)."
+    },
+    "popularity_provenance": {
+      "tier": "GROUNDED",
+      "source": "Spotify monthly listeners per headliner (artist pages / chartmasters), captured 2026-06-21..23",
+      "method": "per-set weight = log10-scaled monthly listeners -> 1..5; per-stage draw = headline (max-listener) act on the stage, same mapping",
+      "note": "Replaces the ASSUMED 1-5 hand table. Popularity DRIVER now GROUNDED; the per-zone spawn split (85/15) stays ASSUMED. Night lineup used as the stage brand-pull proxy for the daytime sim (the daytime lineup itself is illustrative).",
+      "as_of": "2026-06"
+    }
+  },
+  "rows": [
+    {
+      "day": "Thu",
+      "hour_block": "22:00",
+      "stage_name": "Estrella Damm",
+      "headliner": "Massive Attack",
+      "popularity_weight": 4,
+      "spotify_monthly_listeners": 8900000,
+      "spotify_weight": 3.99
+    },
+    {
+      "day": "Thu",
+      "hour_block": "23:30",
+      "stage_name": "Revolut",
+      "headliner": "Doja Cat",
+      "popularity_weight": 5,
+      "spotify_monthly_listeners": 55900000,
+      "spotify_weight": 4.88
+    },
+    {
+      "day": "Thu",
+      "hour_block": "01:20",
+      "stage_name": "Estrella Damm",
+      "headliner": "Bad Gyal",
+      "popularity_weight": 4,
+      "spotify_monthly_listeners": 13000000,
+      "spotify_weight": 4.17
+    },
+    {
+      "day": "Thu",
+      "hour_block": "22:00",
+      "stage_name": "Occident",
+      "headliner": "Mac DeMarco",
+      "popularity_weight": 4,
+      "spotify_monthly_listeners": 21443126,
+      "spotify_weight": 4.42
+    },
+    {
+      "day": "Thu",
+      "hour_block": "23:00",
+      "stage_name": "Cupra",
+      "headliner": "Father John Misty",
+      "popularity_weight": 3,
+      "spotify_monthly_listeners": 9400000,
+      "spotify_weight": 4.01
+    },
+    {
+      "day": "Thu",
+      "hour_block": "22:00",
+      "stage_name": "Auditori Rockdelux",
+      "headliner": "Panda Bear",
+      "popularity_weight": 2,
+      "spotify_monthly_listeners": 1907422,
+      "spotify_weight": 3.23
+    },
+    {
+      "day": "Fri",
+      "hour_block": "22:15",
+      "stage_name": "Estrella Damm",
+      "headliner": "The Cure",
+      "popularity_weight": 5,
+      "spotify_monthly_listeners": 25611363,
+      "spotify_weight": 4.5
+    },
+    {
+      "day": "Fri",
+      "hour_block": "21:00",
+      "stage_name": "Revolut",
+      "headliner": "Addison Rae",
+      "popularity_weight": 4,
+      "spotify_monthly_listeners": 15100000,
+      "spotify_weight": 4.24
+    },
+    {
+      "day": "Fri",
+      "hour_block": "01:00",
+      "stage_name": "Revolut",
+      "headliner": "Skrillex",
+      "popularity_weight": 5,
+      "spotify_monthly_listeners": 22855612,
+      "spotify_weight": 4.45
+    },
+    {
+      "day": "Fri",
+      "hour_block": "23:20",
+      "stage_name": "Cupra",
+      "headliner": "Amaarae",
+      "popularity_weight": 3,
+      "spotify_monthly_listeners": 5015531,
+      "spotify_weight": 3.7
+    },
+    {
+      "day": "Fri",
+      "hour_block": "01:45",
+      "stage_name": "Cupra",
+      "headliner": "PinkPantheress",
+      "popularity_weight": 4,
+      "spotify_monthly_listeners": 35748595,
+      "spotify_weight": 4.67
+    },
+    {
+      "day": "Fri",
+      "hour_block": "02:55",
+      "stage_name": "Occident",
+      "headliner": "Viagra Boys",
+      "popularity_weight": 3,
+      "spotify_monthly_listeners": 863300,
+      "spotify_weight": 2.84
+    },
+    {
+      "day": "Sat",
+      "hour_block": "23:40",
+      "stage_name": "Revolut",
+      "headliner": "The xx",
+      "popularity_weight": 5,
+      "spotify_monthly_listeners": 5649446,
+      "spotify_weight": 3.76
+    },
+    {
+      "day": "Sat",
+      "hour_block": "22:00",
+      "stage_name": "Estrella Damm",
+      "headliner": "My Bloody Valentine",
+      "popularity_weight": 4,
+      "spotify_monthly_listeners": 819000,
+      "spotify_weight": 2.82
+    },
+    {
+      "day": "Sat",
+      "hour_block": "01:15",
+      "stage_name": "Estrella Damm",
+      "headliner": "Gorillaz",
+      "popularity_weight": 5,
+      "spotify_monthly_listeners": 40726525,
+      "spotify_weight": 4.73
+    },
+    {
+      "day": "Sat",
+      "hour_block": "22:25",
+      "stage_name": "Occident",
+      "headliner": "Olivia Rodrigo",
+      "popularity_weight": 5,
+      "spotify_monthly_listeners": 67876917,
+      "spotify_weight": 4.98
+    },
+    {
+      "day": "Sat",
+      "hour_block": "20:15",
+      "stage_name": "Occident",
+      "headliner": "Ashnikko",
+      "popularity_weight": 3,
+      "spotify_monthly_listeners": 5429907,
+      "spotify_weight": 3.74
+    },
+    {
+      "day": "Sat",
+      "hour_block": "20:50",
+      "stage_name": "Revolut",
+      "headliner": "Little Simz",
+      "popularity_weight": 4,
+      "spotify_monthly_listeners": 4956208,
+      "spotify_weight": 3.7
+    },
+    {
+      "day": "Sat",
+      "hour_block": "04:30",
+      "stage_name": "Cupra",
+      "headliner": "Peggy Gou",
+      "popularity_weight": 4,
+      "spotify_monthly_listeners": 7416651,
+      "spotify_weight": 3.9
+    },
+    {
+      "day": "Sat",
+      "hour_block": "19:30",
+      "stage_name": "Auditori Rockdelux",
+      "headliner": "Beverly Glenn-Copeland",
+      "popularity_weight": 2,
+      "spotify_monthly_listeners": 79730,
+      "spotify_weight": 1.68
+    },
+    {
+      "day": "Sat",
+      "hour_block": "22:40",
+      "stage_name": "Plenitude",
+      "headliner": "Lechuga Zafiro & Verraco",
+      "popularity_weight": 2,
+      "spotify_monthly_listeners": 20332,
+      "spotify_weight": 1.01
+    },
+    {
+      "day": "Sat",
+      "hour_block": "23:10",
+      "stage_name": "Port",
+      "headliner": "Lambrini Girls",
+      "popularity_weight": 2,
+      "spotify_monthly_listeners": 476399,
+      "spotify_weight": 2.55
+    }
+  ]
+}
